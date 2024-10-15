@@ -11,12 +11,8 @@
             "id": "00015e387a2c5fa3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,11 +138,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "00015e387a2c5fa3",
+  "active": "9244949bf53ce151",
   "lastOpenFiles": [
+    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Scala(Laz)_Обучение/Строковая интерполяция.md",
+    "Scala(Laz)_Обучение/Переменные и типы данных.md",
     "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
     "Scala(Laz)_Обучение/1.Оглавление.md",
-    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Scala(Laz)_Обучение",
     "Scala(Laz) Обучение/1.Оглавление.md",
     "Scala(Laz) Обучение/Циклы, if-else, match,try-catch.md",
     "Scala(Laz) Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
