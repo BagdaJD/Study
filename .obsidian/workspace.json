@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Scala(Laz)_Обучение/Циклы-практика.md",
                 "mode": "source",
                 "source": false
@@ -26,6 +27,9 @@
               "type": "markdown",
               "state": {
                 "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +102,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Scala(Laz)_Обучение/Переменные и типы данных.md"
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -161,6 +177,7 @@
   },
   "active": "594e65450ed03135",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Scala(Laz)_Обучение/1.Оглавление.md",
     "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
     "Scala(Laz)_Обучение/Циклы-практика.md",
@@ -168,6 +185,11 @@
     "Scala(Laz)_Обучение/Строковая интерполяция.md",
     "Scala(Laz)_Обучение/Переменные и типы данных.md",
     "Scala(Laz)_Обучение",
+=======
+    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
+    "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
     "Scala(Laz) Обучение/1.Оглавление.md",
     "Scala(Laz) Обучение/Циклы, if-else, match,try-catch.md",
     "Scala(Laz) Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
