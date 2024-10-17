@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Scala(Laz)_Обучение/Циклы-практика.md",
                 "mode": "source",
                 "source": false
@@ -27,7 +28,14 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Лекции_по_Python_Практика/1.Оглавление.md",
+=======
+                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
+>>>>>>> origin/main
                 "mode": "source",
                 "source": false
               },
@@ -122,7 +130,15 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Лекции_по_Python_Практика/Седьмая лекция.md",
+=======
+<<<<<<< Updated upstream
+                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
+>>>>>>> origin/main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +157,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Лекции_по_Python_Практика/Седьмая лекция.md",
+=======
+<<<<<<< Updated upstream
+                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
+>>>>>>> origin/main
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -168,10 +192,19 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Лекции_по_Python_Практика/Седьмая лекция.md"
               },
               "icon": "lucide-list",
               "title": "Структура Седьмая лекция"
+=======
+<<<<<<< Updated upstream
+                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md"
+=======
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md"
+>>>>>>> Stashed changes
+              }
+>>>>>>> origin/main
             }
           }
         ]
@@ -193,7 +226,13 @@
   },
   "active": "b751ee523fd34db5",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Scala(Laz)_Обучение/Строковая интерполяция.md",
+=======
+<<<<<<< Updated upstream
+    "Scala(Laz)_Обучение/1.Оглавление.md",
+    "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
+>>>>>>> origin/main
     "Scala(Laz)_Обучение/Циклы-практика.md",
     "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
     "Лекции_по_Python_Практика/Седьмая лекция.md",
@@ -202,6 +241,11 @@
     "Scala(Laz)_Обучение/1.Оглавление.md",
     "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
     "Scala(Laz)_Обучение",
+=======
+    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
+    "Scala(Laz)_Обучение/1.Оглавление.md",
+>>>>>>> Stashed changes
     "Scala(Laz) Обучение/1.Оглавление.md",
     "Scala(Laz) Обучение/Циклы, if-else, match,try-catch.md",
     "Scala(Laz) Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
