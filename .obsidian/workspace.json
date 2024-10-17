@@ -1,90 +1,45 @@
 {
   "main": {
-    "id": "4d6a207d2cebbdf6",
+    "id": "717d1d1675668d1d",
     "type": "split",
     "children": [
       {
-        "id": "1ac578ee6aa21c4b",
+        "id": "2469ea0ab433ae1f",
         "type": "tabs",
         "children": [
           {
-            "id": "00015e387a2c5fa3",
+            "id": "432825a6be3ca3b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "Scala(Laz)_Обучение/Циклы-практика.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Циклы-практика"
-            }
-          },
-          {
-            "id": "594e65450ed03135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Лекции_по_Python_Практика/1.Оглавление.md",
-=======
-                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
-=======
-                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
->>>>>>> Stashed changes
->>>>>>> origin/main
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Оглавление"
-            }
-          },
-          {
-            "id": "b751ee523fd34db5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scala(Laz)_Обучение/Циклы-практика.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Циклы-практика"
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "00d30f946acdf8db",
+    "id": "749caec08b269102",
     "type": "split",
     "children": [
       {
-        "id": "9890a352a2a55d30",
+        "id": "8ade3dd33bbf3965",
         "type": "tabs",
         "children": [
           {
-            "id": "9244949bf53ce151",
+            "id": "65505c935d91a38a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              }
             }
           },
           {
-            "id": "bd84cfb14431de2c",
+            "id": "3902f32c1835bbe2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,50 +50,37 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Поиск"
+              }
             }
           },
           {
-            "id": "808ea44c1f66f6ec",
+            "id": "83ee41e2ef84f2a3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Закладки"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 300
   },
   "right": {
-    "id": "dade0add665f9e1d",
+    "id": "75ba75f192eff1c7",
     "type": "split",
     "children": [
       {
-        "id": "836e7416617dab1d",
+        "id": "1c51769f518e3f31",
         "type": "tabs",
         "children": [
           {
-            "id": "49d181def7c6be1a",
+            "id": "bac7d2be1737c4f7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Лекции_по_Python_Практика/Седьмая лекция.md",
-=======
-<<<<<<< Updated upstream
-                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
-=======
-                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
->>>>>>> Stashed changes
->>>>>>> origin/main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,65 +88,37 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Обратные ссылки для Седьмая лекция"
+              }
             }
           },
           {
-            "id": "5d3677fa0aa75e15",
+            "id": "6b37d9fa19f72641",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Лекции_по_Python_Практика/Седьмая лекция.md",
-=======
-<<<<<<< Updated upstream
-                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md",
-=======
-                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
->>>>>>> Stashed changes
->>>>>>> origin/main
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Исходящие ссылки из Седьмая лекция"
+              }
             }
           },
           {
-            "id": "b5c20ed9c67f7677",
+            "id": "89fd2cb7982cf937",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Теги"
+              }
             }
           },
           {
-            "id": "3474d43591d7a780",
+            "id": "38c7a5f0ceedd240",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "Лекции_по_Python_Практика/Седьмая лекция.md"
-              },
-              "icon": "lucide-list",
-              "title": "Структура Седьмая лекция"
-=======
-<<<<<<< Updated upstream
-                "file": "Scala(Laz)_Обучение/Переменные и типы данных.md"
-=======
-                "file": "Scala(Laz)_Обучение/1.Оглавление.md"
->>>>>>> Stashed changes
-              }
->>>>>>> origin/main
+              "state": {}
             }
           }
         ]
@@ -224,53 +138,35 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "b751ee523fd34db5",
+  "active": "65505c935d91a38a",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Scala(Laz)_Обучение/Строковая интерполяция.md",
-=======
-<<<<<<< Updated upstream
-    "Scala(Laz)_Обучение/1.Оглавление.md",
-    "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
->>>>>>> origin/main
-    "Scala(Laz)_Обучение/Циклы-практика.md",
-    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Лекции_по_Python_Практика/Четвертая лекция.md",
+    "Лекции_по_Python_Практика/Третья Лекция(Алгоритмы).md",
     "Лекции_по_Python_Практика/Седьмая лекция.md",
+    "Лекции_по_Python_Практика/Пятая Лекция(Циклы).md",
+    "Лекции_по_Python_Практика/Практика6(Знаки Сравнения).md",
+    "Лекции_по_Python_Практика/Практика5(форматирование).md",
+    "Лекции_по_Python_Практика/Практика4(Тесты, формат. вывод).md",
+    "Лекции_по_Python_Практика/Практика3(Округление).md",
+    "Лекции_по_Python_Практика/Практика(Программирование на Python).md",
+    "Лекции_по_Python_Практика/Немного функций в Python(+Библиотеки).md",
+    "Лекции_по_Python_Практика/Вторая лекция(Math, Функции, Коллекции).md",
     "Лекции_по_Python_Практика/1.Оглавление.md",
-    "Scala(Laz)_Обучение/Переменные и типы данных.md",
-    "Scala(Laz)_Обучение/1.Оглавление.md",
-    "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
-    "Scala(Laz)_Обучение",
-=======
+    "Лекции_по_Python_Практика",
+    "Sc_Study_Pc/src/main/scala/SomeExercise.scala",
+    "Sc_Study_Pc/src/main/scala/Outpoot.scala",
+    "Sc_Study_Pc/src/main/scala/Discr.scala",
+    "Sc_Study_Pc/src/main/scala",
+    "Sc_Study_Pc/src/main",
+    "Sc_Study_Pc/src",
     "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Scala(Laz)_Обучение/Циклы-практика.md",
     "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
+    "Scala(Laz)_Обучение/Переменные и типы данных.md",
+    "Scala(Laz)_Обучение/Строковая интерполяция.md",
     "Scala(Laz)_Обучение/1.Оглавление.md",
->>>>>>> Stashed changes
-    "Scala(Laz) Обучение/1.Оглавление.md",
-    "Scala(Laz) Обучение/Циклы, if-else, match,try-catch.md",
-    "Scala(Laz) Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
-    "Scala(Laz) Обучение/Строковая интерполяция.md",
-    "Scala(Laz) Обучение/Переменные и типы данных.md",
-    "Лекции по Python-Практика/Пятая Лекция(Циклы).md",
-    "Картинки/Pasted image 20241003144704.png",
-    "Картинки/Pasted image 20241003144007.png",
-    "Лекции по Python-Практика/Четвертая лекция.md",
-    "Лекции по Python-Практика/Третья Лекция(Алгоритмы).md",
-    "Лекции по Python-Практика/Практика6(Знаки Сравнения).md",
-    "Лекции по Python-Практика/Практика5(форматирование).md",
-    "Лекции по Python-Практика/Практика4(Тесты, формат. вывод).md",
-    "Лекции по Python-Практика/Практика3(Округление).md",
-    "Лекции по Python-Практика/Практика(Программирование на Python).md",
-    "Лекции по Python-Практика/Немного функций в Python(+Библиотеки).md",
-    "Лекции по Python-Практика/Вторая лекция(Math, Функции, Коллекции).md",
-    "Лекции по Python-Практика/1.Оглавление.md",
-    "Scala(Laz) Обучение/Оглавление.md",
-    "Scala(Laz) Обучение/Базовые функции(Hello world, запуск кода с помощью scalax).md",
-    "Картинки",
-    "Картинки/Pasted image 20240925100213.png",
-    "Картинки/Pasted image 20240923083336.png",
-    "Картинки/Pasted image 20240923083447.png",
-    "Scala(Laz) Обучение",
-    "Лекции по Python-Практика"
+    "Scala(Laz)_Обучение",
+    "Sc_Study_Pc/target/streams/_global/_global/dumpStructure/_global/streams/out",
+    "Sc_Study_Pc/target/streams/_global/_global/csrLogger/_global/streams/out"
   ]
 }
