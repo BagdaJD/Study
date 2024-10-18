@@ -4,18 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "2469ea0ab433ae1f",
+        "id": "bea4951b0eb8866c",
         "type": "tabs",
         "children": [
           {
-            "id": "432825a6be3ca3b4",
+            "id": "b4eaf818d5d77fc9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Scala(Laz)_Обучение/1.Оглавление.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Оглавление"
+            }
+          },
+          {
+            "id": "6f7b8382eb91e855",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Моделирование данных(ООП, ФП)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -35,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -50,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -58,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -88,7 +115,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -99,7 +128,9 @@
               "state": {
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -110,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -118,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Структура"
             }
           }
         ]
@@ -140,6 +175,20 @@
   },
   "active": "65505c935d91a38a",
   "lastOpenFiles": [
+    "Scala_Study/target/scala-3.3.3/classes/For_36.tasty",
+    "Scala_Study/target/scala-3.3.3/classes/For_36.class",
+    "Scala_Study/target/scala-3.3.3/classes/For_36$.class",
+    "Scala_Study/target/scala-3.3.3/classes/Spesker.tasty",
+    "Scala_Study/target/scala-3.3.3/classes/Spesker.class",
+    "Scala_Study/src/main/scala/For_36.scala~",
+    "Scala(Laz)_Обучение/1.Оглавление.md",
+    "Scala(Laz)_Обучение/Переменные и типы данных.md",
+    "Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md",
+    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
+    "Scala_Study/src/main/scala/For_36.scala",
+    "Scala_Study/target/scala-3.3.3/classes/LOL.tasty",
+    "Scala_Study/target/scala-3.3.3/classes/LOL.class",
+    "Scala_Study/src/main/scala/LOL.scala~",
     "Лекции_по_Python_Практика/Четвертая лекция.md",
     "Лекции_по_Python_Практика/Третья Лекция(Алгоритмы).md",
     "Лекции_по_Python_Практика/Седьмая лекция.md",
@@ -152,21 +201,8 @@
     "Лекции_по_Python_Практика/Немного функций в Python(+Библиотеки).md",
     "Лекции_по_Python_Практика/Вторая лекция(Math, Функции, Коллекции).md",
     "Лекции_по_Python_Практика/1.Оглавление.md",
-    "Лекции_по_Python_Практика",
-    "Sc_Study_Pc/src/main/scala/SomeExercise.scala",
-    "Sc_Study_Pc/src/main/scala/Outpoot.scala",
-    "Sc_Study_Pc/src/main/scala/Discr.scala",
-    "Sc_Study_Pc/src/main/scala",
-    "Sc_Study_Pc/src/main",
-    "Sc_Study_Pc/src",
-    "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
     "Scala(Laz)_Обучение/Циклы-практика.md",
     "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
-    "Scala(Laz)_Обучение/Переменные и типы данных.md",
-    "Scala(Laz)_Обучение/Строковая интерполяция.md",
-    "Scala(Laz)_Обучение/1.Оглавление.md",
-    "Scala(Laz)_Обучение",
-    "Sc_Study_Pc/target/streams/_global/_global/dumpStructure/_global/streams/out",
-    "Sc_Study_Pc/target/streams/_global/_global/csrLogger/_global/streams/out"
+    "Scala(Laz)_Обучение/Строковая интерполяция.md"
   ]
 }

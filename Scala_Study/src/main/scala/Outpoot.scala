@@ -1,16 +1,17 @@
 import scala.io.StdIn.*
 
+
 object Outpoot {
   @main def Main() = {
-    val N = readLine().toInt
-    var sum: Double = 0
+    val N = readLine("N >> ").toInt
+    val K = readLine("K >> ").toInt
+    var sum = 0.0
 
     for i <- 1 to N do
-      sum += 1.0/i
-      println(s"i = $i; sum = $sum")
-    println(sum)
-
+      sum += math.pow(i, K)
+    print(sum)
   }
+
 }
 /*
 багдасар писька)))
