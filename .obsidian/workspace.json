@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md",
+                "file": "Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Моделирование данных(ООП, ФП)"
+              "title": "Базовые функции(Hello world, запуск кода, ввод)"
             }
           }
         ],
@@ -173,17 +173,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "65505c935d91a38a",
+  "active": "6f7b8382eb91e855",
   "lastOpenFiles": [
+    "Scala(Laz)_Обучение/1.Оглавление.md",
+    "Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md",
     "Scala_Study/target/scala-3.3.3/classes/For_36.tasty",
     "Scala_Study/target/scala-3.3.3/classes/For_36.class",
     "Scala_Study/target/scala-3.3.3/classes/For_36$.class",
     "Scala_Study/target/scala-3.3.3/classes/Spesker.tasty",
     "Scala_Study/target/scala-3.3.3/classes/Spesker.class",
     "Scala_Study/src/main/scala/For_36.scala~",
-    "Scala(Laz)_Обучение/1.Оглавление.md",
     "Scala(Laz)_Обучение/Переменные и типы данных.md",
-    "Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md",
     "Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
     "Scala_Study/src/main/scala/For_36.scala",
     "Scala_Study/target/scala-3.3.3/classes/LOL.tasty",

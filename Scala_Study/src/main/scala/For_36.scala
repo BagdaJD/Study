@@ -1,7 +1,7 @@
 import scala.io.StdIn.*
 
 
-object For_36 {
+object For_36 extends App{
   val N = readLine("N >> ").toInt
   val K = readLine("K >> ").toInt
   var sum = 0.0

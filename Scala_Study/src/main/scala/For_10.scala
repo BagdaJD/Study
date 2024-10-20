@@ -1,6 +1,6 @@
 import scala.io.StdIn.*
 
-object For_10 {
+object For_10 extends App{
   val N = readLine().toInt
   var sum: Double = 0
 

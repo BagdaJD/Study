@@ -1,17 +1,14 @@
 import scala.io.StdIn.*
 
 
-object Outpoot {
-  @main def Main() = {
-    val N = readLine("N >> ").toInt
-    val K = readLine("K >> ").toInt
-    var sum = 0.0
+object Outpoot extends App {
+  val N = readLine("N >> ").toInt
+  val K = readLine("K >> ").toInt
+  var sum = 0.0
 
-    for i <- 1 to N do
-      sum += math.pow(i, K)
-    print(sum)
-  }
-
+   for i <- 1 to N do
+     sum += math.pow(i, K)
+   print(sum)
 }
 /*
 багдасар писька)))

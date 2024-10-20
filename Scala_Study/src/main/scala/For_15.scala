@@ -1,6 +1,6 @@
 import scala.io.StdIn.*
 
-object For_15 {
+object For_15 extends App{
   var A: Double = readLine().toDouble
   val a = A
   val N = readLine().toInt

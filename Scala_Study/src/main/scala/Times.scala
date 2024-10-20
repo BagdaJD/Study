@@ -1,6 +1,6 @@
 import scala.io.StdIn.*
 
-object Times {
+object Times extends App{
   val N: Int = readLine().toInt
   val H = N / 3600
 
