@@ -6,8 +6,10 @@ object Outpoot extends App {
   val K = readLine("K >> ").toInt
   var sum = 0.0
 
-   for i <- 1 to N do
+   for (i <- 1 to N) {
      sum += math.pow(i, K)
+   }
+
    print(sum)
 }
 /*

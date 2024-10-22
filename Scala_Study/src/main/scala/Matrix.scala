@@ -1,3 +1,8 @@
+object Matrix {
+
+}
+/*
+
 def multMat(a , b):
     if len(a[0]) != len(b):
         #Нельзя перемножать
@@ -63,3 +68,5 @@ def transMat(a):
         mat2.append(row)
 
     return mat2
+
+ */
