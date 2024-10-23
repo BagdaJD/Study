@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/People.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala(Laz)_Обучение/1.Оглавление.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala(Laz)_Обучение/1.Оглавление.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/Discr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/Discr.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/For_10.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/For_10.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/For_15.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/For_15.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/For_20.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/For_20.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/For_36.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/For_36.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/Matrix.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/Matrix.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/Outpoot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/Outpoot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/Times.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala_Study/src/main/scala/ScalaStudy/Times.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleModuleStateConfig" initialized="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2npJu6ezZGW9vlw72xiDwo4V2wX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="" />
+      <created>1729664305347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729664305347</updated>
+    </task>
+    <servers />
+  </component>
+</project>
