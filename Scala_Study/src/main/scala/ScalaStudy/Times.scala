@@ -1,3 +1,5 @@
+package ScalaStudy
+
 import scala.io.StdIn.*
 
 object Times extends App{

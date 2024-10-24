@@ -1,3 +1,5 @@
+package ScalaStudy
+
 object Matrix {
 
 }

@@ -1,3 +1,5 @@
+package ScalaStudy
+
 import scala.io.StdIn.*
 
 object For_20 extends App{
