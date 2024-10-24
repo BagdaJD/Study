@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Справочник по JAVA(Любимка).md",
+                "file": "Лекции_по_Python_Практика/Восьмая лекция.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Справочник по JAVA(Любимка)"
+              "title": "Восьмая лекция"
             }
           }
         ]
@@ -162,8 +162,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4773061883bc0d1e",
+  "active": "e47e0a2775de62e7",
   "lastOpenFiles": [
+    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+    "Лекции_по_Python_Практика/Восьмая лекция.md",
+    "Лекции_по_Python_Практика/1.Оглавление.md",
+    "Лекции_по_Python_Практика/Шестая лекция.md",
+    "Лекции_по_Python_Практика/Шестая.md",
     "Notice/Лекции_по_Python_Практика/Шестая лекция.md",
     "Notice/Лекции_по_Python_Практика/Четвертая лекция.md",
     "Notice/Лекции_по_Python_Практика/Третья Лекция(Алгоритмы).md",
@@ -195,12 +200,7 @@
     "Notice/Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
     "Notice/Scala(Laz)_Обучение/1.Оглавление.md",
     "Notice/Scala(Laz)_Обучение",
-    "Notice/NotionNotices/Справочник по C-ШАРП/Справочник по C-SHARP.md",
     "Notice/NotionNotices/Справочник по C-ШАРП/Untitled.png",
-    "Notice/NotionNotices/ЕГЭ/Программа для 19-21.md",
-    "Notice/NotionNotices/ЕГЭ/ЕГЭ-9.md",
-    "Notice/NotionNotices/ЕГЭ/ЕГЭ-8.md",
-    "Notice/NotionNotices/ЕГЭ/ЕГЭ-6.md",
     "Notice/NotionNotices/Справочник по C-ШАРП",
     "Notice/NotionNotices/ЕГЭ",
     "Notice/NotionNotices/JAAAVAAAA_NOTICES_ADVANCED",
