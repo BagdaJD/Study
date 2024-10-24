@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< Updated upstream
     "id": "d13895f6521df668",
     "type": "split",
     "children": [
@@ -19,6 +20,23 @@
               },
               "icon": "lucide-file",
               "title": "Восьмая лекция"
+=======
+    "id": "8cbd0d5ce42be4f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5534801c93a28c9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e97de6358db3f054",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -27,6 +45,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< Updated upstream
     "id": "c53d5f609e7303c8",
     "type": "split",
     "children": [
@@ -36,6 +55,17 @@
         "children": [
           {
             "id": "4773061883bc0d1e",
+=======
+    "id": "3537edb25731b7bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dc96397f36bb449",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80b6b80bdd75df2e",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,11 +73,19 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
+<<<<<<< Updated upstream
               "title": "Файловый менеджер"
             }
           },
           {
             "id": "42d357da49690bba",
+=======
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7825eb8104e288ce",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,17 +98,29 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
+<<<<<<< Updated upstream
               "title": "Поиск"
             }
           },
           {
             "id": "bcaf42fc4d7deca9",
+=======
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2760b5585fc00764",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
+<<<<<<< Updated upstream
               "title": "Закладки"
+=======
+              "title": "Bookmarks"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -80,6 +130,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< Updated upstream
     "id": "ed44abb146433b94",
     "type": "split",
     "children": [
@@ -89,11 +140,25 @@
         "children": [
           {
             "id": "aaa16ceb24f6cfe5",
+=======
+    "id": "b390f617efbbfed0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ffd3c6a4fac8789",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9181285174173fbc",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Справочник по JAVA(Любимка).md",
+=======
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +168,44 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< Updated upstream
               "title": "Обратные ссылки для Справочник по JAVA(Любимка)"
             }
           },
           {
             "id": "cd9541bcc7bd8c68",
+=======
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "16f87d114e710df9",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Справочник по JAVA(Любимка).md",
+=======
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
+<<<<<<< Updated upstream
               "title": "Исходящие ссылки из Справочник по JAVA(Любимка)"
             }
           },
           {
             "id": "d5df9ce6df02c039",
+=======
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ea47d356a1227838",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,6 +214,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
+<<<<<<< Updated upstream
               "title": "Теги"
             }
           },
@@ -143,6 +228,19 @@
               },
               "icon": "lucide-list",
               "title": "Структура Справочник по JAVA(Любимка)"
+=======
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c61dc9db3d6d8d70",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -154,6 +252,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+<<<<<<< Updated upstream
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -209,4 +308,16 @@
     "NotionNotices/JAAAVAAAA_NOTICES_ADVANCED",
     "Notice"
   ]
+=======
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e97de6358db3f054",
+  "lastOpenFiles": []
+>>>>>>> Stashed changes
 }
