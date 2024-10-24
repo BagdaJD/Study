@@ -1,15 +1,14 @@
 {
   "main": {
-<<<<<<< Updated upstream
-    "id": "d13895f6521df668",
+    "id": "26bf9fe522e926d6",
     "type": "split",
     "children": [
       {
-        "id": "9d8dd2d5eaaacf03",
+        "id": "10cf1866fa62b6fc",
         "type": "tabs",
         "children": [
           {
-            "id": "e47e0a2775de62e7",
+            "id": "7d2cc089455da6db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Восьмая лекция"
-=======
-    "id": "8cbd0d5ce42be4f8",
-    "type": "split",
-    "children": [
-      {
-        "id": "5534801c93a28c9a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e97de6358db3f054",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
->>>>>>> Stashed changes
             }
           }
         ]
@@ -45,27 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< Updated upstream
-    "id": "c53d5f609e7303c8",
+    "id": "089120736f1de285",
     "type": "split",
     "children": [
       {
-        "id": "564e6d223bc0cab8",
+        "id": "0250fd31f4b898ed",
         "type": "tabs",
         "children": [
           {
-            "id": "4773061883bc0d1e",
-=======
-    "id": "3537edb25731b7bb",
-    "type": "split",
-    "children": [
-      {
-        "id": "0dc96397f36bb449",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "80b6b80bdd75df2e",
->>>>>>> Stashed changes
+            "id": "a3d7249c0e52ecfd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,19 +43,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-<<<<<<< Updated upstream
-              "title": "Файловый менеджер"
-            }
-          },
-          {
-            "id": "42d357da49690bba",
-=======
               "title": "Files"
             }
           },
           {
-            "id": "7825eb8104e288ce",
->>>>>>> Stashed changes
+            "id": "0ae10b05ce9ae330",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -98,29 +60,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-<<<<<<< Updated upstream
-              "title": "Поиск"
-            }
-          },
-          {
-            "id": "bcaf42fc4d7deca9",
-=======
               "title": "Search"
             }
           },
           {
-            "id": "2760b5585fc00764",
->>>>>>> Stashed changes
+            "id": "6b8b3381f79aa6a2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-<<<<<<< Updated upstream
-              "title": "Закладки"
-=======
               "title": "Bookmarks"
->>>>>>> Stashed changes
             }
           }
         ]
@@ -130,35 +80,20 @@
     "width": 300
   },
   "right": {
-<<<<<<< Updated upstream
-    "id": "ed44abb146433b94",
+    "id": "845b5775676a9edf",
     "type": "split",
     "children": [
       {
-        "id": "27648cdb27f76370",
+        "id": "613e21b906169fd3",
         "type": "tabs",
         "children": [
           {
-            "id": "aaa16ceb24f6cfe5",
-=======
-    "id": "b390f617efbbfed0",
-    "type": "split",
-    "children": [
-      {
-        "id": "2ffd3c6a4fac8789",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9181285174173fbc",
->>>>>>> Stashed changes
+            "id": "bf5c1f9987d3ac0a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Справочник по JAVA(Любимка).md",
-=======
->>>>>>> Stashed changes
+                "file": "Лекции_по_Python_Практика/Восьмая лекция.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,44 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-<<<<<<< Updated upstream
-              "title": "Обратные ссылки для Справочник по JAVA(Любимка)"
+              "title": "Backlinks for Восьмая лекция"
             }
           },
           {
-            "id": "cd9541bcc7bd8c68",
-=======
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "16f87d114e710df9",
->>>>>>> Stashed changes
+            "id": "9c331d35c9aeeb33",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Справочник по JAVA(Любимка).md",
-=======
->>>>>>> Stashed changes
+                "file": "Лекции_по_Python_Практика/Восьмая лекция.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-<<<<<<< Updated upstream
-              "title": "Исходящие ссылки из Справочник по JAVA(Любимка)"
+              "title": "Outgoing links from Восьмая лекция"
             }
           },
           {
-            "id": "d5df9ce6df02c039",
-=======
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "ea47d356a1227838",
->>>>>>> Stashed changes
+            "id": "f9067bc16dbd7e35",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -214,33 +130,19 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-<<<<<<< Updated upstream
-              "title": "Теги"
-            }
-          },
-          {
-            "id": "b2ede9c05ae32bd2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Справочник по JAVA(Любимка).md"
-              },
-              "icon": "lucide-list",
-              "title": "Структура Справочник по JAVA(Любимка)"
-=======
               "title": "Tags"
             }
           },
           {
-            "id": "c61dc9db3d6d8d70",
+            "id": "c73492a4d5559224",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Лекции_по_Python_Практика/Восьмая лекция.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
->>>>>>> Stashed changes
+              "title": "Outline of Восьмая лекция"
             }
           }
         ]
@@ -252,63 +154,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< Updated upstream
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
-    }
-  },
-  "active": "e47e0a2775de62e7",
-  "lastOpenFiles": [
-    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
-    "Лекции_по_Python_Практика/Восьмая лекция.md",
-    "Лекции_по_Python_Практика/1.Оглавление.md",
-    "Лекции_по_Python_Практика/Шестая лекция.md",
-    "Лекции_по_Python_Практика/Шестая.md",
-    "Notice/Лекции_по_Python_Практика/Шестая лекция.md",
-    "Notice/Лекции_по_Python_Практика/Четвертая лекция.md",
-    "Notice/Лекции_по_Python_Практика/Третья Лекция(Алгоритмы).md",
-    "Notice/Лекции_по_Python_Практика/Седьмая лекция.md",
-    "Notice/Лекции_по_Python_Практика/Пятая Лекция(Циклы).md",
-    "Notice/Лекции_по_Python_Практика/Практика6(Знаки Сравнения).md",
-    "Notice/Лекции_по_Python_Практика/Практика5(форматирование).md",
-    "Notice/Лекции_по_Python_Практика/Практика4(Тесты, формат. вывод).md",
-    "Notice/Лекции_по_Python_Практика/Практика3(Округление).md",
-    "Notice/Лекции_по_Python_Практика/Практика(Программирование на Python).md",
-    "Notice/Лекции_по_Python_Практика/Немного функций в Python(+Библиотеки).md",
-    "Notice/Лекции_по_Python_Практика/Вторая лекция(Math, Функции, Коллекции).md",
-    "Notice/Лекции_по_Python_Практика/1.Оглавление.md",
-    "Notice/Лекции_по_Python_Практика",
-    "Notice/Картинки/Pasted image 20241003144704.png",
-    "Notice/Картинки/Pasted image 20241003144007.png",
-    "Notice/Картинки/Pasted image 20240930093634.png",
-    "Notice/Картинки/Pasted image 20240930092907.png",
-    "Notice/Картинки/Pasted image 20240925100213.png",
-    "Notice/Картинки/Pasted image 20240923083447.png",
-    "Notice/Картинки/Pasted image 20240923083336.png",
-    "Notice/Картинки",
-    "Notice/Scala(Laz)_Обучение/Циклы-практика.md",
-    "Notice/Scala(Laz)_Обучение/Циклы, if-else, match,try-catch.md",
-    "Notice/Scala(Laz)_Обучение/Строковая интерполяция.md",
-    "Notice/Scala(Laz)_Обучение/Переменные и типы данных.md",
-    "Notice/Scala(Laz)_Обучение/Моделирование данных(ООП, ФП).md",
-    "Notice/Scala(Laz)_Обучение/Методы.md",
-    "Notice/Scala(Laz)_Обучение/Базовые функции(Hello world, запуск кода, ввод).md",
-    "Notice/Scala(Laz)_Обучение/1.Оглавление.md",
-    "Notice/Scala(Laz)_Обучение",
-    "Notice/NotionNotices/Справочник по C-ШАРП/Untitled.png",
-    "Notice/NotionNotices/Справочник по C-ШАРП",
-    "Notice/NotionNotices/ЕГЭ",
-    "Notice/NotionNotices/JAAAVAAAA_NOTICES_ADVANCED",
-    "Notice/NotionNotices/Home",
-    "Notice/NotionNotices",
-    "NotionNotices/JAAAVAAAA_NOTICES_ADVANCED",
-    "Notice"
-  ]
-=======
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -317,7 +162,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e97de6358db3f054",
-  "lastOpenFiles": []
->>>>>>> Stashed changes
+  "active": "7d2cc089455da6db",
+  "lastOpenFiles": [
+    "Лекции_по_Python_Практика/1.Оглавление.md"
+  ]
 }
