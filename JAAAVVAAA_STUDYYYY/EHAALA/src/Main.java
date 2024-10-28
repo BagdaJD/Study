@@ -1,15 +1,11 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>();
+        Box box1 = new Box(10, 12, 13);
+        Box box2 = new Box(4, 5, 6);
 
-        for (int i = 0; i < 10; i++){
-            arr.add(i);
-        }
-
-        for(int i : arr){
-            System.out.println(i);
-        }
+        System.out.println(box1.srBoxes(box2));
     }
 }
