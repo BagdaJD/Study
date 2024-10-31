@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MMath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Aidiniaan_Summa_For-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Aidiniaan_Summa_For-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/Aidiniaan_Summa_For.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/Aidiniaan_Summa_For.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/.obsidian/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/Лекции_по_Python_Практика/1.Оглавление.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Лекции_по_Python_Практика/1.Оглавление.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
