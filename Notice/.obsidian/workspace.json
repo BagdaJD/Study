@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md",
+                "file": "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Девятая лекция(Подпрограммы,функции+Циклы и Else)"
+              "title": "Справочник по JAVA(Любимка)"
+            }
+          },
+          {
+            "id": "c6a638d69c4006bf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "Справочник по JAVA(Любимка)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,12 +189,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "7d2cc089455da6db",
+  "active": "c6a638d69c4006bf",
   "lastOpenFiles": [
+    "Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md",
     "Лекции_по_Python_Практика/1.Оглавление.md",
     "Лекции_по_Python_Практика/Третья Лекция(Алгоритмы).md",
     "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
-    "Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md",
     "Лекции_по_Python_Практика/Восьмая лекция.md",
     "Лекции_по_Python_Практика/Вторая лекция(Math, Функции, Коллекции).md",
     "Лекции_по_Python_Практика/Циклы с параметрами(for).md",

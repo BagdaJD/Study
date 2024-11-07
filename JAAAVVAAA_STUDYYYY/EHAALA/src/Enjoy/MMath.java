@@ -1,3 +1,5 @@
+package Enjoy;
+
 public class MMath {
     public static double module(double a){
         double A = a;
