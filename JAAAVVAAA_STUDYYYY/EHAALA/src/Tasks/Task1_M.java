@@ -1,18 +1,12 @@
-import java.util.ArrayList;
+package Tasks;
+
 import java.util.Scanner;
 
-public class Main {
-    static Scanner in = new Scanner(System.in);
-
-    public static String readLine() {
-        String str = in.nextLine();
-        return str;
-    }
-
+public class Task1_M {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] array = new int[n];
-
         for (int i = 0; i < n; i++){
             array[i] = i;
         }
@@ -23,7 +17,3 @@ public class Main {
     }
 
 }
-/*  a = 52 b = 54
-* 53 > 53 108
-*
-*  */

@@ -1,7 +1,16 @@
+package Enjoy;
+
 public class Box {
     private double a;
     private double b;
     private double c;
+
+    {
+        a = 101;
+        b = 202;
+        c = 303;
+    }
+    public Box(){}
 
     public Box(double a, double b, double c) {
         this.a = a;
@@ -31,6 +40,7 @@ public class Box {
         double square = retSquare();
         double ob = square * c;
 
+        System.out.printf("Sizes: (a * b * c) = %s" , ob);
     }
 
     public double getHeight(){
