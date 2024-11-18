@@ -19,13 +19,4 @@ public class Task1_ITMATH {
         }
         return n * factR(n - 1);
     }
-
-    public static void main(String[] args){
-        double f1 = fact(2);
-        double f2 = factR(2);
-
-        System.out.println(f1);
-        System.out.println(f2);
-    }
-//StackOverflowError
 }

@@ -12,9 +12,12 @@ public class Task2_ITMATH {
         double res;
         try {
             for (int i = 0; i < arr.length; i++){
-                res = Task1_ITMATH.fact(arr[i]);
-                System.out.printf();
+                res = Task1_ITMATH.factR(arr[i]);
+                System.out.printf("%s %s", i, res);
+                System.out.println();
             }
+        }catch(Exception e){
+            System.out.println("Переполнение памяти");
         }
     }
 }
