@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/IvertMass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task3_ITMATH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Figures/Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Figures/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Figures/SolidOfRevolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/details/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/professions/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/vehicles/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task1_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task1_ITMATH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task2_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task2_ITMATH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Test4_demo_var-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Test4_demo_var-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Trening_KR_while_for_X (1)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Trening_KR_while_for_X (1)-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/AidiniaanBagdasar_gr3_ПРОВЕРКА.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/AidiniaanBagdasar_gr3_ПРОВЕРКА.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/Dolgikh_summa_FOR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/Dolgikh_summa_FOR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/Test4_demo_var.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/Test4_demo_var.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/Trening_KR_while_for_X (1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/Trening_KR_while_for_X (1).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Vector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
