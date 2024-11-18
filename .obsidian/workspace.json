@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notice/Лекции_по_Python_Практика/Шестая лекция.md",
+                "file": "Notice/Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Шестая лекция"
+              "title": "Девятая лекция(Подпрограммы,функции+Циклы и Else)"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4f4ce2b26634fcf1",
@@ -161,9 +160,11 @@
   },
   "active": "fcc2175b09d91872",
   "lastOpenFiles": [
+    "Notice/Лекции_по_Python_Практика/1.Оглавление.md",
+    "Без названия.canvas",
+    "Notice/Лекции_по_Python_Практика/Шестая лекция.md",
     "JupyterStudy/Lections",
     "JupyterStudy/Новая папка",
-    "Notice/Лекции_по_Python_Практика/1.Оглавление.md",
     "Notice/Лекции_по_Python_Практика/Восьмая лекция.md",
     "Notice/Восьмая лекция.md",
     "Notice/Лекции_по_Python_Практика/Шестая.md",
