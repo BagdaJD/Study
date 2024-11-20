@@ -7,7 +7,7 @@ def PifTable(n, m):
             print('%4d' %(i*j), end = ' ')
         print()
 
-n = int(input('n >>> '))
-m = int(input('m >>> '))
+n = 10
+m = 10
 
 PifTable(n, m)
