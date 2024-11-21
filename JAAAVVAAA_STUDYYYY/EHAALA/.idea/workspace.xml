@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Figures/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Figures/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Figures/SolidOfRevolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/details/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/professions/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Aidiniaan_5_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Aidiniaan_5_11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
