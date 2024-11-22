@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "a97a268c729e1b70",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "68668cea634d67ad",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -205,8 +217,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c3e74fe8e7a7720f",
+  "active": "a3d7249c0e52ecfd",
   "lastOpenFiles": [
+    "лол.md",
     "Лекции_по_Python_Практика/1.Оглавление.md",
     "Лекции_по_Python_Практика/Седьмая лекция.md",
     "Лекции_по_Python_Практика/Восьмая лекция.md",
