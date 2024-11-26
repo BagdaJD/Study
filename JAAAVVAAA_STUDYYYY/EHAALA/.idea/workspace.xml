@@ -8,9 +8,14 @@
       <change afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Aidiniaan_kol_ex01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/company/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/vehicles/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Algorithm-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/.ipynb_checkpoints/Algorithm-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JupyterStudy/Algorithm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../JupyterStudy/Algorithm.ipynb" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
