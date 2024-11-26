@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Aidiniaan_kol_ex01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/company/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Aidiniaan_5_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Aidiniaan_5_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.IvertMass.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Task1_ITMATH.executor&quot;: &quot;Run&quot;,
     &quot;Application.Task1_M.executor&quot;: &quot;Run&quot;,
     &quot;Application.Task2_ITMATH.executor&quot;: &quot;Run&quot;,
@@ -52,7 +55,8 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

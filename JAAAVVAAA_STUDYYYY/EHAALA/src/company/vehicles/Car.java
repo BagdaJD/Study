@@ -25,4 +25,12 @@ public class Car {
     public void start(int n){
         System.out.println("Поехали");
     }
+
+    public String getMatka(){
+        return marka;
+    }
+
+    public void setMarka(String newMarka){
+        marka = newMarka;
+    }
 }
