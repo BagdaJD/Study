@@ -1,5 +1,10 @@
-def f(a, b , c):
-    b = a
-    
+i = 1
+y = 1
+sum_ = y
 
-f( c = 11, b = 8, a = 8)
+while y >= 1e-5:
+    i += 1
+    y = 1 / i / i 
+    sum_ += y 
+
+print(sum_)
