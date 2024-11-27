@@ -1,10 +1,10 @@
 n = int(input())
 
-flag = True 
 d = 2 
+flag = True 
 
 while flag and d * d <= n:
-    falg = n % d != 0
+    flag = n % d != 0 
     d += 1 
 
-print(flag) 
+print(flag)

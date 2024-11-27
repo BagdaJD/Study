@@ -1,5 +1,6 @@
 #1
-'''a = int(input())
+
+a = int(input())
 b = int(input())
 
 while a != b:
@@ -7,26 +8,27 @@ while a != b:
         a = a - b 
     else:
         b = b - a 
-    
-print(a)'''
-#2
-a = int(input())
-b = int(input())
+
+print(a)
+
+#2 
+#a = int(input())
+#b = int(input())
 
 while a * b != 0:
     if a > b:
-        a = a % b
+        a = a % b 
     else:
         b = b % a 
 
-print(a + b) 
+print(a + b)
 
 #3
+#a = int(input())
+#b = int(input())
 
-a = int(input())
-b = int(input())
 if a < b:
-    r = b
+    r = b % a 
     b = a 
     a = r 
 
