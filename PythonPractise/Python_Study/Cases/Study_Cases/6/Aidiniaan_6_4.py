@@ -2,6 +2,10 @@ def printArr(arr):
     for i in range(len(arr)):
         print(arr[i], end=' ')
 
+
+def f(a, b):
+    print("Hello world")
+
 n = int(input())
 
 s = ['z', 'f', 't', 'a', 'u', 'm', 'd']
