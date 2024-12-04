@@ -10,17 +10,17 @@ public class Main {
         return str;
     }
 
-    public static int readInt(){
+    public static int readInt() {
         int num = in.nextInt();
-        return  num;
+        return num;
     }
 
-    public static int pirozhki(int n){
+    public static int pirozhki(int n) {
         int ans;
 
-        if (n < 20){
+        if (n < 20) {
             ans = n / 2;
-        }else{
+        } else {
             ans = n - 10;
         }
 
@@ -28,23 +28,20 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String[] keys = {"Добавить", "Следующий", " занимал",
-                " занимала", " Посмотреть", "Стоит"};
+        String[] keys = {"Добавить", "Посмотреть"};
 
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
-        ArrayList<String> list = new ArrayList<>();
-
+        PROQueueMFC queue = new PROQueueMFC();
         for(int i = 0; i < n; i++){
-            //....
+            String str = in.nextLine();
+            int k = str.split(" ").length;
         }
 
-        PROQueueMFC myQueue = new PROQueueMFC();
-
     }
-
 }
+
 /*  a = 52 b = 54
 * 53 > 53 108
 *
