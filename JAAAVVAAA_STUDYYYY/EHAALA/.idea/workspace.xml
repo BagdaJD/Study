@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/MyMiniQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/ProQueueMFC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reader/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reader/Read.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/2_n.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/2_n.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/BeskonSumma.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/BeskonSumma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/DoubleFact.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/DoubleFact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Evklid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Evklid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Factorize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Factorize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Geron.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Geron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/PatternForNaturalDig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/PatternForNaturalDig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/ProstNum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/ProstNum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Summa_Kon.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/Summa_Kon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/eps_mash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Kol/eps_mash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Other/Aidiniaan_kol_ex01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Other/Aidiniaan_kol_ex01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Study_Cases/6/Aidiniaan_6_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Study_Cases/6/Aidiniaan_6_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algem/Методичка.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algem/Методичка.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.IvertMass.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyMiniQueue.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.Task1_ITMATH.executor": "Run",
-    "Application.Task1_M.executor": "Run",
-    "Application.Task2_ITMATH.executor": "Run",
-    "Application.Task3_ITMATH.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.IvertMass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyMiniQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_ITMATH.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_M.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2_ITMATH.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task3_ITMATH.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
