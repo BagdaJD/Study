@@ -19,7 +19,6 @@ public class Read {
 
     public static String readStr(){
         String str = in.nextLine();
-
         return str;
     }
 }

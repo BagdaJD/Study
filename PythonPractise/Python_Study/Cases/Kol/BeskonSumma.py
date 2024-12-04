@@ -1,7 +1,7 @@
 x = float(input())
 
-i = 0
-y = 1 
+i = 0 
+y = 1
 sum_ = y 
 
 while abs(y) >= 1e-5:
@@ -9,8 +9,9 @@ while abs(y) >= 1e-5:
     y = y * x / i 
     sum_ += y 
 
-#
-i = 1
+print(sum_)
+
+i = 1 
 y = 1 
 sum_ = y
 
@@ -19,4 +20,4 @@ while y >= 1e-5:
     y = 1 / i / i 
     sum_ += y 
 
-print(sum_)
+print(sum_)    

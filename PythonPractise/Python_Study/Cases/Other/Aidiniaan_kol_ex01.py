@@ -11,7 +11,7 @@ def summa(x = 2, n = 5):
     y = 1
     sum_ = y
 
-    for i in range(1, n + 1):
+    for _i in range(1, n + 1):
         y = y * x
         sum_ += y
 
