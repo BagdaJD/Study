@@ -1,52 +1,43 @@
 '''
-Дано действительное x. Вычислить приближенное значение бесконечной
-суммы.
-
-
-y_i = x*x(2*i-1) / (2*i + 1)
+i = 1
+y_i = y_(i-1) * x*x(2i - 1) / 1 + 2i
 '''
-from sympy import Symbol, Sum, oo, log
+from sympy import Symbol, Sum, log, oo
 
-def summa(x, eps=1e-05):
+def summa(x, eps = 1e-5):
     i = 0
-    y = x
-    sum_ = y
-
+    y = x 
+    
+    sum_ = y 
     while y >= eps:
-        i += 1
-        y = y * x * x * (2 * i - 1) / (2 * i + 1)
-        sum_ += y
-
-    return (sum_, i)
+        i += 1 
+        y = y * x * x * (2 * i - 1) / (1 + 2*i)
+        sum_ += y 
+        
+    return (sum_, i + 1)
 
 x = float(input('x(abs(x) < 1) >>> '))
-s =  input('eps = 1e-5 (n - нет, enter - да) >>> ')
+s = input('eps = 1e-5(n - нет, enter -  да)')
 
 if s == 'n':
-    s = int(input('Задайте число цифр после запятой >>> '))
-    N = s #Для форматированного вывода
+    s = int(input('Задайте число после запятой'))
+    N = s
     eps = 1 / 10 ** N
-    res = summa(x, eps)
+    sum_, n = summa(x, eps)
 else:
-    N = 5 #Для форматированного вывода
-    eps = 1e-05
-    res = summa(x)
+    N = 5
+    sum_, n = summa(x)
 
-sum_ = res[0]
-n = res[1]
+print('summa = %*.*f' %((N+3),(N), sum_))
 
-print('eps = %s' %eps)
-print('sum = %*.*f' %(N+3, N, sum_))
 print('n = %d' %n)
 
-#Проверка
-print('Проверка')
 
 i = Symbol('i')
-ss = Sum(x**(2*i + 1) / (2*i + 1), (i, 0, oo)).evalf()
-f = log((1 + x) / (1 - x)) / 2
+ss = Sum(x**(2*i + 1) / 2*i + 1, (i, 0, oo)).evalf()
 
-print('ss = %*.*f' %(N, N+3, ss))
-print('f(x) = %*.*f' %(N*2 + 3, N*2, f))
+print('sympy = %*.*f' %((N+3),(N), ss))
+print()
+f = log(1 + x / (1 - x)) / 2 
 
-
+print('f(x) = %*.*f' %((2*N + 3), (2*N), f))

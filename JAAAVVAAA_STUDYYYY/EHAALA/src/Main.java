@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import Tasks.Stepik.PROQueueMFC;
 
 public class Main {
     static Scanner in = new Scanner(System.in);
@@ -27,26 +28,20 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        String[] keys = {"Добавить", "Следующий", " занимал",
+                " занимала", " Посмотреть", "Стоит"};
+
         Scanner in = new Scanner(System.in);
-
         int n = in.nextInt();
-        int answer = pirozhki(n);
 
-        System.out.println(answer);
-        /*
-        int n = readInt();
-        int[] arr = new int[n];
-        int x;
+        ArrayList<String> list = new ArrayList<>();
 
-        for (int i = 0; i < n; i++){
-            x = readInt();
-            if (x %2 == 0){
-                arr[i] = x;
-            }
+        for(int i = 0; i < n; i++){
+            //....
         }
-        int z = n - arr.length;
 
-    */
+        PROQueueMFC myQueue = new PROQueueMFC();
+
     }
 
 }
