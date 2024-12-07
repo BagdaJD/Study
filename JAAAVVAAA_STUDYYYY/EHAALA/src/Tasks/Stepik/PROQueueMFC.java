@@ -11,17 +11,16 @@ public class PROQueueMFC {
     }
 
     public void remove(){
-        System.out.println("Следующий");
         queue.remove(0);
         System.out.printf("%s в обработке", queue.get(0));
     }
 
     public void zanimal(String name1, String name2, int f){
-        if(queue.contains(name2) && f == 1){
+        if(f == 1){
             queue.add(0, name1);
         } else if (queue.contains(name2) && f == 0) {
-            int first = queue.indexOf(name1);
-            queue.add(first - 1, name2);
+            int first = queue.indexOf(name2);
+            queue.add(first + 1, name1);
         }else{
             queue.add(name2);
             System.out.printf("%s не надо тут ля-ля", name1);
@@ -43,5 +42,8 @@ public class PROQueueMFC {
         }
     }
 
+    public String get(int i){
+        return queue.get(i);
+    }
 
 }

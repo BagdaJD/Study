@@ -1,7 +1,5 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 import Tasks.Stepik.PROQueueMFC;
-
 public class Main {
     static Scanner in = new Scanner(System.in);
 
@@ -36,7 +34,20 @@ public class Main {
         PROQueueMFC queue = new PROQueueMFC();
         for(int i = 0; i < n; i++){
             String str = in.nextLine();
-            int k = str.split(" ").length;
+            String[] strArr = str.split(" ");
+            String init = "";
+            int k = strArr.length;
+
+            if (k == 1){//Следующий
+                init = queue.get(0);
+                queue.remove();
+            }else if(k == 4){//Занимал
+                int f = 0;
+                if (init.equals(strArr[3])){
+                    f = 1;
+                }
+                queue.zanimal(strArr[0], strArr[3], f);
+            }
         }
 
     }
