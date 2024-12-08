@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/PROqueueMFC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Stepik/PROQueueMFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Stepik/PROQueueMFC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -28,16 +28,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String[] keys = {"Добавить", "Посмотреть"};
 
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-
-        PROQueueMFC queue = new PROQueueMFC();
-        for(int i = 0; i < n; i++){
-            String str = in.nextLine();
-            int k = str.split(" ").length;
-        }
 
     }
 }
