@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import Tasks.Stepik.PROQueueMFC;
+import Tasks.Stepik.Queue.PROqueueMFC;
 
 public class Main {
     static Scanner in = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package Tasks.Stepik;
+package Tasks.Stepik.Queue;
 
 import java.util.ArrayList;
 
