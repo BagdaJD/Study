@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
@@ -25,6 +26,9 @@
       <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" afterDir="false" />
 >>>>>>> origin/main
     </list>
+=======
+    <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
