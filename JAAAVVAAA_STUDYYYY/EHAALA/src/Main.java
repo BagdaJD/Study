@@ -1,10 +1,10 @@
 import java.util.Scanner;
-<<<<<<< HEAD
+
 import Tasks.Stepik.PROQueueMFC;
-=======
+
 import Tasks.Stepik.Queue.PROqueueMFC;
 
->>>>>>> origin/main
+
 public class Main {
     static Scanner in = new Scanner(System.in);
 
@@ -31,8 +31,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
-<<<<<<< HEAD
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
@@ -54,8 +52,6 @@ public class Main {
                 queue.zanimal(strArr[0], strArr[3], f);
             }
         }
-=======
->>>>>>> origin/main
 
     }
 }

@@ -7,12 +7,15 @@ def printList(a):
 def poisk(a):
     i = 0
     while i < len(a) and a[i] % 2 != 0:
-        i += 1 
+        i += 1
+
     return i < len(a)
 
 #Линейный поиск с фиктивным/барьерным элементом(что ищем,то и добавляем)
 def poiskB(a):
+    #len(a) = 5
     a += [2]
+    #len(a) = 6
     i = 0
     while a[i] % 2 != 0:
         i += 1 
@@ -33,4 +36,4 @@ for a in test:
     else:
         print('Четных нет')
 
-    print('='*25)
+    print('=' * 25)
