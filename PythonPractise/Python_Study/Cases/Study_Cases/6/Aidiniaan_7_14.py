@@ -8,17 +8,18 @@ def menu():
     print("| 2) Ввод элементов векторов A и B с клавиатуры |") 
     print("| 3) Вывод векторов A и B на печать |") 
     print("| 4) C = A − B (C — новый вектор) |")
-    print("| 5) A = r!A (1 <= r <= 5) |")
-    print("| 6) Скалярное произведение векторов: d = A · B |")
+    print("| 5) B = r(B − A) (r — любое целое число); |")
+    print("| 6) A = r!A (1 <= r <= 5) |")
+    print("| 7) Скалярное произведение векторов: d = A · B |")
     print("| 9) Вывод меню |")
     print("| 0) Выход из программы |")
 
 #Получение элементов одного вектора случайным образом
-def randomVector(n, vector):
+def randomVector(n):
     vec = []
-    for i in range(n):
-        vec += [vector[randint(0, len(vector) - 1)]]
-
+    for _ in range(n):
+        vec += [randint(-1000, 1000)]
+    
     return vec
 
 #Ввод элементов с клавиатуры
@@ -36,52 +37,41 @@ def printVector(vector):
 
 #Разность векторов
 def raznVectors(a, b):
-    vec1 = a.copy()
-    vec2 = b.copy()
-    max_len = max(len(vec1), len(vec2))
-
-    vec3 = []
-    for i in range(max_len):
-        vec3 += [vec1[i] - vec2[i]]
-
-    return vec3
+    vec = []
+    for i in range(len(a)):
+        vec += [a[i] - b[i]]
+    return vec
 
 #Умножение числа на вектор
-def prodConstOnVector(vector, r):
-    vec = vector.copy()
-    for i in range(len(vec)):
-        vec[i] *= r 
+def prodConstOnVector(a, r):
+    for i in range(len(a)):
+        a[i] *= r 
     
-    return vec
+    return a
 
 #Скалярное произведение 
 def scalProd(a, b):
-    vec1 = a.copy()
-    vec2 = b.copy()
-    max_len = max(len(vec1), len(vec2))
-
     sum_ = 0
-    for i in range(len(vec1)):
-        sum_ += vec1[i] * vec2[i]
+    for i in range(len(a)):
+        sum_ += a[i] * b[i]
 
     return sum_
 
-a = []
-b = []
 p = 9
 
-print("Начните с заполнения списков (п.2)")
+print("Начните с заполнения списков (п.1, п.2)")
 print()
 while p != 0:
     if p == 1:
-        f = int(input("Выберите вектор, из которого хотите получить элементы(A - 1; B - 2): "))
+        f = int(input("Выберите вектор(A - 1, A - 2): "))
         n = int(input("Количесвто элементов: "))
 
         if f == 1:
-            vec = randomVector(n, a)
+            a = randomVector(n)
         else:
-            vec = randomVector(n, b)
-        printVector(vec)
+            b = randomVector(n)
+        print("Элементы векторов получены, печать - п.3")
+        
         print()
     elif p == 2:
         n = int(input("Количесвто элементов для вектора A: "))
@@ -118,8 +108,7 @@ while p != 0:
         print()
     elif p == 5:
         f = int(input("Выберете вектор(А - 1, B - 2): "))
-        r = int(input("Введите число большее или равное 1 и меньшее или равное 5: "))
-
+        r = int(input("Введите любое число : "))
         if f == 1:
             a = prodConstOnVector(a, r)
         else:
@@ -129,6 +118,21 @@ while p != 0:
 
         print()
     elif p == 6:
+        f = int(input("Выберете вектор(А - 1, B - 2): "))
+        r = int(input("Введите число r(1 <= r <= 5): "))
+        
+        if f == 1:
+            for i in range(1, r + 1):
+                a = prodConstOnVector(a, i)
+        else:
+            for i in range(1, r + 1):
+                b = prodConstOnVector(b, i)
+
+        print("Элементы вектора перемножены , печать - п.3")
+
+        print()
+        
+    elif p == 7:
         d = scalProd(a, b)
         print("Скалярное произведение векторов A и B = %7.3f" %d)
 
