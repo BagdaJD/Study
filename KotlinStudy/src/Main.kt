@@ -1,8 +1,6 @@
 fun main() {
-    var a: Double = readLine()!!.toDouble()
-    var b: Double = readLine()!!.toDouble()
-    var c: Double = readLine()!!.toDouble()
+    var str1: StringBuilder = StringBuilder(readln())
 
-    var srAr: Double = (a + b + c) / 3
-    println(srAr)
+    str1.delete(1, str1.length - 1)
+    println(str1)
 }
