@@ -37,10 +37,21 @@ def printVector(vector):
 
 #Разность векторов
 def raznVectors(a, b):
+<<<<<<< Updated upstream
     vec = []
     for i in range(len(a)):
         vec += [a[i] - b[i]]
     return vec
+=======
+    vec1 = a.copy()
+    vec2 = b.copy()
+
+    vec3 = []
+    for i in range(len(vec1)):
+        vec3 += [vec1[i] - vec2[i]]
+
+    return vec3
+>>>>>>> Stashed changes
 
 #Умножение числа на вектор
 def prodConstOnVector(a, r):
@@ -51,6 +62,12 @@ def prodConstOnVector(a, r):
 
 #Скалярное произведение 
 def scalProd(a, b):
+<<<<<<< Updated upstream
+=======
+    vec1 = a.copy()
+    vec2 = b.copy()
+
+>>>>>>> Stashed changes
     sum_ = 0
     for i in range(len(a)):
         sum_ += a[i] * b[i]
@@ -74,15 +91,17 @@ while p != 0:
         
         print()
     elif p == 2:
-        n = int(input("Количесвто элементов для вектора A: "))
-        n1 = int(input("Количесвто элементов для вектора B: "))
+        print("!!!Размеры векторов должны совпадать!!!")
+        f = int(input("Какой вектор хотите заполнить(A - 1; B - 2): "))
+        n = int(input("Количество вводимых элементов: "))
 
-        print("Ввод элементов для вектора A: ")
-        a = inputVector(n)
+        if f == 1:
+            print("Ввод элементов для вектора A: ")
+            a = inputVector(n)
+        else:
+            print("Ввод элементов для вектора B: ")
+            b = inputVector(n)
         print()
-
-        print("Ввод элементов для вектора B: ")
-        b = inputVector(n1)
 
         print("Элементы векторов получены, печать - п.3")
     elif p == 3:
@@ -95,7 +114,7 @@ while p != 0:
 
         print()
     elif p == 4:
-        f = int(input("Вычесть вектора A вектор B (введите - 1) или вычесть из вектора В вектор A (введите - 2): "))
+        f = int(input("Вычесть из вектора A вектор B (введите - 1) или вычесть из вектора В вектор A (введите - 2): "))
 
         if f == 1:
             new_vec = raznVectors(a, b)
