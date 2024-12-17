@@ -37,12 +37,12 @@ def printVector(vector):
 
 #Разность векторов
 def raznVectors(a, b):
-<<<<<<< Updated upstream
+
     vec = []
     for i in range(len(a)):
         vec += [a[i] - b[i]]
     return vec
-=======
+
     vec1 = a.copy()
     vec2 = b.copy()
 
@@ -51,7 +51,7 @@ def raznVectors(a, b):
         vec3 += [vec1[i] - vec2[i]]
 
     return vec3
->>>>>>> Stashed changes
+
 
 #Умножение числа на вектор
 def prodConstOnVector(a, r):
@@ -62,12 +62,9 @@ def prodConstOnVector(a, r):
 
 #Скалярное произведение 
 def scalProd(a, b):
-<<<<<<< Updated upstream
-=======
     vec1 = a.copy()
     vec2 = b.copy()
 
->>>>>>> Stashed changes
     sum_ = 0
     for i in range(len(a)):
         sum_ += a[i] * b[i]

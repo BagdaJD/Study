@@ -4,31 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Kotlin1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/ListsTasks/HashMapTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/ListsTasks/HashMapTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/ListsTasks/Task1.java" afterDir="false" />
+    <list default="true" id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/SortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/SravniStroki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Tasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Tasks/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Tasks/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EHAALA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EHAALA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Stepik/PROQueueMFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Stepik/PROQueueMFC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Stepik/ProQueueMFC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Stepik/MyMiniQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Queue/MyMiniQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Stepik/PROqueueMFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Queue/PROqueueMFC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" afterDir="false" />
->>>>>>> origin/main
+      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/1.Оглавление.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/1.Оглавление.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/Null, Nullable.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/Null, Nullable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/База.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/База.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/Строки.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/Строки.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/Условные операторы.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/Условные операторы.md" afterDir="false" />
     </list>
-=======
-    <list default="true" id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +30,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -46,48 +37,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GradleModuleStateConfig" initialized="true" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2npJu6ezZGW9vlw72xiDwo4V2wX" />
+  <component name="ProjectId" id="2qAOrF9WENfUVWphqJHXemAvega" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HashMapTask.executor": "Run",
-    "Application.HashMapTask2.executor": "Run",
-    "Application.IvertMass.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyMiniQueue.executor": "Run",
-    "Application.Task1.executor": "Debug",
-    "Application.Task1_ITMATH.executor": "Run",
-    "Application.Task1_M.executor": "Run",
-    "Application.Task2_ITMATH.executor": "Run",
-    "Application.Task3_ITMATH.executor": "Run",
+    "Application.Simple.executor": "Run",
+    "Application.SortString.executor": "Run",
+    "Application.SravniStroki.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.Task3.executor": "Run",
+    "Application.Task5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b805183c-7372-45a5-94a2-affe6a650f45" name="Changes" comment="" />
-      <created>1729664305347</created>
+      <changelist id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="" />
+      <created>1734102110042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729664305347</updated>
+      <updated>1734102110042</updated>
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 fun main() {
-    var str1: StringBuilder = StringBuilder(readln())
+    var a: Int = readln().toInt()
+    var b: Int = readln().toInt()
 
-    str1.delete(1, str1.length - 1)
-    println(str1)
+    var sr: Double = (a + b) / 2.0
+    println(sr)
 }

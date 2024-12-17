@@ -13,15 +13,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notice/Kotlin/Строки.md",
+                "file": "Notice/Kotlin/1.Оглавление.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Строки"
+              "title": "1.Оглавление"
+            }
+          },
+          {
+            "id": "e289623a3dd4ca40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notice/Kotlin/1.Оглавление.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Оглавление"
+            }
+          },
+          {
+            "id": "768200098ab37e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notice/Kotlin/1.Оглавление.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Оглавление"
+            }
+          },
+          {
+            "id": "3ac15d75b84152b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notice/Kotlin/For.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "For"
+            }
+          },
+          {
+            "id": "9e282b483d06f3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notice/Kotlin/1.Оглавление.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Оглавление"
+            }
+          },
+          {
+            "id": "37cdd6392c811920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notice/Kotlin/1.Оглавление.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Оглавление"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -77,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4f4ce2b26634fcf1",
@@ -159,18 +229,27 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "48fa82dfca94dbc9",
+  "active": "37cdd6392c811920",
   "lastOpenFiles": [
+    "Notice/Kotlin/Пакет Math.md",
+    "Notice/Kotlin/1.Оглавление.md",
+    "Notice/Kotlin/Действительные числа.md",
     "KotlinStudy/out/production/KotliStudy/META-INF/KotliStudy.kotlin_module",
     "KotlinStudy/out/production/KotliStudy/META-INF",
     "KotlinStudy/out/production/KotliStudy/MainKt.class",
+    "Notice/Kotlin/Управление циклами.md",
+    "Notice/Kotlin/For.md",
     "KotlinStudy/src/Main.kt~",
-    "Notice/Kotlin/1.Оглавление.md",
-    "Notice/Kotlin/Ввод-Вывод.md",
+    "Notice/Kotlin/База.md",
+    "Notice/Kotlin/Do-While.md",
+    "Notice/Kotlin/While.md",
+    "Notice/Kotlin/Null, Nullable.md",
+    "Notice/Kotlin/Условные операторы.md",
+    "Notice/Kotlin/Целые числа(Арифметические операции).md",
     "Notice/Kotlin/Строки.md",
+    "Notice/Kotlin/Ввод-Вывод.md",
     "Notice/Kotlin/Булевый тип данных.md",
     "Notice/Kotlin/Символы.md",
-    "Notice/Kotlin/Целые числа(Арифметические операции).md",
     "_Practice2021.pdf",
     "Spring Boot по-быстрому 2022.pdf",
     "Notice/Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md",
