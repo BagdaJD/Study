@@ -52,7 +52,6 @@ def raznVectors(a, b):
 
     return vec3
 
-
 #Умножение числа на вектор
 def prodConstOnVector(a, r):
     for i in range(len(a)):

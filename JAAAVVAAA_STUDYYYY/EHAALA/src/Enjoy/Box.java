@@ -10,7 +10,17 @@ public class Box {
         b = 202;
         c = 303;
     }
-    public Box(){}
+    public Box(){
+        a = 10;
+        b = 20;
+        c = 30;
+    }
+
+    public Box(int size){
+        a = size;
+        b = size;
+        c = size;
+    }
 
     public Box(double a, double b, double c) {
         this.a = a;

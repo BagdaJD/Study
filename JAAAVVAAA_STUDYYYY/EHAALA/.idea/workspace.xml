@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/SortString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/SravniStroki.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Tasks/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Tasks/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Stepik/Tasks/Task5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enjoy/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enjoy/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/1.Оглавление.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/1.Оглавление.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/Null, Nullable.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/Null, Nullable.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/База.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/База.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/Строки.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/Строки.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/Условные операторы.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/Условные операторы.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Study_Cases/6/Aidiniaan_7_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Study_Cases/6/Aidiniaan_7_14.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Simple.executor": "Run",
-    "Application.SortString.executor": "Run",
-    "Application.SravniStroki.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.Task3.executor": "Run",
-    "Application.Task5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Simple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SravniStroki.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
