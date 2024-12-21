@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import kotlin.math.*
 
 fun main() {
@@ -11,3 +12,11 @@ fun main() {
 
     println(p)
 }
+=======
+
+fun main(){
+    var n: String = readln()
+
+    println(n.toInt() / Math.pow(10.0, n.length.toDouble()))    
+}
+>>>>>>> Stashed changes

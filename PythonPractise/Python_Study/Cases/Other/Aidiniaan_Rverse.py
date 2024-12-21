@@ -1,4 +1,4 @@
-def printList(a):
+def printList(a : list):
     for i in a:
         print(i, end=" ")
 
@@ -7,7 +7,7 @@ def myReverse(a):
 
     return a 
 
-def myReverse1(a):
+def myReverse1(a : list):
     b = []
     for i in range(len(a)-1, -1, -1):
         b += [a[i]]

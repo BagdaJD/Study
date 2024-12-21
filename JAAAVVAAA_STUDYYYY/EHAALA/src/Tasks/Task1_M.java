@@ -3,6 +3,7 @@ package Tasks;
 import java.util.Scanner;
 
 public class Task1_M {
+    /*
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -15,5 +16,5 @@ public class Task1_M {
             System.out.println(i);
         }
     }
-
+*/
 }
