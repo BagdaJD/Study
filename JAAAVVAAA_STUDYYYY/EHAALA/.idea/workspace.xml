@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
     <list default="true" id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/Enjoy/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enjoy/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" afterDir="false" />
@@ -28,6 +28,8 @@
       <change beforePath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Other/Aidiniaan_Rverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Other/Aidiniaan_Rverse.py" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
