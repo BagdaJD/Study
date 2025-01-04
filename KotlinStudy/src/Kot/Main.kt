@@ -1,7 +1,12 @@
+<<<<<<< Updated upstream:KotlinStudy/src/Main.kt
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 import kotlin.math.*
 =======
+=======
+package Kot
+
+>>>>>>> Stashed changes:KotlinStudy/src/Kot/Main.kt
 import kotlin.math.*;
 >>>>>>> origin/main
 

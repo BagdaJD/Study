@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
     <list default="true" id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BeOnMax/DZ/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BeOnMax/MyArrayList/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Jav/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/Enjoy/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enjoy/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
@@ -30,6 +34,12 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> origin/main
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Kot/Main.kt" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +76,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Simple.executor&quot;: &quot;Run&quot;,
@@ -81,8 +92,24 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Simple.executor": "Run",
+    "Application.SortString.executor": "Run",
+    "Application.SravniStroki.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.Task3.executor": "Run",
+    "Application.Task5.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Bagdasar/Documents/Study/JAAAVVAAA_STUDYYYY/EHAALA",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+>>>>>>> Stashed changes
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
