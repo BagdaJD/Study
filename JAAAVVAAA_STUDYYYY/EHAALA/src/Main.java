@@ -1,62 +1,19 @@
-import java.util.Scanner;
+import Tasks.BeOnMax.Inheritance.HomeWork.*;
+import Tasks.BeOnMax.Figures.*;
 
-import Tasks.Stepik.PROQueueMFC;
+public class Main{
+    public static void main(String[] args){
+        Rect rec1 = new Rect(20, 25);
+        Rect rec2 = new Rect();
 
-import Tasks.Stepik.Queue.PROqueueMFC;
+        System.out.println(rec1.squareFigure());
+        System.out.println(rec2.squareFigure());
 
+        Triangle tr1 = new Triangle(6, 7, 8);
+        Triangle tr2 = new Triangle();
 
-public class Main {
-    static Scanner in = new Scanner(System.in);
-
-    public static String readLine() {
-        String str = in.nextLine();
-        return str;
-    }
-
-    public static int readInt() {
-        int num = in.nextInt();
-        return num;
-    }
-
-    public static int pirozhki(int n) {
-        int ans;
-
-        if (n < 20) {
-            ans = n / 2;
-        } else {
-            ans = n - 10;
-        }
-
-        return ans;
-    }
-
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-
-        PROQueueMFC queue = new PROQueueMFC();
-        for(int i = 0; i < n; i++){
-            String str = in.nextLine();
-            String[] strArr = str.split(" ");
-            String init = "";
-            int k = strArr.length;
-
-            if (k == 1){//Следующий
-                init = queue.get(0);
-                queue.remove();
-            }else if(k == 4){//Занимал
-                int f = 0;
-                if (init.equals(strArr[3])){
-                    f = 1;
-                }
-                queue.zanimal(strArr[0], strArr[3], f);
-            }
-        }
+        System.out.println(tr1.squareFigure());
+        System.out.println(tr2.squareFigure());
 
     }
 }
-
-/*  a = 52 b = 54
-* 53 > 53 108
-*
-*  */

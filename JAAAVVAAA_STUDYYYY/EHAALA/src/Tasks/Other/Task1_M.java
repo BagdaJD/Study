@@ -1,6 +1,4 @@
-package Tasks;
-
-import java.util.Scanner;
+package Tasks.Other;
 
 public class Task1_M {
     /*

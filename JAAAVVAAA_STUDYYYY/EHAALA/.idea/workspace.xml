@@ -4,32 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/Enjoy/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enjoy/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Study_Cases/6/Aidiniaan_7_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Study_Cases/6/Aidiniaan_7_14.py" afterDir="false" />
-=======
-    <list default="true" id="12c6dde9-9adb-4bd3-9bb3-a7e8bd5b75d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/minSwapMax.java" afterDir="false" />
+    <list default="true" id="4276054c-31e2-40ce-bd09-29dd8f6cf13a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/ColorRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/CatFamily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/HomeWork/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/HomeWork/BoxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/Lion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Kotlin1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task1_M.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task1_M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task2_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task2_ITMATH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Other/Aidiniaan_Rverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPractise/Python_Study/Cases/Other/Aidiniaan_Rverse.py" afterDir="false" />
->>>>>>> Stashed changes
-=======
->>>>>>> origin/main
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/IvertMass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/IvertMass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task1_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task1_ITMATH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task1_M.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task1_M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task2_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task2_ITMATH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task3_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task3_ITMATH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/minSwapMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/minSwapMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,35 +44,18 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-<<<<<<< Updated upstream
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2qAOrF9WENfUVWphqJHXemAvega" />
-=======
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="2qNiIZ08Nv877Prk12XkGq8iFQh" />
->>>>>>> Stashed changes
+  <component name="ProjectId" id="2sDSLf6Wh8yHJsoC8LxuapTPW7f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Simple.executor&quot;: &quot;Run&quot;,
-<<<<<<< Updated upstream
-    &quot;Application.SortString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SravniStroki.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,
-=======
-    &quot;Application.minSwapMax.executor&quot;: &quot;Run&quot;,
->>>>>>> Stashed changes
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
@@ -86,19 +64,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< Updated upstream
-      <changelist id="537346b6-8fe8-40d1-b1d8-b84ff440f8c6" name="Changes" comment="" />
-      <created>1734102110042</created>
+      <changelist id="4276054c-31e2-40ce-bd09-29dd8f6cf13a" name="Changes" comment="" />
+      <created>1737967598222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1734102110042</updated>
-=======
-      <changelist id="12c6dde9-9adb-4bd3-9bb3-a7e8bd5b75d1" name="Changes" comment="" />
-      <created>1734251373316</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1734251373316</updated>
->>>>>>> Stashed changes
+      <updated>1737967598222</updated>
     </task>
     <servers />
   </component>

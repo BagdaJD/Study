@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Other;
 
 public class Vector {
     private double x, y, z;
