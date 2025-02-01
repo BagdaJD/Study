@@ -1,6 +1,4 @@
-package Tasks;
-
-import Tasks.Task1_ITMATH;
+package Tasks.Other;
 
 public class Task2_ITMATH {
 

@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Other;
 
 public class Task3_ITMATH {
 
