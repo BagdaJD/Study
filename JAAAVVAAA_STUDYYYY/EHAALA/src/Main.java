@@ -1,19 +1,37 @@
-import Tasks.BeOnMax.Inheritance.HomeWork.*;
-import Tasks.BeOnMax.Figures.*;
+import Tasks.BeOnMax.Interface.HomeWork.*;
+import java.util.ArrayList;
 
 public class Main{
     public static void main(String[] args){
-        Rect rec1 = new Rect(20, 25);
-        Rect rec2 = new Rect();
+        Programmer prog1 = new Programmer("Bagda");
+        Programmer prog2 = new Programmer("Kolya");
+        Programmer prog3 = new Programmer("Sasha");
 
-        System.out.println(rec1.squareFigure());
-        System.out.println(rec2.squareFigure());
+        ArrayList<Worker> workers = new ArrayList<>();
+        workers.add(prog1);
+        workers.add(prog2);
+        workers.add(prog3);
 
-        Triangle tr1 = new Triangle(6, 7, 8);
-        Triangle tr2 = new Triangle();
+        for(Worker worker : workers){
+            worker.voice();
+        }
 
-        System.out.println(tr1.squareFigure());
-        System.out.println(tr2.squareFigure());
+        Cook cook1 = new Cook("Volyadya");
+        Cook cook2 = new Cook("Vasyak");
+        Cook cook3 = new Cook("Olga");
+
+        Driver driver1 = new Driver("Artem");
+        Driver driver2 = new Driver("Tigran");
+        Driver driver3 = new Driver("Anna");
+
+
+        workers.add(cook1);
+        workers.add(cook2);
+        workers.add(cook3);
+        workers.add(driver1);
+        workers.add(driver2);
+        workers.add(driver3);
+
 
     }
 }

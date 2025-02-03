@@ -5,26 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4276054c-31e2-40ce-bd09-29dd8f6cf13a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/ColorRect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/Rect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Figures/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/CatFamily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/HomeWork/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/HomeWork/BoxWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Inheritance/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/CanRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Cookable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Drivable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Programmable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BeOnMax/Interface/HomeWork/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/IvertMass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/IvertMass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Simple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task1_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task1_ITMATH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task1_M.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task1_M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task2_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task2_ITMATH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task3_ITMATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Task3_ITMATH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/minSwapMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Other/minSwapMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notice/JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
