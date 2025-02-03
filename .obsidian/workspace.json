@@ -4,95 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4120628edcc6b355",
+        "id": "7d24e339863957b6",
         "type": "tabs",
         "children": [
           {
-            "id": "48fa82dfca94dbc9",
+            "id": "58af94d22da2175c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notice/Kotlin/1.Оглавление.md",
+                "file": "Notice/JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Оглавление"
-            }
-          },
-          {
-            "id": "e289623a3dd4ca40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notice/Kotlin/1.Оглавление.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Оглавление"
-            }
-          },
-          {
-            "id": "768200098ab37e58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notice/Kotlin/1.Оглавление.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Оглавление"
-            }
-          },
-          {
-            "id": "3ac15d75b84152b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notice/Kotlin/For.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "For"
-            }
-          },
-          {
-            "id": "9e282b483d06f3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notice/Kotlin/1.Оглавление.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Оглавление"
-            }
-          },
-          {
-            "id": "37cdd6392c811920",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notice/Kotlin/Пакет Math.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Пакет Math"
+              "title": "Справочник по JAVA(Любимка)"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -229,18 +159,24 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "37cdd6392c811920",
+  "active": "5eb82c9fddb83eef",
   "lastOpenFiles": [
-    "KotlinStudy/out/production/KotliStudy/META-INF/KotliStudy.kotlin_module",
-    "KotlinStudy/out/production/KotliStudy/META-INF",
-    "KotlinStudy/out/production/KotliStudy/MainKt.class",
-    "Notice/Kotlin/1.Оглавление.md",
-    "JAAAVVAAA_STUDYYYY/EHAALA/src/Enjoy/Box.java~",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Worker.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Workable.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Programmer.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Programmable.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Driver.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Drivable.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Cookable.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Cook.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/Flyable.java",
+    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/Fish.java",
     "Notice/Kotlin/Пакет Math.md",
+    "Notice/Kotlin/1.Оглавление.md",
+    "Notice/Kotlin/For.md",
     "Notice/Kotlin/Действительные числа.md",
     "Notice/Kotlin/Управление циклами.md",
-    "Notice/Kotlin/For.md",
-    "KotlinStudy/src/Main.kt~",
     "Notice/Kotlin/База.md",
     "Notice/Kotlin/Do-While.md",
     "Notice/Kotlin/While.md",
@@ -251,14 +187,10 @@
     "Notice/Kotlin/Ввод-Вывод.md",
     "Notice/Kotlin/Булевый тип данных.md",
     "Notice/Kotlin/Символы.md",
-    "_Practice2021.pdf",
-    "Spring Boot по-быстрому 2022.pdf",
     "Notice/Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md",
     "Notice/Лекции_по_Python_Практика/1.Оглавление.md",
     "Без названия.canvas",
     "Notice/Лекции_по_Python_Практика/Шестая лекция.md",
-    "JupyterStudy/Lections",
-    "JupyterStudy/Новая папка",
     "Notice/Лекции_по_Python_Практика/Восьмая лекция.md",
     "Notice/Восьмая лекция.md",
     "Notice/Лекции_по_Python_Практика/Шестая.md",
