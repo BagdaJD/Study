@@ -16,21 +16,9 @@ public class Main{
             worker.voice();
         }
 
-        Cook cook1 = new Cook("Volyadya");
-        Cook cook2 = new Cook("Vasyak");
-        Cook cook3 = new Cook("Olga");
-
-        Driver driver1 = new Driver("Artem");
-        Driver driver2 = new Driver("Tigran");
-        Driver driver3 = new Driver("Anna");
-
-
-        workers.add(cook1);
-        workers.add(cook2);
-        workers.add(cook3);
-        workers.add(driver1);
-        workers.add(driver2);
-        workers.add(driver3);
+        for(int i = 0; i < 10; i++){
+            System.out.println(i);
+        }
 
 
     }
