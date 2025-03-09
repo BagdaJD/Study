@@ -1,9 +1,13 @@
-package Enjoy;
-
 public class Box {
     private double a;
     private double b;
     private double c;
+
+    @Override
+    public String toString() {
+        String res = "Weight = " + a + "; Height = " + b + ";" +"\n";
+        return res;
+    }
 
     public Box(){
         a = 10;
@@ -71,7 +75,5 @@ public class Box {
     public void setWeight(double weight){
         this.b = weight;
     }
-
-
 
 }
