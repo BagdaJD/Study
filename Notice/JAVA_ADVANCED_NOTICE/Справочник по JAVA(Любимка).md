@@ -1726,3 +1726,178 @@ egt
 
 Интерфейс, по сути, определяет, что умеет делать объект
 //Можно наследоваться от нескольких интерфейсов
+### Анонимные классы
+Когда нам нужно реализовать какой-то объект класса, который будет использоваться, довольно, редко, то создаем анонимный класс
+```java
+Director.java
+public class Director {  
+    public void force(Cookable cookable){  
+        cookable.cook();  
+    }}
+
+-------------
+main.java
+Director director = new Director();  
+director.force(new Cookable() {  
+    @Override  
+    public void cook() {  
+        System.out.println("Готовлю");  
+    }});
+```
+
+### Обработка исключений
+```java
+int a = 1;    
+  
+try{  
+    int b = 7 / a;
+//Получили исключение, а остальной код игнорируется(ошибка со строкой не спеет вылететь)  
+    String s = "12kjdhs";  
+    int i = Integer.parseInt(s);  
+    
+}catch(ArithmeticException e){  
+    System.out.println("Arithmetic error");  
+}catch(NumberFormatException el){  
+    System.out.println("Неправильный формат строки");  
+}  
+//в блоке try все выполняется последовательно(если полуим одну ошибку, то и выйдем по ней) 
+
+//остальные будут проигнорированы  
+System.out.println("Hello");
+-------------------------
+catch(Exception e){//Для любой ошибки   
+	System.out.println("error");  
+}
+-------------------------
+//Если мы хотим сначала отловаить определенную ошиьку
+catch(ArithmeticException e) {  
+    System.out.println("Arith error");  
+}catch (Exception e){//Для любой ошибки  
+    System.out.println("error");  
+}
+-------------------------
+catch (Exception e){ 
+    System.out.println("error");  
+}finally{//выполнится в любом случае(с ошибкой и без)
+    System.out.println("Мы в блоке finally");  
+}
+```
+### Многопоточное прогрzаммирование
+
+```java
+//Для создания потока нужно создать экземпляр класса Thread
+Thread timer = new Thread();
+
+//Далее нужно создать класс реализующий интерфейс Runnable 
+//и переопределить метод run()#По сути мы скажемЮ что будем делать в нашем потоке
+
+@Override  
+public void run() {  
+    for (int i = 0; i < 100000; i++) {  
+        System.out.println(1);  
+    }}
+-------------------
+//Пример работы 
+main.java
+
+RunnableTimer runnableTimer = new RunnableTimer();  
+//Создаем экземпляр класса, реализующий интерфейс Thread
+Thread timer = new Thread(runnableTimer);  
+//Говорим, что делать нашему потоку
+  
+timer.start();//запускаем наш второй поток
+for (int i = 0; i < 1000000; i++) {  
+    System.out.println(2);  
+}
+//При запуске программы мы увидим одновременный вывод 1 и 2
+-------------------
+//!!!!!Если в методе может выскочить исключение, то нужно 
+//в try/catch оборачивать весь метод!!!!!
+
+Thread timer = new Thread(new Runnable(){  
+    @Override  
+    public void run(){  
+        try {  
+            for (int i = 0; i < 1000000; i++) {  
+                System.out.println(i);  
+                Thread.sleep(1000); 
+                //Останавливает работу потока на указанное кол-во миллисекунд
+            }        
+	            }catch(Exception e){  
+		            System.out.println("Eror");  
+		        }    
+        }});
+
+-------------------
+//Если мы хотим работать с одной переменной(изменять ее) в разных потоках, то
+//её нужно объявить(глобально), вне метода main и сделать её статической, т.к метод main - статический
+public class Main {  
+  
+    static boolean is5 = false;  
+    public static void main(String[] args) {  
+  
+        Thread timer = new Thread(new Runnable(){  
+            @Override  
+            public void run(){  
+                try {  
+                    int i = 0;  
+                    while (true){  
+                        if (i == 5){  
+                            is5 = true;  
+                        }                        
+                        System.out.println(i);  
+                        i++;  
+                        Thread.sleep(1000);  
+                    }              
+                }catch(Exception e){  
+                    System.out.println("Eror");  
+                }          
+              }       
+             });  
+        timer.start();  
+  
+        Thread timer2 = new Thread(new Runnable(){  
+            @Override  
+            public void run(){  
+                try {  
+                    int i = 0;  
+                    while (!is5){  
+                        System.out.println(i);  
+                        i++;  
+                        Thread.sleep(1000);  
+                    }                
+                }catch(Exception e){  
+                    System.out.println("Eror");  
+                }           
+             }   
+         });        
+             timer2.start();  
+  
+    }}
+```
+### Доп моменты(.toString(), String.format(), Math.random())
+Каждый класс в java наследуется от класса Object и может переопределить метод toString()
+```java
+@Override  
+public String toString() {  
+    String res = "Weight = " + a + "; Height = " + b + ";" +"\n";  
+    return res;  
+}
+-----------------
+//Если мы выводим экземпляр класса, то toString() вызывается неявно
+System.out.println(box); // вызывется toString()
+-----------------
+String.format()
+
+
+String res = String.format("Width : %s; Height : %s;", width, height);
+-----------------
+//По умолчанию Math.random() - возвращает от 0 до 0.999999
+
+int rand = (int) (Math.random() * 10 + 1);
+//Будет выпадать число от 0 до 11
+//Если убрать внешние круглый скобки, то округление будет применяться только к Math.random()
+```
+
+# Java Advanced
+
