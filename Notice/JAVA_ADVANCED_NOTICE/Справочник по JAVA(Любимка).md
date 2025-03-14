@@ -1932,3 +1932,47 @@ public void add() {
     //И если хотя бы один из них упадет, то в терминале будет ошибка
 }
 ```
+Alt + J - выделяет все одинаковые строчки
+Для того, чтобы в каждом тесте не объявлять новый экземпляр класса, нужно:
+```java
+
+@BeforeEach  
+public void setUp(){  
+    calc = new Calculator();  
+}
+//+Alt + Enter - импортируем аннотацию BeforeEach, Before - работает только в версиях Junit 4, 3 и т.д
+```
+Для выполнения завершающих действий после тестирования используется следующее:
+```java
+@AfterEach  
+public void close(){  
+    calc = null;  
+}
+//AfterEach - для Junit 5, @After - для Junit 4
+//Импортировать не нужно
+```
+Когда мы покрываем тестами метод, лучше тест называть ***"говорящим"*** названием - 
+```java
+@Test  
+public void whenAddTenToFiveResultFifteen(){  
+    int expected = 15;  
+    int res = calc.add(10, 5);  
+  
+    assertEquals(expected, res);  
+}
+```
+Когда мы в тесте ожидаем получить исключение, то
+```java
+@Test(expected = NumberFormatException.class) //тип ожидаемого исключения
+//Это для Junit4 
+---------------------------
+@Test  
+public void whenInputIncorrectValueThenThrowsException(){  
+    NumberFormatException expectedException = Assertions.assertThrows(NumberFormatException.class,  //тип ошибки
+            () -> { //блок кода, который нужно затестить
+                calc.add("lol", "1");  
+            }, "Error");  //Что выведется во время ошибки
+    Assertions.assertEquals("For input string: \"lol\"", expectedException.getMessage());  // вместо lol вставляем неправильные данные
+}//все остальное по шаблону
+
+```
