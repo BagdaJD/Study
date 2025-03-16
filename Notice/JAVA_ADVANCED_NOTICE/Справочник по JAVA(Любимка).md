@@ -1591,117 +1591,6 @@
     ```
     
 - **Дополнительно**
-    
-    
-
-# Часть 2
-egt
-- **Тесты.JUnit(Gradle немного).@BeforeAll,@AfterAll**
-    
-    **JUnit** - библиотека для автоматического тестирования
-    
-    Для того ,чтобы добавить эту библиотеку ,нужно завести зависимости,а для этого нужны сборщики проектов ,как **Gradle** и **Maven**
-    
-                         Создание проекта **Gradle(intellij idea)**
-    
-                *File - new project - и выбираем gradle и т.д.*
-    
-    *,а в остальных средах нужно написать в терминал* 
-    
-                                          **gradle init**
-    
-    При сборке мы получаем файл **build.gradle** (ключевой файл)
-    
-    В нем как раз мы и сможем хранить разные библиотеки и плагины(зависимости)
-    
-    Также мы получим модули **main** и **test**
-    
-    *В **main** будут храниться классы с каким-либо действием*
-    
-    В  **test** *будут храниться классы с тестами нашего кода*
-    
-    ### Создание теста
-    
-    **В intellij idea**  - нажимаем на имя класса,затем Alt + enter - создать тест(а затем выбираем метод,который будем тестировать)
-    
-    Если не в **Intellij idea** ,то захом в папку **test - java** создаем класс ,тестирующий что-либо.Затем переопределяем тестируемый метод с аннотацией **Test**
-    
-    ```java
-    		@Test
-        public void add(){
-    			///
-        }
-    В тесте должны быть две переменных
-    Одна должна хранить в себе ожидаемое значение,
-    а другая реальное значение
-    
-    ----------------
-    @Test
-        public void add(){
-            Calculator ncalc = new Calculator();
-            int sum = 15; - ожидаемое значение
-            int res =  ncalc.add(10,5); - реальное значение
-            assertEquals(sum,res);
-        }
-    ```
-    
-    ***assertEquals(sum,res)***; - метод из библиотеки **JUNIT** ,нужен для сравнения ***ожидаемого значения с реальным*** ,также в качестве 3-го параметра  может принимать погрешность*(нужно для сравнивания дробных чисел)*
-    
-    ***assertEquals*(sum,res, 0.001);**
-    
-    Для тестирования приходится создать объект какого-либо тестируемого класса.И чтобы в каждом тесте его не создавать гужно использовать аннотацию **@BeforeAll**
-    
-    ```java
-    private Calculator calc; - создаём используемую 
-    переменную  
-    
-    	 @BeforeAll - указываем аннотацию,которая указывает постоянное 
-    значение этой переменной
-        public void setup(){
-                calc = new Calculator(); - задаём значение
-        }
-    
-    -----------
-    @Test
-        public void add(){
-    			......
-            double actual1 = calc.add(30,5.15);
-            assertEquals(expected1,actual1,0.001);
-        }
-    Будет достаточно написать просто 
-    название переменной-объекта(в данном случае) и 
-    вызвать метод этого объекта,а не постоянно его создавать
-    
-        @Test
-        public void sub(){
-    			..,...
-            double actual1 = calc.sub(38.9,4.9);
-            assertEquals(expected1,actual1,0.001);
-        }
-    
-    То есть аннотация **@BeforeAll** позволяет один раз
-    в самом начале указать значение переменной ,
-    а дальше просто её использовать в тестах
-    ```
-    
-    **@AfterAll** - это аннотация ,которая вызывет метод после тестирования
-    
-    ```java
-    @AfterAll
-        public void end(){
-            System.out.println("end testing");
-        }
-    
-    вызовется после тестирования
-    ```
-    
-    Если мы пытаемя проверить получаемое значение от какого-либо метода , то лучше в самом названии теста писать ,что мы проверяем**(whenAddTenToFiveResultFifeteen)** -типо этого.То есть не стоит в один тест сразу несколько проверок пихать
-    
-    пересмотреть конец этого видео
-
-
-
-
 # Сложные темы(1-ый блок): Наследование, абстрактные классы и т.д
 ### Наследование
 
@@ -1900,4 +1789,183 @@ int rand = (int) (Math.random() * 10 + 1);
 ```
 
 # Java Advanced
+### JUnit-тестирование
+**Junit** - библиотека для автоматического тестирования
+Для добавление её в проект нужно использовать систему сборки Gradle или Maven
+**//Чтобы создать тест для метода, нажимаем на имя класса и прожимаем Alt + Enter, а //там выбираем библиотеку для тестирования и метод, который хотим протестировать** 
 
+Дальше в папке **test** создастся класс с нужными тестами
+```java
+@Test  - аннотация теста
+public void add() {  
+	....
+}
+--------------------
+
+@Test  
+public void add() {  
+    Calculator calc = new Calculator();  
+    int expected = 15;  
+    int res = calc.add(10,5);  
+    assertEquals(expected, res);  
+    //Задаем сначала ожидаемое значение, зачем реальное, которое вернет метод
+    //assertEquals - сравнивает ожидаемое и полученное значения(лучше использовать для int)
+    //Для сравнения double лучше добавить третий параметр, отвечающий за погрешность
+    //assertEquals(expected, res, 0.0001) 
+
+
+    int expected2 = 150;  
+    int res2 = calc.add(100,50);  
+    assertEquals(expected2, res2);  
+    //Можем сделать еще несколько тестов
+    //И если хотя бы один из них упадет, то в терминале будет ошибка
+}
+```
+Alt + J - выделяет все одинаковые строчки
+Для того, чтобы в каждом тесте не объявлять новый экземпляр класса, нужно:
+```java
+
+@BeforeEach  
+public void setUp(){  
+    calc = new Calculator();  
+}
+//+Alt + Enter - импортируем аннотацию BeforeEach, Before - работает только в версиях Junit 4, 3 и т.д
+```
+Для выполнения завершающих действий после тестирования используется следующее:
+```java
+@AfterEach  
+public void close(){  
+    calc = null;  
+}
+//AfterEach - для Junit 5, @After - для Junit 4
+//Импортировать не нужно
+```
+Когда мы покрываем тестами метод, лучше тест называть ***"говорящим"*** названием - 
+```java
+@Test  
+public void whenAddTenToFiveResultFifteen(){  
+    int expected = 15;  
+    int res = calc.add(10, 5);  
+  
+    assertEquals(expected, res);  
+}
+```
+Когда мы в тесте ожидаем получить исключение, то
+```java
+@Test(expected = NumberFormatException.class) //тип ожидаемого исключения
+//Это для Junit4 
+---------------------------
+@Test  
+public void whenInputIncorrectValueThenThrowsException(){  
+    NumberFormatException expectedException = Assertions.assertThrows(NumberFormatException.class,  //тип ошибки
+            () -> { //блок кода, который нужно затестить
+                calc.add("lol", "1");  
+            }, "Error");  //Что выведется во время ошибки
+    Assertions.assertEquals("For input string: \"lol\"", expectedException.getMessage());  // вместо lol вставляем неправильные данные
+}//все остальное по шаблону
+
+```
+### ArrayList
+**Clean Architecture(Чистая архитектура), принципы SOLID**
+Код должен быть легко читаемым, расширяемым и поддерживаемым
+
+1.Систему нужно проектировать на уровне **абстракций**, а не реализаций
+***Это означает, что лучше создать интерфейс, где будут определены все методы, а потом реализовать их в другом классе.***
+//В интерфейсе CarList мы описали поведение класса Car
+
+
+Реализация ArrayList(моменты):
+```java
+interface CarList.java
+
+public interface CarList {  
+    Car get(int index);  
+    void add(Car car);  
+    boolean remove(Car car);  
+    boolean removeAt(int index);  
+    int size();  
+    void clean();  
+}
+----------------
+
+class CarListTest.java
+  
+private CarList carList;  
+  
+@BeforeEach  
+void setUp() {  
+    for(int i = 0; i < 100; i++){  
+        carList.add(new Car("Brand" + i, i));  
+    }}  
+    //т.к метод setUp() благодаря аннотации BeforeEach
+    //запускается перед каждым тестом, то записали вот так
+  
+@Test  
+public void whenAdd100ElementsThenSizeMustBe100(){  
+    assertEquals(100, carList.size());  
+}  
+  
+@Test  
+public void whenElementRemoveByIndexThenSizeMustBeDecreased(){  
+    assertEquals(100, carList.size());  
+    assertTrue( carList.removeAt(1));  
+    assertEquals(99, carList.size());  
+  //Проверили размер списка
+  //Проверили удалили ли мы элемент
+  //Проверили новый размер списка
+}
+```
+TDD - test drive development 
+Это ,когда мы сначала покрываем все тестами, а лишь потом пишем функционал
+```java
+//Arrays.copyOf(Array, Length) - копирует элементы из
+//переданнго списка Array и создает массив длиной Length
+
+if(size >= array.length){   
+    Car[] newArray = new Car[array.length * 2];  
+    for(int i = 0; i < array.length; i++){  
+        newArray[i] = array[i];  
+    }    array = newArray;  
+}
+
+//Аналогично
+array = Arrays.copyOf(array, array.length * 2); 
+
+---------------------
+
+@Override  
+public boolean removeAt(int index) {  
+    checkIndex(index);  
+    for(int i = index; i < size - 1; i++){  
+        array[i] = array[i + 1];  
+    }    size--;  
+  
+    return true;  
+}
+//Удаление методом сдвига
+//i < size - 1 - т.к если убрать -1, то может выкинуть ошибку
+//т.к если у нас size = 10, то i = 9  и постарается array[9] = array[10], которого не существует 
+```
+
+
+### Горячие клавиши
+
+    //psvm + tab - мы получим эту строчку public static  void  main(String...args)
+    
+    //sout + tab -  System.***out***.println()
+    
+    //Ctrl + Alt + l - форматирование
+    
+    //Alt + Ins - и потом выбираем contructor ,а затем его параметры и получаем готовый конструктор(также сойдёт и ддя других элементов)
+    
+    //Ctrl + P - помогает увидеть возможные параметры
+    
+    //Alt + enter - импортирует нужный класс при его отсутствии
+    
+    //Shift + F6 - позволяет сразу переменновать переменную в нескольких местах
+    
+    //Ctrl + i - переопределение метода у доч.классов
+    
+    //Ctrl + O - переопределяет метод
+    
+    //Ctrl + alt + t  - быстрая обертка в if/else ,try/catch и т.д.
