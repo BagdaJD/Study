@@ -1,11 +1,10 @@
 package org.example;
 
-public interface CarList {
-    Car get(int index);
+public interface MyCarList {
     void add(Car car);
-    void add(Car car, int index);
     boolean remove(Car car);
     boolean removeAt(int index);
-    int size();
+    Car get(int index);
     void clear();
+    int size();
 }

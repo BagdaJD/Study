@@ -59,7 +59,7 @@ class CarListTest {
             carList.get(100);
         }, "Error");
 
-        assertEquals(exception.getMessage(), exception.getMessage());
+        assertEquals(null, exception.getMessage());
     }
 
     @Test
@@ -68,4 +68,30 @@ class CarListTest {
         assertEquals("Brand0", car.getBrand());
     }
 
+    @Test
+    public void insertIntoMiddle(){
+        Car car = new Car("BMW", 1);
+        carList.add(car, 50);
+
+        Car carFromList = carList.get(50);
+        assertEquals("BMW", carFromList.getBrand());
+    }
+
+    @Test
+    public void insertIntoEnd(){
+        Car car = new Car("BMW", 1);
+        carList.add(car, 100);
+
+        Car carFromList = carList.get(100);
+        assertEquals("BMW", carFromList.getBrand());
+    }
+
+    @Test
+    public void insertIntoBegining(){
+        Car car = new Car("BMW", 1);
+        carList.add(car, 0);
+
+        Car carFromList = carList.get(0);
+        assertEquals("BMW", carFromList.getBrand());
+    }
 }
