@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Null, Nullable.md",
+                "file": "Kotlin/Условные операторы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Null, Nullable"
+              "title": "Условные операторы"
             }
           }
         ]
@@ -166,10 +166,10 @@
   "active": "7bd682f79572d1db",
   "lastOpenFiles": [
     "Kotlin/1.Оглавление.md",
+    "Kotlin/Null, Nullable.md",
     "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
     "Kotlin/Действительные числа.md",
     "Kotlin/Ввод-Вывод.md",
-    "Kotlin/Null, Nullable.md",
     "Kotlin/Переменные, Константы.md",
     "Kotlin/База.md",
     "Kotlin/While.md",

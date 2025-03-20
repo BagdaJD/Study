@@ -1,6 +1,11 @@
-private var name: String? = null;
-//8.35
 fun main() {
-    val length: String = name?.length.toString();
-    println(length)
+    val n = readln().toInt()
+    val food = if(n > 500){
+        "Пицца"
+    }else if(n > 200){
+        "Шаурма"
+    }else{
+        null
+    }
+    println(food)
 }
