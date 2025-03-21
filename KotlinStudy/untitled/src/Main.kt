@@ -1,11 +1,10 @@
 fun main() {
-    val n = readln().toInt()
-    val food = if(n > 500){
-        "Пицца"
-    }else if(n > 200){
-        "Шаурма"
-    }else{
-        null
+    val time: Int? = readLine()?.toInt();
+    val weather: String = readln();
+    val res = when {
+        weather.equals("Хорошая") && time in 8..21 -> {"Гулять"}
+        weather.equals("Плохая") && time in 8..21 ->{"Читать"}
+        else -> {"Спать"}
     }
-    println(food)
+    println(res)
 }

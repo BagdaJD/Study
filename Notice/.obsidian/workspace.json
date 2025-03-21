@@ -166,8 +166,9 @@
   "active": "7bd682f79572d1db",
   "lastOpenFiles": [
     "Kotlin/1.Оглавление.md",
-    "Kotlin/Null, Nullable.md",
     "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+    "Kotlin/Null, Nullable.md",
+    "Kotlin/Условные операторы.md",
     "Kotlin/Действительные числа.md",
     "Kotlin/Ввод-Вывод.md",
     "Kotlin/Переменные, Константы.md",
@@ -176,7 +177,6 @@
     "Kotlin/For.md",
     "Kotlin/Do-While.md",
     "Kotlin/Целые числа(Арифметические операции).md",
-    "Kotlin/Условные операторы.md",
     "Kotlin/Управление циклами.md",
     "Kotlin/Строки.md",
     "Kotlin/Символы.md",
