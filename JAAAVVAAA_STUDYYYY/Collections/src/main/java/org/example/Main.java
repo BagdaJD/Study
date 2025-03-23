@@ -2,12 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        CarList arr = new CarArrayList();
-
-        for(int i = 0; i < arr.size(); i++){
-            arr.add(new Car("Brand" + i, i));
-            System.out.println(arr.get(i));
-        }
-
+        Car car1 = new Car("BMW", 1);
+        Car car2 = new Car("BMW", 1);
+        System.out.println(car1 == car2);
     }
 }

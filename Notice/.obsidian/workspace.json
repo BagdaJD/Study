@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7bd682f79572d1db",
+            "id": "59a2cb045a71b4a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Условные операторы.md",
+                "file": "Kotlin/Коллекции.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Условные операторы"
+              "title": "Коллекции"
             }
           }
         ]
@@ -163,16 +163,22 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "7bd682f79572d1db",
+  "active": "59a2cb045a71b4a3",
   "lastOpenFiles": [
-    "Kotlin/1.Оглавление.md",
-    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
-    "Kotlin/Null, Nullable.md",
-    "Kotlin/Условные операторы.md",
-    "Kotlin/Действительные числа.md",
+    "Kotlin/0.Оглавление.md",
+    "Kotlin/Булевый тип данных.md",
     "Kotlin/Ввод-Вывод.md",
-    "Kotlin/Переменные, Константы.md",
     "Kotlin/База.md",
+    "Kotlin/Условные операторы.md",
+    "Kotlin/Перевод типов данных.md",
+    "Kotlin/Пакет Math.md",
+    "Kotlin/Действительные числа.md",
+    "Kotlin/Коллекции.md",
+    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+    "Картинки/Снимок экрана от 2025-03-23 13-14-58.png",
+    "Картинки/Снимок экрана от 2025-03-23 12-54-46.png",
+    "Kotlin/Null, Nullable.md",
+    "Kotlin/Переменные, Константы.md",
     "Kotlin/While.md",
     "Kotlin/For.md",
     "Kotlin/Do-While.md",
@@ -180,9 +186,6 @@
     "Kotlin/Управление циклами.md",
     "Kotlin/Строки.md",
     "Kotlin/Символы.md",
-    "Kotlin/Перевод типов данных.md",
-    "Kotlin/Пакет Math.md",
-    "Kotlin/Булевый тип данных.md",
     "Android/Android-разработка(Begin).md",
     "Android",
     "When.md",
@@ -191,7 +194,6 @@
     "лол.md",
     "Лекции_по_Python_Практика/1.Оглавление.md",
     "Лекции_по_Python_Практика/Седьмая лекция.md",
-    "Лекции_по_Python_Практика/Восьмая лекция.md",
-    "Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md"
+    "Лекции_по_Python_Практика/Восьмая лекция.md"
   ]
 }
