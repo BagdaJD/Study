@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Коллекции.md",
+                "file": "Kotlin/For.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Коллекции"
+              "title": "For"
             }
           }
         ]
@@ -166,6 +166,9 @@
   "active": "59a2cb045a71b4a3",
   "lastOpenFiles": [
     "Kotlin/0.Оглавление.md",
+    "Kotlin/Null, Nullable.md",
+    "Kotlin/Коллекции.md",
+    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
     "Kotlin/Булевый тип данных.md",
     "Kotlin/Ввод-Вывод.md",
     "Kotlin/База.md",
@@ -173,11 +176,8 @@
     "Kotlin/Перевод типов данных.md",
     "Kotlin/Пакет Math.md",
     "Kotlin/Действительные числа.md",
-    "Kotlin/Коллекции.md",
-    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
     "Картинки/Снимок экрана от 2025-03-23 13-14-58.png",
     "Картинки/Снимок экрана от 2025-03-23 12-54-46.png",
-    "Kotlin/Null, Nullable.md",
     "Kotlin/Переменные, Константы.md",
     "Kotlin/While.md",
     "Kotlin/For.md",

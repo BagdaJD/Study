@@ -2028,6 +2028,75 @@ System.out.println(car1 == car2);// true
 ```
 //Если на объект нет ссылки из стека, то его уничтожит сборщик мусора(Gorbage Collector)
 
+#### Методы Equals и hashcode
+```java
+Car car1 = new Car("BMW", 1);  
+Car car2 = new Car("BMW", 1);  
+System.out.println(car1.equals(car2));//false
+//т.к  equals(), также сравнивает ссылки, а не объекты
+//чтобы он сравнивал объекты его нужно переопределить
+
+obj instanceof Car
+// проверяет принадлежит ли объект к класуу Car
+
+//метод equals() у строк переопределенн по умолчанию
+
+@Override  
+public boolean equals(Object obj) {  
+    if(obj instanceof Car){  
+       Car car = (Car) obj;  
+        return car.brand.equals(this.brand) && car.number == this.number;  
+    }else{  
+        return  false;  
+    }}
+-----------------
+//hashCode() - возвращает числовое значение объекта
+System.out.println(car1.hashCode()); - 2018699554
+
+//Для hashCode() - должно выполняться правило
+//Если объекты равны по equals(), то номера по hashCode() должны совпадать
+
+//!В нашем случае мы переопределили equals() для класса Car, но hashCode() - нет, поэтому и номера разные!
+//Следовательно, нужно переопределить и hashCode() для Car
+
+//Получаем второе правило - переопределил equals() , переопредели и hashCode()
+//У примитивных типов метода hashCode() - нет
+
+@Override  
+public int hashCode() {  
+    return brand.hashCode() + number;  
+}
+//У строк hashCode() - переопределен
+
+
+//!В Java можно создать бесконечно много объектов, но hashCode() может принимать около 4 млрд значений, следовтельно, некторые номера могут совпадать - это называется коллизия, отсюда вытекают следующие правила
+
+//1.Если хэшкоды у двух объектов разные, то они на 100% разные
+//2.Если хешкоды совпали, то не факт, что объекты одинаковые
+
+@Override  
+public boolean equals(Object o) {  
+	//1
+    if (this == o) return true;  
+    //2
+    if (o == null || getClass() != o.getClass()) return false;  
+    Car car = (Car) o;  
+    //3
+    return number == car.number && Objects.equals(brand, car.brand);  
+}  
+//1.Сначала сравниваем, ссылаются ли они на один и тот же объект
+//2.вторая строка равносила o instanceof Car
+//3.Сравниваем поля объектов
+
+@Override  
+public int hashCode() {  
+    return Objects.hash(brand, number);  
+}
+//Хорошая реализация этих методов, через Alt + Ins 
+//И там выбираем переопределить методы hashcode() и equals()
+```
+
+
 
 ### Горячие клавиши
 

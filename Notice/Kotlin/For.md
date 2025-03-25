@@ -19,6 +19,46 @@ for (name in names) {
 for (i in 1..5) {
     println(i) // Выведутся числа 1, 2, 3, 4, 5
 }
+
+val array = arrayOfNulls<Int?>(101);  
+  
+for(i in 0..array.size-1){  
+    array[i] = i  
+}
+//равносильно
+for(i in 0 until array.size){  
+    array[i] = i  
+}
+
+
+--------------
+val array = arrayOfNulls<Int?>(100);  
+  
+for(i in 0 until array.size){ 
+	array[i] = i * 3  
+}
+//Жесткий цикл foreach
+for((index, i) in array.withIndex()){  
+    array[index] = i?.times(2)//умножение на 2
+}
+
+//index - номер элемента в массиве
+//i - значение элемента
+//i?.times(2) - защита от null 
+
+
+//withIndex() - можно вызывать и у диапозонов
+in 0..100.withIndex()
+
+for(i in 0 until array.size){  
+    array[i] = 300 + i  
+}  
+//Равносильны
+for((index, i) in (300..601).withIndex()){  
+    array[index] = i  
+}
+//index = 0, 1, 2, 4 ..
+//i = 300, 301 ..
 ```
 
 ## Функции для работы с циклом for 
