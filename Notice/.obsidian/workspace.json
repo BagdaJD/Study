@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "10cf1866fa62b6fc",
+        "id": "bfccbbd730fe0e63",
         "type": "tabs",
         "children": [
           {
-            "id": "2702c82f9c76a181",
+            "id": "59a2cb045a71b4a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+                "file": "Kotlin/For.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Справочник по JAVA(Любимка)"
+              "title": "For"
             }
           }
         ]
@@ -163,27 +163,30 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "2702c82f9c76a181",
+  "active": "59a2cb045a71b4a3",
   "lastOpenFiles": [
-    "Kotlin/1.Оглавление.md",
-    "Kotlin/Переменные, Константы.md",
-    "Kotlin/База.md",
-    "Kotlin/While.md",
+    "Kotlin/0.Оглавление.md",
     "Kotlin/Null, Nullable.md",
-    "Kotlin/For.md",
-    "Kotlin/Do-While.md",
-    "Kotlin/Целые числа(Арифметические операции).md",
+    "Kotlin/Коллекции.md",
+    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+    "Kotlin/Булевый тип данных.md",
+    "Kotlin/Ввод-Вывод.md",
+    "Kotlin/База.md",
     "Kotlin/Условные операторы.md",
-    "Kotlin/Управление циклами.md",
-    "Kotlin/Строки.md",
-    "Kotlin/Символы.md",
     "Kotlin/Перевод типов данных.md",
     "Kotlin/Пакет Math.md",
     "Kotlin/Действительные числа.md",
-    "Kotlin/Ввод-Вывод.md",
-    "Kotlin/Булевый тип данных.md",
+    "Картинки/Снимок экрана от 2025-03-23 13-14-58.png",
+    "Картинки/Снимок экрана от 2025-03-23 12-54-46.png",
+    "Kotlin/Переменные, Константы.md",
+    "Kotlin/While.md",
+    "Kotlin/For.md",
+    "Kotlin/Do-While.md",
+    "Kotlin/Целые числа(Арифметические операции).md",
+    "Kotlin/Управление циклами.md",
+    "Kotlin/Строки.md",
+    "Kotlin/Символы.md",
     "Android/Android-разработка(Begin).md",
-    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
     "Android",
     "When.md",
     "1.Первые шаги.md",
@@ -191,7 +194,6 @@
     "лол.md",
     "Лекции_по_Python_Практика/1.Оглавление.md",
     "Лекции_по_Python_Практика/Седьмая лекция.md",
-    "Лекции_по_Python_Практика/Восьмая лекция.md",
-    "Лекции_по_Python_Практика/Девятая лекция(Подпрограммы,функции+Циклы и Else).md"
+    "Лекции_по_Python_Практика/Восьмая лекция.md"
   ]
 }
