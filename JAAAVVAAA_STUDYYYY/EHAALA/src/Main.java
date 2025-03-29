@@ -1,5 +1,23 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+import BeOnMax.MyArrayList.MyArrayList;
+import BeOnMax.DZ.Man;
+
+public class Main {
+    public static void main(String[] args) {
+        MyArrayList<Integer> a = new MyArrayList<>();
+
+        for (int i = 0; i < 30; i++) {
+            a.add(Integer.valueOf(i));
+        }
+        
+=======
+import Tasks.BeOnMax.Inheritance.HomeWork.*;
+import Tasks.BeOnMax.Figures.*;
+=======
 import Tasks.BeOnMax.Interface.HomeWork.*;
 import java.util.ArrayList;
+>>>>>>> origin/main
 
 public class Main{
     public static void main(String[] args){
@@ -21,5 +39,6 @@ public class Main{
         }
 
 
+>>>>>>> origin/main
     }
 }
