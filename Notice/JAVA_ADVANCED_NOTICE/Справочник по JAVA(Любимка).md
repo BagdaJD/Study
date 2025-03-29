@@ -2096,6 +2096,7 @@ public int hashCode() {
 //И там выбираем переопределить методы hashcode() и equals()
 ```
 
+### HashSet
 
 
 ### Горячие клавиши

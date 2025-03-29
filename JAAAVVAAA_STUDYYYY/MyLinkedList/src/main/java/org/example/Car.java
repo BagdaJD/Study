@@ -9,11 +9,11 @@ public class Car {
         this.number = number;
     }
 
-    public String getBrand() {
-        return brand;
-    }
-
     public int getNumber() {
         return number;
+    }
+
+    public String getBrand() {
+        return brand;
     }
 }

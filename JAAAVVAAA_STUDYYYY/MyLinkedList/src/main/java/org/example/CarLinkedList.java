@@ -1,9 +1,14 @@
 package org.example;
 
 public class CarLinkedList implements CarList{
-    private int size = 0;
     private Node first;
     private Node last;
+    private int size = 0;
+
+    @Override
+    public Car get(int index) {
+        return getNode(index).value;
+    }
 
     @Override
     public void add(Car car) {
@@ -12,7 +17,7 @@ public class CarLinkedList implements CarList{
             last = first;
         }else{
             Node secondLast = last;
-            last = new Node(secondLast, car, null);
+            last = new Node(secondLast,car, null);
             secondLast.next = last;
         }
         size++;
@@ -20,17 +25,20 @@ public class CarLinkedList implements CarList{
 
     @Override
     public void add(Car car, int index) {
+        checkIndex(index);
+
         if(index == size){
             add(car);
             return;
         }
+
         Node nodeNext = getNode(index);
-        Node nodePrevious = nodeNext.previous;
-        Node newNode = new Node(nodePrevious, car, nodeNext);
+        Node nodePrev = nodeNext.previous;
+        Node newNode = new Node(nodePrev, car, nodeNext);
         nodeNext.previous = newNode;
 
-        if(nodePrevious != null){
-            nodePrevious.next = newNode;
+        if(nodePrev != null){
+            nodePrev.next = newNode;
         }else{
             first = newNode;
         }
@@ -41,43 +49,31 @@ public class CarLinkedList implements CarList{
     public void remove(Car car) {
         Node node = first;
         for(int i = 0; i < size; i++){
-            node = first.next;
-            if(car.equals(node.value)){
-                /*
-                Node previousNode = node.previous;
-                Node nextNode = node.next;
-                previousNode.next = nextNode;
-                 */
+            if(node.value.equals(car.getBrand())){
                 removeAt(i);
             }
+            node = node.next;
         }
     }
 
     @Override
     public void removeAt(int index) {
         Node node = getNode(index);
-        Node nextNode = node.next;
-        Node previousNode = node.previous;
+        Node nodePrev = node.previous;
+        Node nodeNext = node.next;
 
-        if(nextNode != null){
-            //previousNode.next = nextNode;
-             nextNode.previous = previousNode;
+        if (nodeNext != null) {
+            nodeNext.previous = nodePrev;
         }else{
-            last = previousNode;
+            last = nodePrev;
         }
 
-        if(previousNode != null){
-            previousNode.next = nextNode;
+        if(nodePrev != null){
+            nodePrev.next = nodeNext;
         }else{
-            first = nextNode;
+            first = nodeNext;
         }
         size--;
-    }
-
-    @Override
-    public Car get(int index) {
-        checkIndex(index);
-        return getNode(index).value;
     }
 
     @Override
@@ -87,9 +83,9 @@ public class CarLinkedList implements CarList{
 
     @Override
     public void clear() {
+        size = 0;
         first = null;
         last = null;
-        size = 0;
     }
 
     private Node getNode(int index){
@@ -100,7 +96,7 @@ public class CarLinkedList implements CarList{
             node = node.next;
         }
 
-        return node;
+        return  node;
     }
 
     private void checkIndex(int index){
@@ -109,15 +105,19 @@ public class CarLinkedList implements CarList{
         }
     }
 
-    private class Node{
+    public class Node{
         private Node previous;
-        private Node next;
         private Car value;
+        private Node next;
 
         public Node(Node previous, Car value, Node next) {
             this.previous = previous;
-            this.next = next;
             this.value = value;
+            this.next = next;
+        }
+
+        public Car getValue(){
+            return value;
         }
     }
 }
