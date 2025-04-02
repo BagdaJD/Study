@@ -1,4 +1,4 @@
-fun realSort(list: MutableList<Int>): MutableList<Int> {
+/*fun realSort(list: MutableList<Int>): MutableList<Int> {
     val list: MutableList<Int> = list
     for (i in 0..<list.size - 1) {
         for (j in 0..<list.size - i - 1) {
@@ -12,7 +12,6 @@ fun realSort(list: MutableList<Int>): MutableList<Int> {
 
     return list
 }
-
 
 fun sort(collection: List<Int>): List<Int> {
     var list: MutableList<Int> = collection.toMutableList();
@@ -44,10 +43,21 @@ fun sum(vararg numbers: Int): Int {
     }
     return res
 }
+
 fun getVolumeParall(a : Int, b: Int = a, c : Int = a) = a * b * c
+
+*/
+
 fun main() {
-    val x: Int = readln().toInt()
-    println(getVolumeParall(x))
-    println(getVolumeParall(x, x))
-    println(getVolumeParall(x, x, x))
+    println(sum("ufhvjfhvuir", "20"))
+}
+fun sum(a: String, b: String) : Int {
+  val res =  try{
+        val numA = a.toInt()
+        val numB = b.toInt()
+        numA + numB
+    }catch(e: Exception){
+        0
+    }
+    return res
 }
