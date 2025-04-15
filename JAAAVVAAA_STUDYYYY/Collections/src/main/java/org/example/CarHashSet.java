@@ -6,6 +6,11 @@ public class CarHashSet implements CarSet{
     private int size = 0;
     private Entry[] array = new Entry[INITIAL_CAPACITY];
 
+    @Override
+    public boolean contains(Car car) {
+        return false;
+    }
+
     //Тут уже если добавление прошло успешно, накидываем к size
     @Override
     public boolean add(Car car) {

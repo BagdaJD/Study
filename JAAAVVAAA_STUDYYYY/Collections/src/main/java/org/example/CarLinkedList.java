@@ -12,7 +12,7 @@ public class CarLinkedList implements CarList{
     }
 
     @Override
-    public void add(Car car) {
+    public boolean add(Car car) {
         if(size == 0){//Создание первого элемента в связном списке
             first = new Node(null, car, null);
             last = first;
@@ -22,16 +22,16 @@ public class CarLinkedList implements CarList{
             secondLast.next = last;
         }
         size++;
+        return true;
     }
 
     @Override
-    public void add(Car car, int index) {
+    public boolean add(Car car, int index) {
         if(index < 0 || index > size){
             throw new IndexOutOfBoundsException();
         }
         if(index == size){
-            add(car);
-            return;
+            return add(car);
         }
         Node nodeNext = getNode(index);
         Node nodePrevious = nodeNext.previous;
@@ -43,6 +43,7 @@ public class CarLinkedList implements CarList{
             first = newNode;
         }
         size++;
+        return true;
     }
 
     @Override
