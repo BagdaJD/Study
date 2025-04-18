@@ -8,7 +8,21 @@ public class CarHashSet implements CarSet{
 
     @Override
     public boolean contains(Car car) {
-        return false;
+        int position = getElementPosition(car, array.length);
+        if(array[position] == null){
+            return false;
+        }else{
+            Entry elem = array[position];
+            while(true){
+                if(elem.value.equals(car)){
+                    return true;
+                }else if(elem.next == null){
+                    return false;
+                }else{
+                    elem = elem.next;
+                }
+            }
+        }
     }
 
     //Тут уже если добавление прошло успешно, накидываем к size

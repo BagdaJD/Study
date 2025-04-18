@@ -22,6 +22,11 @@ public class CarArrayList implements CarList {
 
     @Override
     public boolean contains(Car car) {
+        for(Car elem : array){
+            if(elem.equals(car)){
+                return true;
+            }
+        }
         return false;
     }
 

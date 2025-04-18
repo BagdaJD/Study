@@ -12,6 +12,18 @@ public class CarLinkedList implements CarList{
     }
 
     @Override
+    public boolean contains(Car car) {
+        Node node = first;
+        for(int i = 0; i < size; i++){
+            if(node.value.equals(car)){
+                return true;
+            }
+            node = node.next;
+        }
+        return false;
+    }
+
+    @Override
     public boolean add(Car car) {
         if(size == 0){//Создание первого элемента в связном списке
             first = new Node(null, car, null);
