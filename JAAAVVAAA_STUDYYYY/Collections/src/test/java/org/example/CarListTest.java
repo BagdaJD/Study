@@ -87,6 +87,18 @@ class CarListTest {
     }
 
     @Test
+    public void containsWhenFalse(){
+        Car car = new Car("BMW", 101);
+        assertFalse(carList.contains(car));
+    }
+
+    @Test
+    public void containsWhenTrue(){
+        Car car = new Car("Brand0", 0);
+        assertTrue(carList.contains(car));
+    }
+
+    @Test
     public void insertIntoBegining(){
         Car car = new Car("BMW", 1);
         carList.add(car, 0);

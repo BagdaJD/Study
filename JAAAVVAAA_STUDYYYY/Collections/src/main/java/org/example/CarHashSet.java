@@ -11,18 +11,21 @@ public class CarHashSet implements CarSet{
         int position = getElementPosition(car, array.length);
         if(array[position] == null){
             return false;
-        }else{
-            Entry elem = array[position];
-            while(true){
-                if(elem.value.equals(car)){
-                    return true;
-                }else if(elem.next == null){
-                    return false;
-                }else{
-                    elem = elem.next;
-                }
+        }
+        Entry secondLast = array[position];
+        Entry last = secondLast.next;
+        if(secondLast.value.equals(car)){
+            return true;
+        }
+
+        while(last != null){
+            if(last.value.equals(car)){
+                return true;
+            }else{
+                last = last.next;
             }
         }
+        return false;
     }
 
     //Тут уже если добавление прошло успешно, накидываем к size

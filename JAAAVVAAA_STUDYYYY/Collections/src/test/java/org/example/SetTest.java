@@ -50,6 +50,18 @@ class SetTest {
     }
 
     @Test
+    public void containsWhenFalse(){
+        Car car = new Car("BMW", 101);
+        assertFalse(carHashSet.contains(car));
+    }
+
+    @Test
+    public void containsWhenTrue(){
+        Car car = new Car("Brand0", 0);
+        assertTrue(carHashSet.contains(car));
+    }
+
+    @Test
     void clear(){
         carHashSet.clear();
         assertEquals(0, carHashSet.size());
