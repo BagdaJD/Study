@@ -1,0 +1,20 @@
+//Мини гайд на настройку OpenSuse
+1.sudo zypper refresh (or the short version: sudo zypper ref)
+2.sudo zypper dist-upgrade (or the short version: sudo zypper dup)
+3.sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/' packman
+4.sudo zypper ref
+5.sudo zypper dist-upgrade --from packman --allow-vendor-change
+6.sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full vlc-codecs
+7.Yast -> System -> Network Settings -> Hostname/Dns -> u nickname
+8.nano ~/.bashrc
+9.export PS1="\[\e[01;32m\]\u\[\e[01;32m\]@\[\e[01;32m\]\h\[\e[0;37m\]:\[\e[01;34m\]\w\[\e[0;37m\]> \[\e[0m\]" (добавить в файл, записать и сохранить)
+
+//Установка управлениея питанием
+1.zypper addrepo https://download.opensuse.org/repositories/Base:System/openSUSE_Tumbleweed/Base:System.repo
+2.zypper refresh
+3.zypper install power-profiles-daemon
+
+//Установка libgthread-2_0-0, чтобы IDE работала
+1.zypper addrepo https://download.opensuse.org/repositories/home:arachnos/openSUSE_Tumbleweed/home:arachnos.repo
+2.zypper refresh
+3.zypper install libgthread-2_0-0
