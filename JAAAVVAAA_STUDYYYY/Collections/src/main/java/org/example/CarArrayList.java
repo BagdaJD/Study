@@ -1,10 +1,31 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class CarArrayList implements CarList {
     private Car[] array = new Car[10];
     private int size = 0;
+
+    @Override
+    public Iterator<Car> iterator() {
+         return new Iterator<Car>(){
+             int index = 0;
+
+             @Override
+             public boolean hasNext(){
+                 return index < size;
+             }
+
+             @Override
+             public Car next(){
+                 //Car car = array[index++];
+                 //index++;
+                 //Эти строчки можно записать так - array[index++]
+                 return array[index++];
+             }
+         };
+    }
 
     @Override
     public Car get(int index) {

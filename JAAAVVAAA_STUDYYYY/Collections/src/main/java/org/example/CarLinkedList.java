@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Iterator;
+
 public class CarLinkedList implements CarList{
 
     private Node first;
@@ -14,6 +16,24 @@ public class CarLinkedList implements CarList{
     @Override
     public boolean contains(Car car) {
         return findElement(car) != -1;
+    }
+
+    @Override
+    public Iterator<Car> iterator() {
+        return new Iterator<Car>() {
+            Node node = first;
+
+            @Override
+            public boolean hasNext() {
+                node = node.next;
+                return node != null;
+            }
+
+            @Override
+            public Car next() {
+                return node.value;
+            }
+        };
     }
 
     @Override

@@ -1,10 +1,27 @@
 package org.example;
 
+import java.util.Iterator;
+
 public class CarHashSet implements CarSet{
     private static final int INITIAL_CAPACITY = 16;
     private static final double LOAD_FACTOR = 0.75;
     private int size = 0;
     private Entry[] array = new Entry[INITIAL_CAPACITY];
+
+    @Override
+    public Iterator<Car> iterator() {
+        return new Iterator<Car>() {
+            @Override
+            public boolean hasNext() {
+                return false;
+            }
+
+            @Override
+            public Car next() {
+                return null;
+            }
+        };
+    }
 
     @Override
     public boolean contains(Car car) {

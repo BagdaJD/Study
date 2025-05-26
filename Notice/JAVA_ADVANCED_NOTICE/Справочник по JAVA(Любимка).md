@@ -2147,6 +2147,29 @@ a.hashcode() = 20;
 for/each - под капотом реализует интерфейс Iterable
 На вершине иерархии находится интерфейс Iterable
 
+```java
+//Чтобы мы могли перебирать наши коллекции в цикле foreach, нужно наследоваться от интерфейса Iterable
+
+//При наследовании нужно указать с какими объектами он будет работать 
+public interface CarCollection extends Iterable<Car>
+
+//А дальше нужно переопределить метод Iterator, который будет возвращать указанный new Iterator<объект>
+//А в нем нужно еще переопределить пару методов
+
+@Override  
+public Iterator<Car> iterator() {  
+     return new Iterator<Car>(){  
+         @Override  
+         public boolean hasNext(){  
+             return false;  
+         }  
+         @Override  
+         public Car next(){  
+             return null;  
+         }    
+          }}
+          //9.30 Iterable
+```
 ### Горячие клавиши
 
     //psvm + tab - мы получим эту строчку public static  void  main(String...args)

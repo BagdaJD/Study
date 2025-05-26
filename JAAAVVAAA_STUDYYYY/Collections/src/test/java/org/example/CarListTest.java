@@ -99,6 +99,16 @@ class CarListTest {
     }
 
     @Test
+    public void testForeach(){
+        int index = 0;
+        for(Car car : carList){
+            index++;
+        }
+        assertEquals(100, index);
+    }
+
+
+    @Test
     public void insertIntoBegining(){
         Car car = new Car("BMW", 1);
         carList.add(car, 0);
