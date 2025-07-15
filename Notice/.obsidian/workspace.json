@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e5978721839338f",
+            "id": "d1e977d5109c2aa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+                "file": "Kotlin/Функции высшего порядка.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Справочник по JAVA(Любимка)"
+              "title": "Функции высшего порядка"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -155,45 +155,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "7e5978721839338f",
+  "active": "d1e977d5109c2aa5",
   "lastOpenFiles": [
     "Kotlin/0.Оглавление.md",
-    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
-    "Kotlin/Исключения.md",
-    "Kotlin/Перевод типов данных.md",
     "Kotlin/Коллекции.md",
-    "Kotlin/Функции.md",
+    "Kotlin/Функции высшего порядка.md",
+    "Kotlin/Анонимные методы и лямбда-выражения.md",
+    "Kotlin/Управление циклами.md",
     "Kotlin/For.md",
-    "Kotlin/Null, Nullable.md",
-    "Kotlin/Булевый тип данных.md",
-    "Kotlin/Ввод-Вывод.md",
-    "Kotlin/База.md",
+    "Kotlin/Исключения.md",
     "Kotlin/Условные операторы.md",
+    "Kotlin/Null, Nullable.md",
+    "Kotlin/Функции.md",
+    "Kotlin/База.md",
+    "Kotlin/Булевый тип данных.md",
+    "Kotlin/Перевод типов данных.md",
     "Kotlin/Пакет Math.md",
+    "Kotlin/Переменные, Константы.md",
+    "Kotlin/Символы.md",
+    "Kotlin/Строки.md",
+    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+    "Kotlin/Ввод-Вывод.md",
     "Kotlin/Действительные числа.md",
     "Картинки/Снимок экрана от 2025-03-23 13-14-58.png",
     "Картинки/Снимок экрана от 2025-03-23 12-54-46.png",
-    "Kotlin/Переменные, Константы.md",
     "Kotlin/While.md",
     "Kotlin/Do-While.md",
     "Kotlin/Целые числа(Арифметические операции).md",
-    "Kotlin/Управление циклами.md",
-    "Kotlin/Строки.md",
-    "Kotlin/Символы.md",
     "Android/Android-разработка(Begin).md",
     "Android",
     "When.md",
     "1.Первые шаги.md",
-    "Kotlin",
-    "лол.md",
-    "Лекции_по_Python_Практика/1.Оглавление.md"
+    "Kotlin"
   ]
 }
