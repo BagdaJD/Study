@@ -1,18 +1,29 @@
-import kotlin.random.Random
+fun main(){
+    val array = generateSequence(0) {it + 2}
+    val evenList = array.take(10)
 
+    for(i in  evenList){
+        println(i)
+    }
+}
+
+
+/*
+import kotlin.random.Random
 fun main(){
     val listOfNumbers = mutableListOf<Int>()
     for(i in 0..999){
         listOfNumbers.add(Random.nextInt(from=0, until=1000))
         println(i)
     }
+
     val newListOfNumbers = listOfNumbers.filter{it % 3 == 0 || it % 5 == 0}.map{it * it}.sortedDescending().map{"$it"}
     for(i in newListOfNumbers){
         println(i)
     }
 
 }
-
+*/
 
 
 /*fun main() {
