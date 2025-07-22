@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "543b741ff530c647",
+        "id": "dc530d7b865899bb",
         "type": "tabs",
         "children": [
           {
-            "id": "d1e977d5109c2aa5",
+            "id": "c5f72ec8bbd5fd64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Функции высшего порядка.md",
+                "file": "Kotlin/Функция ZIP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Функции высшего порядка"
-            }
-          },
-          {
-            "id": "a82ceca2ccd0e791",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/Бесконечные последовательности.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Бесконечные последовательности"
+              "title": "Функция ZIP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "845b5775676a9edf",
@@ -179,11 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a82ceca2ccd0e791",
+  "active": "c5f72ec8bbd5fd64",
   "lastOpenFiles": [
-    "Kotlin/Функции высшего порядка.md",
-    "Kotlin/Бесконечные последовательности.md",
     "Kotlin/0.Оглавление.md",
+    "Kotlin/Функции.md",
+    "Kotlin/Функция ZIP.md",
+    "Kotlin/Бесконечные последовательности.md",
+    "Kotlin/Функции высшего порядка.md",
     "Kotlin/Анонимные методы и лямбда-выражения.md",
     "Kotlin/Коллекции.md",
     "Kotlin/Управление циклами.md",
@@ -191,7 +177,6 @@
     "Kotlin/Исключения.md",
     "Kotlin/Условные операторы.md",
     "Kotlin/Null, Nullable.md",
-    "Kotlin/Функции.md",
     "Kotlin/База.md",
     "Kotlin/Булевый тип данных.md",
     "Kotlin/Перевод типов данных.md",
@@ -209,7 +194,6 @@
     "Kotlin/Целые числа(Арифметические операции).md",
     "Android/Android-разработка(Begin).md",
     "Android",
-    "When.md",
     "Kotlin"
   ]
 }
