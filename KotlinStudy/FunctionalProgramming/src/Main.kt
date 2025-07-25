@@ -1,3 +1,16 @@
+fun main(){
+    val data = mapOf<String, List<Int>>(
+        "file1" to listOf(15, 20, 30, 40),
+        "file2" to listOf(35, -20, 30, 43),
+        "file3" to listOf(45, 70, -21, 40)
+    )
+    val average = data.filterNot{it.value.all{it >= 0}}.flatMap{it.value}.average()
+    println(average)
+
+}
+
+
+/*
 fun generatePhoneNumbers(size: Int) : MutableList<String>{
     val listOfNumbers: MutableList<String> = mutableListOf()
     var firstNum = (Math.random()*999).toInt()
@@ -40,7 +53,7 @@ fun main(){
     }
 }
 
-
+*/
 /*
     val listOfNumbers = generatePhoneNumbers(1000)
     val listOfNames = generateNames(1000)
