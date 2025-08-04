@@ -18,3 +18,30 @@
 1.zypper addrepo https://download.opensuse.org/repositories/home:arachnos/openSUSE_Tumbleweed/home:arachnos.repo
 2.zypper refresh
 3.zypper install libgthread-2_0-0
+
+//Установка нажатия на угол тачпада(замена правой кнопки мыши)
+gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
+
+//Steam + PortProton
+sudo zypper install python313-icoextract
+zypper addrepo https://download.opensuse.org/repositories/home:Boria138:PortProton/openSUSE_Tumbleweed/home:Boria138:PortProton.repo
+zypper refresh
+zypper install portproton
+
+//TRIM SSD
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+
+//ZRAM
+sudo zypper install systemd-zram-service
+sudo systemctl enable --now zramswap.service
+sudo systemctl enable zramswap.service
+sudo systemctl start zramswap.service
+
+//Zen-kernel
+sudo zypper addrepo https://download.opensuse.org/repositories/home:hwsnemo:kernels/openSUSE_Tumbleweed/home:hwsnemo:kernels.repo
+sudo zypper ref
+sudo zypper in kernel-liquorix
+
+//OBS + osc
+sudo zypper addrepo -f https://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_Tumbleweed/openSUSE:Tools.repo
