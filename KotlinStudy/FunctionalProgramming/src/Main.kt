@@ -1,3 +1,32 @@
+fun printInfo(data: Map<String, List<Int>>) : Unit {
+    val validData = data.filter { it.value.all { it >= 0 } }
+    val averagePerWeek = validData.flatMap { it.value }.average()
+    val listOfSum = validData.map { it.value.sum() }
+    val averagePerMonth = listOfSum.average()
+    val minAmonth = listOfSum.min()
+    val maxAmonth = listOfSum.max()
+
+    val maxMonth = validData.filter { it.value.sum() == maxAmonth }.keys
+    val minMonth = validData.filter { it.value.sum() == minAmonth }.keys
+
+    println("Средняя выручка в неделю: ${averagePerWeek}")
+    println("Средняя выручка в месяц: ${averagePerMonth}")
+    println("Максимальная выручка за все время: ${maxAmonth}, месяц: $maxMonth")
+    println("Минимадбная выручка за все время: ${minAmonth}, месяц: $minMonth")
+
+}
+fun main(){
+    val money: Map<String, List<Int>> = mapOf(
+        "January" to listOf(10, 20, 30, 40),
+        "February" to listOf(20, -21, 30, 50),
+        "March" to listOf(67, 23, 12, 11)
+    )
+
+    printInfo(money)
+
+}
+
+/*
 fun main(){
     val data = mapOf<String, List<Int>>(
         "file1" to listOf(15, 20, 30, 40),
@@ -8,7 +37,7 @@ fun main(){
     println(average)
 
 }
-
+*/
 
 /*
 fun generatePhoneNumbers(size: Int) : MutableList<String>{
