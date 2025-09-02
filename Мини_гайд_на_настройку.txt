@@ -1,14 +1,45 @@
 //Мини гайд на настройку Manjaro
-//yay
+//Dash to Dock - прозрачность 77
+//Kdeicons и т.д
 
+//yay
+sudo pacman -S yay 
 
 //opera-ffmpeg
-
+yay -S opera-ffmpeg-codecs-bin
 
 //zen-kernel
-
+yay -S linux-zen-versioned-headers-bin
 
 //rtl8821-2020708
+Просто ставить 6.16+ ядро
+
+//Davinci Resolve
+1.Качаем с оф. сайта
+LD_PRELOAD="/usr/lib64/libglib-2.0.so" /opt/resolve/bin/resolve
+или
+LD_PRELOAD="/usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so" /opt/resolve/bin/resolve
+
+//zram
+1.sudo pacman -Syu zram-generator
+2.nano /etc/systemd/zram-generator.conf
+
+[zram0]
+zram-size = ram 
+compression-algorithm = zstd
+swap-priority = 100
+fs-type = swap
+
+3.sudo systemctl daemon-reload
+4.sudo systemctl start systemd-zram-setup@zram0.service
+
+//neofetch
+yay -S neofetch
+
+
+
+--------------------
+
 
 
 //Мини гайд на настройку OpenSuse
