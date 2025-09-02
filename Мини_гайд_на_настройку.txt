@@ -1,3 +1,16 @@
+//Мини гайд на настройку Manjaro
+//yay
+
+
+//opera-ffmpeg
+
+
+//zen-kernel
+
+
+//rtl8821-2020708
+
+
 //Мини гайд на настройку OpenSuse
 1.sudo zypper refresh (or the short version: sudo zypper ref)
 2.sudo zypper dist-upgrade (or the short version: sudo zypper dup)

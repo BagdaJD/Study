@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{"name":"sbt","version":"1.10.2","bspVersion":"2.1.0-M1","languages":["scala"],"argv":["C:\\Program Files\\Java\\jdk-22/bin/java","-Xms100m","-Xmx100m","-classpath","C:/Program Files/GIGA IDE/GIGA IDE Community Edition 2024.2/plugins/Scala/launcher/sbt-launch.jar","-Dsbt.script=C:\\Users\\Aydinyan%20Bagdasar\\AppData\\Local\\Coursier\\data\\bin\\sbt.bat","xsbt.boot.Boot","-bsp"]}
-=======
-{"name":"sbt","version":"1.10.2","bspVersion":"2.1.0-M1","languages":["scala"],"argv":["/home/bagdasar_aidinian/.jdks/openjdk-23/bin/java","-Xms100m","-Xmx100m","-classpath","/home/bagdasar_aidinian/Загрузки/gigaideCE-242.21829.142/gigaide-CE-242.21829.142/plugins/Scala/launcher/sbt-launch.jar","-Dsbt.script=/home/bagdasar_aidinian/.local/share/coursier/bin/sbt","xsbt.boot.Boot","-bsp"]}
->>>>>>> origin/main
