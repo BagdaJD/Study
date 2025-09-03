@@ -1,4 +1,10 @@
 //Мини гайд на настройку Manjaro
+
+//Failed Synchronize Database
+1.sudo rm /var/lib/pacman/db.lck 
+2.sudo pacman -S wxwidgets-gtk3 wxwidgets-common
+(*)sudo pacman -Rdd wxgtk-common wxgtk2 wxgtk3
+
 //Dash to Dock - прозрачность 77
 //Kdeicons и т.д
 
@@ -10,6 +16,12 @@ yay -S opera-ffmpeg-codecs-bin
 
 //zen-kernel
 yay -S linux-zen-versioned-headers-bin
+
+----zen-kernel+(если ошибки)-----
+*установить такое же ядро из архива manjaro(если zen6.16.4, то установить 6.12-manjaro)
+*yay -S linux-zen-versioned-bin linux-zen-versioned-headers-bin
+*запускаемся уже через zen-kernel и вперед
+1.sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings
 
 //rtl8821-2020708
 Просто ставить 6.16+ ядро
