@@ -1,3 +1,98 @@
+//Arch Linux
+//iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan connect network
+
+//ends
+efibootmgr
+grub-install --target=x86_64-efi --efi-directory=/boot --recheck
+exit
+reboot
+----------
+sudo pacman -S os-prober
+nano /etc/default/grub
+//#GRUB_DISABLE_OS_PROBER=false расском
+os-prober
+grub-mkconfig -o /boot/grub/grub.cfg
+
+//git
+1.sudo pacman -S git
+
+//yay
+1.git clone https://aur.archlinux.org/yay.git
+2.cd yay -> makepkg -si
+
+//codecs
+1.pacman -S lib32-gst-plugins-base lib32-gst-plugins-good  
+2.pacman -S gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav ffmpeg \
+   x264 x265 libvpx libdvdcss
+3.sudo pacman -S timeshift
+4.yay -S ttf-ms-win10-auto
+5.fc-cache -f -v
+6.sudo pacman -S ttf-dejavu ttf-font-awesome ttf-ubuntu-font-family ttf-liberation
+
+//opera-ffmpeg
+1.yay -S opera-ffmpeg-codecs-bin
+
+//flatpak
+1.sudo pacman -S flatpak
+2.flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+//pamac
+1.yay -S pamac
+yay -S pamac-flatpak
+
+//poweprofile
+1.sudo pacman -S power-profiles-daemon
+2.sudo systemctl enable power-profiles-daemon.service
+3.sudo systemctl start power-profiles-daemon.service
+
+//Доп.настрой
+1.sudo pacman -S gnome-tweaks
+2.sudo pacman -S webapp-manager 
+dash-to-dock
+extension-appindicator
+sudo pacman -S webapp-manager
+3.sudo pacman -S nftables
+
+//zsh
+1.sudo pacman -S zsh
+2.sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+3.git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+4.Open ~/.zshrc, find the line that sets ZSH_THEME, and change its value to "powerlevel10k/powerlevel10k"
+5.sudo pacman -S ttf-nerd-fonts-symbols
+6.exec zsh
+*p10k configure
+
+//zsh-syntax
+1.git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+2. sudo nano ~/.zshrc -> plugins=(... zsh-syntax-highlighting)
+
+//neofetch
+1.yay -S neofetch
+
+//snapper
+1.sudo pacman -S snapper btrfs-progs grub-btrfs snap-pac inotify-tools
+2.yay -S btrfs-assistant
+3.sudo snapper -c root create-config /
+4.sudo systemctl enable --now snapper-timeline.timer
+5.sudo systemctl enable --now snapper-cleanup.timer
+6.sudo systemctl enable --now grub-btrfsd.service
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+//
+3.sudo chmod a+rx /.snapshots
+4.sudo chown :users /.snapshots
+5.sudo chmod a+rx /.snapshots
+6.sudo chown :users /.snapshots
+7.sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+-----------------
+
+
 //Мини гайд на настройку Manjaro
 
 //Failed Synchronize Database
@@ -15,7 +110,7 @@ sudo pacman -S yay
 yay -S opera-ffmpeg-codecs-bin
 
 //zen-kernel
-yay -S linux-zen-versioned-headers-bin
+yay -S linux-zen-versioned-headers-bin linux-zen-versioned-headers-bin
 
 ----zen-kernel+(если ошибки)-----
 *установить такое же ядро из архива manjaro(если zen6.16.4, то установить 6.12-manjaro)
@@ -28,13 +123,15 @@ yay -S linux-zen-versioned-headers-bin
 
 //Davinci Resolve
 1.Качаем с оф. сайта
-LD_PRELOAD="/usr/lib64/libglib-2.0.so" /opt/resolve/bin/resolve
-или
-LD_PRELOAD="/usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so" /opt/resolve/bin/resolve
+2.sudo mkdir -p /opt/resolve/libs/disabled-libraries
+3.sudo mv /opt/resolve/libs/libglib-2.0.so* /opt/resolve/libs/disabled-libraries/
+4.sudo mv /opt/resolve/libs/libgio-2.0.so* /opt/resolve/libs/disabled-libraries/
+5.sudo mv /opt/resolve/libs/libgmodule-2.0.so* /opt/resolve/libs/disabled-libraries/
+6.LD_PRELOAD="/usr/lib/libglib-2.0.so /usr/lib/libgio-2.0.so" /opt/resolve/bin/resolve
 
 //zram
 1.sudo pacman -Syu zram-generator
-2.nano /etc/systemd/zram-generator.conf
+2.sudo nano /etc/systemd/zram-generator.conf
 
 [zram0]
 zram-size = ram 
@@ -100,4 +197,4 @@ sudo zypper ref
 sudo zypper in kernel-liquorix
 
 //OBS + osc
-sudo zypper addrepo -f https://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_Tumbleweed/openSUSE:Tools.repo
+sudo zypper addrepo -f https://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_Tumbleweed/openSUSE:Tools.repoudo pacma
