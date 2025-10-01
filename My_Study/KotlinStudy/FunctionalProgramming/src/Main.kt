@@ -1,3 +1,64 @@
+import jdk.dynalink.Operation
+import java.util.Locale
+import java.util.Locale.getDefault
+
+fun main(){
+    val dog = Dog()
+    dog.name = "phuntik"
+    dog.age = 11
+    dog.ves = 111
+    dog.ves = 0
+    dog.age = 0
+
+    println("Age = ${dog.age}; Ves = ${dog.ves}; Name = ${dog.name}")
+
+}
+//такое обращение к полям не считается чем-то плохим, т.к в данном случае идет обращение к свойствам
+//да и в целом полей класса нет, это называется свойствами
+
+/*
+
+    val user = User()
+    user.name = null
+    user.age = 15
+    println("Name = ${user.name}; Age = ${user.age}")
+
+fun main(){
+    val list = listOf<Int>();
+    val str = "gfd"
+    MyWith(list){
+        sum()
+        average()
+    }
+    MyWith(str){
+        uppercase(getDefault())
+    }
+    println(str)
+
+}
+
+inline fun<T, R>MyWith(obj: T, operation: T.() -> R) : R{
+   return obj.operation()
+}
+
+
+fun main(){
+    val age = 5;
+    val str = "";
+    println(str.isNotEmpty())
+    println(age.isPositive())
+    println(age.isSimple())
+    if(age.isAgeValid()){
+        println("Valid")
+    }
+    if(age.isAgeValid()){
+        println("Valid too")
+    }
+    if(age.isAgeValid()){
+        println("Valid2 too")
+    }
+}
+
 fun modifyString(str: String, modify: (String) -> String) : String{
     return modify(str)
 }
@@ -16,7 +77,6 @@ fun main(){
     println(res)
 }
 
-/*
 val listOfNum: MutableList<Int>? = mutableListOf()
 
 fun main(){
