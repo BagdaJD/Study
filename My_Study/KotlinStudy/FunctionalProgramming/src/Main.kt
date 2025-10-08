@@ -67,6 +67,7 @@ inline fun modifyList(list: List<Int>, modify: (List<Int>) -> Int) : Int{
     return modify(list)
 }
 
+
 fun func(i: Int, mod: (Int) -> Unit){
     println(mod(i))
 }

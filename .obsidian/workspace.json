@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notice/JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
+                "file": "My_Study/Notice/Kotlin/0.Оглавление.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Справочник по JAVA(Любимка)"
+              "title": "0.Оглавление"
+            }
+          },
+          {
+            "id": "3fa453f5a8b35014",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My_Study/Notice/Kotlin/Конструкторы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Конструкторы"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -159,19 +175,20 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "5eb82c9fddb83eef",
+  "active": "3fa453f5a8b35014",
   "lastOpenFiles": [
+    "My_Study/Notice/Kotlin/0.Оглавление.md",
+    "My_Study/Notice/Kotlin/Конструкторы.md",
+    "My_Study/KotlinStudy/OOP/src",
+    "My_Study/KotlinStudy/OOP",
+    "My_Study/KotlinStudy/OOP/OOP.iml",
+    "My_Study/KotlinStudy/OOP/src/Main.java",
     "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Worker.java",
     "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Workable.java",
     "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Programmer.java",
     "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Programmable.java",
     "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Driver.java",
     "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Drivable.java",
-    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Cookable.java",
-    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork/Cook.java",
-    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/HomeWork",
-    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/Flyable.java",
-    "JAAAVVAAA_STUDYYYY/EHAALA/src/Tasks/BeOnMax/Interface/Fish.java",
     "Notice/Kotlin/Пакет Math.md",
     "Notice/Kotlin/1.Оглавление.md",
     "Notice/Kotlin/For.md",
