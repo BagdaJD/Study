@@ -1,3 +1,5 @@
+package Kot
+
 class User {
     public var age: Int = 0
         set(value) {

@@ -1,3 +1,5 @@
+package Kot
+
 class Dog {
     var name: String? = null
         get() {

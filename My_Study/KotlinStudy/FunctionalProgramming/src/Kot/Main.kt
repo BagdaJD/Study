@@ -1,14 +1,81 @@
-import jdk.dynalink.Operation
-import java.util.Locale
-import java.util.Locale.getDefault
+package Kot
+
+import Months.Month
+
+//import jdk.dynalink.Operation
+//import java.util.Locale
+//import java.util.Locale.getDefault
+import Months.Month.*
+import Months.Season.*
+import kotlin.reflect.typeOf
 
 fun main(){
-    val dog = Dog()
+        val month = SEPTEMBER
+        val season = when(month){
+            DECEMBER, JANUARY, FEBRUARY -> WINTER
+            MARCH, APRIL, MAY -> SPRING
+            JULY, JUNE, AUGHUST -> SUMMER
+            SEPTEMBER, OCTOBER, NOVEMBER -> AUTUMN
+        }
+    println(month.tempAverage)
+
+}
+
+/*
+fun main(){
+    val address1 = Address("Rostov", "Zorge", 11)
+    val address2 = address1.copy()
+
+    println(address1)
+    println(address2)
+    println(address1.hashCode())
+    println(address2.hashCode())
+    println(address1 == address2)
+
+    val (name1, street1, number1) = address1
+    val (name2, street2, number2) = address2
+
+}
+
+
+fun main(){
+    val student1 = Student("Ivan", "Ivanov", "4563")
+    val student2 = student1.copy(newId = "2345")
+    val(name, lastName, id) = student1
+    var(name1, _ , _) = student1
+    print(name)
+    println(student2.name)
+    println(student2.lastName)
+    println(student2.id)
+}
+
+
+fun main(){
+    val cat = Cat("Barsik", 12, 4f)
+
+    cat.printInfo()
+    println(cat.isOld)
+
+    cat.age = 10
+    println(cat.isOld)
+
+    val worker = Worker("Baga", "Programmer", 2018)
+    worker.work()
+    println(worker.stage)
+    worker.printInfo()
+}
+
+fun Worker.printInfo() = println("Name = $name; Job = $job; Data = $data; Stage = $stage")
+
+
+fun Kot.main(){
+    val dog = Kot.Dog()
     dog.name = "phuntik"
     dog.age = 11
     dog.ves = 111
     dog.ves = 0
     dog.age = 0
+
 
     println("Age = ${dog.age}; Ves = ${dog.ves}; Name = ${dog.name}")
 
@@ -16,14 +83,14 @@ fun main(){
 //такое обращение к полям не считается чем-то плохим, т.к в данном случае идет обращение к свойствам
 //да и в целом полей класса нет, это называется свойствами
 
-/*
 
-    val user = User()
+
+    val user = Kot.User()
     user.name = null
     user.age = 15
     println("Name = ${user.name}; Age = ${user.age}")
 
-fun main(){
+fun Kot.main(){
     val list = listOf<Int>();
     val str = "gfd"
     MyWith(list){
@@ -42,7 +109,7 @@ inline fun<T, R>MyWith(obj: T, operation: T.() -> R) : R{
 }
 
 
-fun main(){
+fun Kot.main(){
     val age = 5;
     val str = "";
     println(str.isNotEmpty())
@@ -72,7 +139,7 @@ fun func(i: Int, mod: (Int) -> Unit){
     println(mod(i))
 }
 
-fun main(){
+fun Kot.main(){
     val list: List<Int> = listOf(11, 12, 13, 14, 15)
     val res = modifyList(list){it.sum()}
     println(res)
@@ -80,7 +147,7 @@ fun main(){
 
 val listOfNum: MutableList<Int>? = mutableListOf()
 
-fun main(){
+fun Kot.main(){
     listOfNum?.let {
         with(it){
             for(i in 0..<1000){
@@ -100,7 +167,7 @@ fun main(){
 
 }
 
-fun main(){
+fun Kot.main(){
     val list: MutableList<Int> = mutableListOf()
     with(list){
         for(i in 0..<1000){
@@ -122,7 +189,7 @@ fun main(){
 
 }
 
-fun printInfo(data: Map<String, List<Int>>) : Unit {
+fun Kot.printInfo(data: Map<String, List<Int>>) : Unit {
     val validData = data.filter { it.value.all { it >= 0 } }
     val averagePerWeek = validData.flatMap { it.value }.average()
     val listOfSum = validData.map { it.value.sum() }
@@ -139,19 +206,19 @@ fun printInfo(data: Map<String, List<Int>>) : Unit {
     println("Минимадбная выручка за все время: ${minAmonth}, месяц: $minMonth")
 
 }
-fun main(){
+fun Kot.main(){
     val money: Map<String, List<Int>> = mapOf(
         "January" to listOf(10, 20, 30, 40),
         "February" to listOf(20, -21, 30, 50),
         "March" to listOf(67, 23, 12, 11)
     )
 
-    printInfo(money)
+    Kot.printInfo(money)
 
 }
 
 
-fun main(){
+fun Kot.main(){
     val data = mapOf<String, List<Int>>(
         "file1" to listOf(15, 20, 30, 40),
         "file2" to listOf(35, -20, 30, 43),
@@ -191,7 +258,7 @@ fun generateNames(size: Int) : MutableList<String>{
     return listOfNames
 }
 
-fun main(){
+fun Kot.main(){
     val listOfNamesLastNames: MutableList<String> = mutableListOf()
     for(i in 0..<1000){
         listOfNamesLastNames.add("Name$i LastName$i")
@@ -220,11 +287,11 @@ fun main(){
     }
 */
 /*
-fun main(){
+fun Kot.main(){
 
-    val array = generateSequence("Worker №1"){
+    val array = generateSequence("Kot.Worker №1"){
         val index = it.substring(8).toInt()
-        "Worker №${index + 1}"
+        "Kot.Worker №${index + 1}"
 
     }
 
@@ -239,7 +306,7 @@ fun main(){
 
 
 import kotlin.random.Random
-fun main(){
+fun Kot.main(){
     val listOfNumbers = mutableListOf<Int>()
     for(i in 0..999){
         listOfNumbers.add(Random.nextInt(from=0, until=1000))
@@ -255,7 +322,7 @@ fun main(){
 */
 
 
-/*fun main() {
+/*fun Kot.main() {
     val perim: (Int, Int) -> Int = {a, b -> 2 * (a + b)}
     val sayHello: (String) -> Unit = {it -> println("Hello $it")}
     //val sortArr: (Array<Int>) -> Array<Int> = {it -> it.sortedArrayDescending()}
