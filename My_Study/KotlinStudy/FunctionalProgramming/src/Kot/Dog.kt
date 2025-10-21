@@ -1,6 +1,10 @@
 package Kot
 
-class Dog {
+class Dog(weight: Float) : Animal("Dog", weight, "Area") {
+    override fun eat(){
+        println("Eating kost")
+    }
+    /*
     var name: String? = null
         get() {
             return field?.lowercase()?.replaceFirstChar{it.titlecaseChar()}
@@ -18,5 +22,5 @@ class Dog {
                 field = value
             }
         }
-
+    */
 }

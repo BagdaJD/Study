@@ -2,9 +2,11 @@ package Kot
 
 import java.util.Calendar
 
-class Worker(var name: String, var job: String, var data: Int) {
-    val stage: Int
+abstract class Worker(val name: String, val age: Int){
+
+    abstract fun work()
+    /*val stage: Int
         get() = Calendar.getInstance().get(Calendar.YEAR) - data
 
-    fun work() = println("I'm work")
+    fun work() = println("I'm work")*/
 }

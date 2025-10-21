@@ -7,8 +7,51 @@ import Months.Month
 //import java.util.Locale.getDefault
 import Months.Month.*
 import Months.Season.*
+import java.util.ArrayList
 import kotlin.reflect.typeOf
 
+fun main(){
+    val collWorkers: List<Worker> = listOf(
+        Seller("Biba", 11),
+        Programmer("Boba", 12),
+        Seller("lol", 14),
+        Programmer("lll", 15),
+        Director("Bobo", 123)
+    );
+
+    val collCleaner: List<Cleaner> = collWorkers.filter{it is Cleaner}.map {it as Cleaner}
+
+    for(cleaner in collCleaner){
+        cleaner.clean()
+    }
+
+    /*
+    val arrWorkers = ArrayList<Worker>()
+    var worker = Seller("Worker0", 20);
+    var programmer = Programmer("Lang0", 20)
+    for(i in 1..<5){
+        arrWorkers.add(worker);
+        arrWorkers.add(programmer);
+        programmer = Programmer("Lang$i", 20 + i)
+        worker = Seller("Worker$i", 20 + i);
+    }
+
+    arrWorkers.add(Director("Nick", 50))
+    for(i in arrWorkers){
+        i.work()
+        if(i is Cleaner){
+            i.clean()
+        }
+        if(i is Programmer){
+            println(i.langProg)
+        }
+        */
+
+        //worker as Cleaner
+    //}
+
+}
+/*
 fun main(){
         val month = SEPTEMBER
         val season = when(month){
@@ -21,7 +64,6 @@ fun main(){
 
 }
 
-/*
 fun main(){
     val address1 = Address("Rostov", "Zorge", 11)
     val address2 = address1.copy()
