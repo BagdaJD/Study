@@ -53,4 +53,40 @@ instanceof == is
 //Явное привидение типов в Kotlin
 worker as Cleaner
 //is, as - операторы
+
+//Также можно переопределять свойства класса
+abstract class Transport(open val name: String) 
+
+class Car(override var name: String) : Transport(name)
+//теперь для класса Car можно изменять имя
+// Но если напишем так, то все равно будет ошибка т.к дочерний класс был приведен к род. классу
+val car: Transport = Car()  
+val bike: Transport = Bicycle()  
+car.name = "Car2"
+
+//Но если напишем так
+val car: Transport = Car()  
+
+if(car is Car){  
+    car.name = "Car2"  
+}  
+println(car.name)
+
+//или так, то
+val car: Transport = Car()  
+if(car !is Car) return   
+car.name = "Car2"  
+
+println(car.name)
+
+//то все заработает, т.к будет происходить Smart Cast, во втором случае компилятор будет просто понимать, что если мы не вышли из программы на if значить объект у нас типа Car
+
+//Также примеры Smart Cast
+if(car is Car && car.startEngine()){  
+    println("")  
+}
+
+if(car !is Car || car.startEngine()){  
+    println("")  
+}
 ```

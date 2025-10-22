@@ -11,6 +11,36 @@ import java.util.ArrayList
 import kotlin.reflect.typeOf
 
 fun main(){
+    val sportsmen = Sportsmen()
+    sportsmen.callVodonosa(object : Vodonos{
+        override fun prinestiVodu() {
+            println("Nesu vodu")
+        }
+    })
+}
+
+/*
+fun main() {
+    travel(object : Transport("ABobus"){
+        override fun drive() {
+            println("Driving on Abobus")
+        }
+    })
+}
+
+fun travel(transport: Transport){
+    transport.drive()
+}
+
+  val car: Transport = Car()
+
+    val bike: Transport = Bicycle()
+    //if(car !is Car) return
+    if(car is Car && car.startEngine()){
+        println("")
+    }
+    println(car.name)
+fun main(){
     val collWorkers: List<Worker> = listOf(
         Seller("Biba", 11),
         Programmer("Boba", 12),
@@ -25,7 +55,6 @@ fun main(){
         cleaner.clean()
     }
 
-    /*
     val arrWorkers = ArrayList<Worker>()
     var worker = Seller("Worker0", 20);
     var programmer = Programmer("Lang0", 20)
@@ -45,13 +74,13 @@ fun main(){
         if(i is Programmer){
             println(i.langProg)
         }
-        */
+
 
         //worker as Cleaner
     //}
 
 }
-/*
+
 fun main(){
         val month = SEPTEMBER
         val season = when(month){
