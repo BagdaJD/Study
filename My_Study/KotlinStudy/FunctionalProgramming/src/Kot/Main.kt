@@ -11,15 +11,43 @@ import java.util.ArrayList
 import kotlin.reflect.typeOf
 
 fun main(){
-    val sportsmen = Sportsmen()
-    sportsmen.callVodonosa(object : Vodonos{
-        override fun prinestiVodu() {
-            println("Nesu vodu")
-        }
-    })
+    val db = Database
+    db.insertData("1")
+    db.insertData("2")
+    val test = Test()
+    test.insertTestData("3")
+    test.insertTestData("4")
+    for(str in db.data){
+        println(str)
+    }
 }
 
+
 /*
+fun main(){
+    val randInt = MyRandom.randNumInDiap(listOf(1, 2, 3, 11, 12, 13))
+    val randBool = MyRandom.randTrueFalse()
+    val randDay = MyRandom.randDayOfWeek()
+
+    println(randInt)
+    println(MyRandom.randNumInDiap(1, 100))
+    println(randBool)
+    println(randDay)
+
+}
+
+
+fun main(){
+    val sportsmen = Sportsmen()
+//    sportsmen.callVodonosa(object : Vodonos{
+//        override fun prinestiVodu() {
+//            println("Nesu vodu")
+//        }
+//    })
+    sportsmen.callVodonosa {println("Water")}
+}
+
+
 fun main() {
     travel(object : Transport("ABobus"){
         override fun drive() {
