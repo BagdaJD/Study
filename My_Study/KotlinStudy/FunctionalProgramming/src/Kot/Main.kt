@@ -20,6 +20,9 @@ fun main(){
     for(str in db.data){
         println(str)
     }
+    for(i in 1..5){
+
+    }
 }
 
 
