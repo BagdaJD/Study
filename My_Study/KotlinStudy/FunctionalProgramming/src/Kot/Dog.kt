@@ -4,6 +4,13 @@ class Dog(weight: Float) : Animal("Dog", weight, "Area") {
     override fun eat(){
         println("Eating kost")
     }
+
+    private lateinit var a: String
+
+    fun printA(){
+        a = "rojbgier"
+        println(a)
+    }
     /*
     var name: String? = null
         get() {

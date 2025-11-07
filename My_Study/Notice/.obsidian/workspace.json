@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/0.Оглавление.md",
+                "file": "Kotlin/Generic, Generic function, lateint var.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.Оглавление"
+              "title": "Generic, Generic function, lateint var"
             }
           }
         ]
@@ -166,14 +166,15 @@
   },
   "active": "6a45d1f7901bc153",
   "lastOpenFiles": [
-    "Kotlin/SingleTon.md",
     "Kotlin/0.Оглавление.md",
-    "Kotlin/Условные операторы.md",
     "Kotlin/Коллекции.md",
-    "Kotlin/Companion Object + Static.md",
     "Kotlin/Модификаторы доступа.md",
-    "Kotlin/Анонимные классы.md",
     "Kotlin/Абстрактные классы, интерфейсы и Smart Cast.md",
+    "Kotlin/Generic, Generic function, lateint var.md",
+    "Kotlin/SingleTon.md",
+    "Kotlin/Условные операторы.md",
+    "Kotlin/Companion Object + Static.md",
+    "Kotlin/Анонимные классы.md",
     "Kotlin/Наследование.md",
     "Kotlin/FlatMap, Map, any(), all().md",
     "Kotlin/Функция ZIP.md",
@@ -191,7 +192,6 @@
     "Kotlin/Создание функций высшего порядка.md",
     "Kotlin/Функции.md",
     "Kotlin/Функции let, with.md",
-    "Kotlin/Null, Nullable.md",
     "Картинки/Снимок экрана от 2025-03-23 13-14-58.png",
     "Картинки/Снимок экрана от 2025-03-23 12-54-46.png",
     "Android",

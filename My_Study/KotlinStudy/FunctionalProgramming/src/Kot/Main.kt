@@ -11,6 +11,11 @@ import java.util.ArrayList
 import kotlin.reflect.typeOf
 
 fun main(){
+    val list: MyList<Int> = MyArrayList.myListOf()
+}
+
+/*
+fun main(){
     val db = Database
     db.insertData("1")
     db.insertData("2")
@@ -26,7 +31,6 @@ fun main(){
 }
 
 
-/*
 fun main(){
     val randInt = MyRandom.randNumInDiap(listOf(1, 2, 3, 11, 12, 13))
     val randBool = MyRandom.randTrueFalse()
