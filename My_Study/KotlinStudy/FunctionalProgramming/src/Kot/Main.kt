@@ -12,6 +12,11 @@ import kotlin.reflect.typeOf
 */
 
 import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.channels.ReceiveChannel
+import kotlinx.coroutines.channels.consumeEach
+import kotlinx.coroutines.channels.produce
+import kotlinx.coroutines.time.delay
 
 suspend fun doWork(){
     for(i in 0..5){
@@ -44,6 +49,32 @@ suspend fun sumNums(a: Int, b: Int) : Int{
     return a + b
 }
 
+suspend fun CoroutineScope.getTypes() : ReceiveChannel<String> = produce{
+    val users = listOf("String", "Int", "Boolean")
+    for(user in users){
+        send(user)
+        delay(400L)
+    }
+}
+
+suspend fun main() = coroutineScope<Unit>{
+    val types = getTypes()
+    types.consumeEach{type -> println(type)}
+}
+/*
+suspend fun main() = coroutineScope{
+    val msg = async{getMessage()}
+
+    msg.cancelAndJoin()
+    try{
+        println(msg.await())
+    }catch (e: CancellationException){
+        println("Error")
+    }finally {
+        println("Finish")
+    }
+}
+
 suspend fun main() = coroutineScope{
    val job = launch(Dispatchers.Default,CoroutineStart.LAZY){
        println("${Thread.currentThread().name}")
@@ -55,7 +86,7 @@ suspend fun main() = coroutineScope{
     println("Main работает в потоке ${Thread.currentThread().name}")
 }
 
-/*
+
 fun main(){
     val list: MyList<Int> = MyArrayList.myListOf()
 }
