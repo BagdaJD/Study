@@ -1,20 +1,65 @@
 package Kot
 
+/*
 import Months.Month
-
-//import jdk.dynalink.Operation
-//import java.util.Locale
-//import java.util.Locale.getDefault
+import jdk.dynalink.Operation
+import java.util.Locale
+import java.util.Locale.getDefault
 import Months.Month.*
 import Months.Season.*
 import java.util.ArrayList
 import kotlin.reflect.typeOf
+*/
 
+import kotlinx.coroutines.*
+
+suspend fun doWork(){
+    for(i in 0..5){
+        println("I working a $i hours")
+        delay(400L)
+    }
+}
+
+suspend fun doRest(){
+    for(i in 5..10){
+        println("I'm resting a $i hours")
+        delay(400L)
+    }
+}
+
+suspend fun doTeach(){
+    for(i in 5..10){
+        println("I'm teaching a $i hours")
+        delay(400L)
+    }
+}
+
+suspend fun getMessage() : String{
+    delay(700L)
+    return "Hello"
+}
+
+suspend fun sumNums(a: Int, b: Int) : Int{
+    delay(700L)
+    return a + b
+}
+
+suspend fun main() = coroutineScope{
+   val job = launch(Dispatchers.Default,CoroutineStart.LAZY){
+       println("${Thread.currentThread().name}")
+   }
+    job.start()
+    launch{
+        println("Эта корутина работает в потоке ${Thread.currentThread().name}")
+    }
+    println("Main работает в потоке ${Thread.currentThread().name}")
+}
+
+/*
 fun main(){
     val list: MyList<Int> = MyArrayList.myListOf()
 }
 
-/*
 fun main(){
     val db = Database
     db.insertData("1")
