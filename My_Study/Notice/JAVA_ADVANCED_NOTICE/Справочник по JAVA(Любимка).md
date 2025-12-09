@@ -1886,7 +1886,6 @@ public interface CarList {
     void clean();  
 }
 ----------------
-
 class CarListTest.java
   
 private CarList carList;  

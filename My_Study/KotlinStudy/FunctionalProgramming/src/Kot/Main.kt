@@ -12,11 +12,11 @@ import kotlin.reflect.typeOf
 */
 
 import kotlinx.coroutines.*
-import kotlinx.coroutines.channels.Channel
+//2dr4import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.channels.produce
-import kotlinx.coroutines.time.delay
+//import kotlinx.coroutines.time.delay
 
 suspend fun doWork(){
     for(i in 0..5){
@@ -60,6 +60,7 @@ suspend fun CoroutineScope.getTypes() : ReceiveChannel<String> = produce{
 suspend fun main() = coroutineScope<Unit>{
     val types = getTypes()
     types.consumeEach{type -> println(type)}
+
 }
 /*
 suspend fun main() = coroutineScope{
