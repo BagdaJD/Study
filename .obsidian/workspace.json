@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "26bf9fe522e926d6",
+    "id": "1c032e2380aed36d",
     "type": "split",
     "children": [
       {
-        "id": "dc530d7b865899bb",
+        "id": "5cd74d72e2e6d5d7",
         "type": "tabs",
         "children": [
           {
-            "id": "0524872d694573d8",
+            "id": "1e24e30d0c4df276",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Основа/SOLID.md",
+                "file": "My_Study/Notice/Kotlin/Оглавление.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLID"
+              "title": "Оглавление"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "089120736f1de285",
+    "id": "667cc9ddc879b519",
     "type": "split",
     "children": [
       {
-        "id": "0250fd31f4b898ed",
+        "id": "aa65ee111c0e5ae5",
         "type": "tabs",
         "children": [
           {
-            "id": "a3d7249c0e52ecfd",
+            "id": "ef00f9c8130ca2be",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "0ae10b05ce9ae330",
+            "id": "729bc9d905c32fe6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,40 +61,39 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
-            "id": "6b8b3381f79aa6a2",
+            "id": "c05baabede4d53bb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Закладки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "845b5775676a9edf",
+    "id": "5cfce8968141763d",
     "type": "split",
     "children": [
       {
-        "id": "613e21b906169fd3",
+        "id": "523dbe1f65062830",
         "type": "tabs",
         "children": [
           {
-            "id": "bf5c1f9987d3ac0a",
+            "id": "8bbbb4cb053f2869",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Лекции_по_Python_Практика/Восьмая лекция.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +103,63 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Восьмая лекция"
+              "title": "Обратные ссылки"
             }
           },
           {
-            "id": "9c331d35c9aeeb33",
+            "id": "dd891f76e35951bc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Лекции_по_Python_Практика/Восьмая лекция.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Восьмая лекция"
+              "title": "Исходящие ссылки"
             }
           },
           {
-            "id": "f9067bc16dbd7e35",
+            "id": "885adc19546cdb5a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Теги"
             }
           },
           {
-            "id": "c73492a4d5559224",
+            "id": "05ec6bef33b67c88",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "98dc783fa3d3ed2e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Лекции_по_Python_Практика/Восьмая лекция.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Восьмая лекция"
+              "title": "Структура"
             }
           }
         ]
@@ -164,38 +180,6 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "0524872d694573d8",
-  "lastOpenFiles": [
-    "Kotlin/Оглавление.md",
-    "Kotlin/Основа/Наследование.md",
-    "Kotlin/Основа/SOLID.md",
-    "Kotlin/Основа/Конструкторы.md",
-    "Kotlin/Основа/ООП - База.md",
-    "Kotlin/Основа/Companion Object + Static.md",
-    "Kotlin/Основа/Data Class.md",
-    "Kotlin/Основа/Clean Architecture.md",
-    "Kotlin/Основа/Условные операторы.md",
-    "Kotlin/Основа/Перевод типов данных.md",
-    "Kotlin/Основа/Абстрактные классы, интерфейсы и Smart Cast.md",
-    "Kotlin/Основа",
-    "JAVA_ADVANCED_NOTICE/Справочник по JAVA(Любимка).md",
-    "Kotlin/Основа/Каналы.md",
-    "Android/Android-разработка.md",
-    "Kotlin/Основа/Отмена выполнения корутин.md",
-    "Kotlin/Основа/Async, Await, Deferred.md",
-    "Kotlin/Основа/Диспетчер корутины.md",
-    "Kotlin/Основа/Исключения.md",
-    "1.Первые шаги.md",
-    "Kotlin/Основа/Launch, Job.md",
-    "Kotlin/Основа/Область корутины, launch и job.md",
-    "Kotlin/Основа/Введение в корутины.md",
-    "Kotlin/Основа/Extansion-функции.md",
-    "Kotlin/Основа/Анонимные классы.md",
-    "Kotlin/Основа/Generic, Generic function, lateint var.md",
-    "Kotlin/Основа/Коллекции.md",
-    "Картинки/Снимок экрана от 2025-03-23 13-14-58.png",
-    "Картинки/Снимок экрана от 2025-03-23 12-54-46.png",
-    "Android",
-    "Kotlin"
-  ]
+  "active": "1e24e30d0c4df276",
+  "lastOpenFiles": []
 }
