@@ -5,15 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="552581da-ecea-4c85-9634-b87a0c4d3b71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CarSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CarSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/src/main/java/org/example/CarHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/main/java/org/example/CarHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/untitled/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/untitled/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KotlinStudy/untitled/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinStudy/untitled/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorTest/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorTest/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorTest/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorTest/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCarList/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCarList/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCarList/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCarList/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedList/src/main/java/org/example/CarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/src/main/java/org/example/CarLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/Kotlin/0.Оглавление.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/Kotlin/0.Оглавление.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +55,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vG5uQTbsJwSWVqiUC8C0clwI2m" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,11 +70,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cidr.known.project.marker": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bagdajd/Документы/Study/My_Study/JAAAVVAAA_STUDYYYY/MyCarHashSet"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,6 +90,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,5 +1,4 @@
 package org.example;
-
 public class CarLinkedList implements CarList{
     private Node first;
     private Node last;
@@ -11,68 +10,36 @@ public class CarLinkedList implements CarList{
     }
 
     @Override
-    public void add(Car car) {
+    public void add(Car car) {//Обычная вставка в конец
         if(size == 0){
             first = new Node(null, car, null);
             last = first;
         }else{
             Node secondLast = last;
-            last = new Node(secondLast,car, null);
+            last = new Node(secondLast, car, null);
             secondLast.next = last;
         }
         size++;
     }
 
     @Override
-    public void add(Car car, int index) {
-        checkIndex(index);
-
-        if(index == size){
-            add(car);
-            return;
-        }
-
-        Node nodeNext = getNode(index);
-        Node nodePrev = nodeNext.previous;
-        Node newNode = new Node(nodePrev, car, nodeNext);
-        nodeNext.previous = newNode;
-
-        if(nodePrev != null){
-            nodePrev.next = newNode;
-        }else{
-            first = newNode;
-        }
-        size++;
-    }
-
-    @Override
-    public void remove(Car car) {
-        Node node = first;
-        for(int i = 0; i < size; i++){
-            if(node.value.equals(car.getBrand())){
-                removeAt(i);
-            }
-            node = node.next;
-        }
-    }
-
-    @Override
     public void removeAt(int index) {
         Node node = getNode(index);
-        Node nodePrev = node.previous;
         Node nodeNext = node.next;
+        Node nodePrevious = node.previous;
 
-        if (nodeNext != null) {
-            nodeNext.previous = nodePrev;
-        }else{
-            last = nodePrev;
+        if(nodeNext != null){
+            nodeNext.previous = nodePrevious;
+        }else{//Удаление последнего
+            last = nodePrevious;
         }
 
-        if(nodePrev != null){
-            nodePrev.next = nodeNext;
-        }else{
+        if(nodePrevious != null){
+            nodePrevious.next = nodeNext;
+        }else{//Удаление первого
             first = nodeNext;
         }
+
         size--;
     }
 
@@ -83,41 +50,65 @@ public class CarLinkedList implements CarList{
 
     @Override
     public void clear() {
-        size = 0;
-        first = null;
-        last = null;
+        first.next = null;
+        last.previous = null;
     }
 
-    private Node getNode(int index){
-        checkIndex(index);
+    @Override
+    public void add(Car car, int index) {// вставка по индексу
 
+        if(index == size){
+            add(car);
+            return;
+        }
+
+        Node nodeNext = getNode(index);
+        Node nodePrevious = nodeNext.previous;
+        Node newNode = new Node(nodePrevious, car, nodeNext);
+
+        nodeNext.previous = newNode;
+        if(nodePrevious != null){
+            nodePrevious.next = newNode;
+        }else{
+            first = newNode;
+        }
+
+        size++;
+    }
+
+    @Override
+    public void remove(Car car) {
         Node node = first;
+        int index = 0;
+        for(int i = 0; i < size; i++){
+            if(node.value.equals(car)) {
+                removeAt(i);
+                break;
+            }
+            node = node.next;
+        }
+    }
+
+
+    private Node getNode(int index){
+        if(index <  0 || index >= size) throw new IndexOutOfBoundsException();
+        Node node = first;
+
         for(int i = 0; i < index; i++){
             node = node.next;
         }
 
-        return  node;
+        return node;
     }
-
-    private void checkIndex(int index){
-        if(index < 0 || index >= size){
-            throw new IndexOutOfBoundsException();
-        }
-    }
-
-    public class Node{
+    private static class Node{
         private Node previous;
-        private Car value;
         private Node next;
+        Car value;
 
-        public Node(Node previous, Car value, Node next) {
-            this.previous = previous;
-            this.value = value;
+        public Node(Node previous, Car value, Node next){
+            this.previous =  previous;
             this.next = next;
-        }
-
-        public Car getValue(){
-            return value;
+            this.value = value;
         }
     }
 }
