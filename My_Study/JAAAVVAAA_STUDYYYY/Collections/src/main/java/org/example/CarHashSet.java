@@ -11,14 +11,34 @@ public class CarHashSet implements CarSet{
     @Override
     public Iterator<Car> iterator() {
         return new Iterator<Car>() {
+            int index = 0;
+            int arrayIndex = 0;
+            private Entry entry;
+
             @Override
             public boolean hasNext() {
-                return false;
+                return index < size;
             }
+
 
             @Override
             public Car next() {
-                return null;
+                while(array[arrayIndex] == null){
+                    arrayIndex++;
+                }
+
+                if(entry == null){
+                    entry = array[arrayIndex];
+                }
+
+                Car result = entry.value;
+                entry = entry.next;
+
+                if(entry == null){
+                    arrayIndex++;
+                }
+                index++;
+                return result;
             }
         };
     }

@@ -7,12 +7,17 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-            CarCollection cars = new CarArrayList();
-        for(int i = 0; i < 10; i++){
-            cars.add(new Car("Brand" + i, i));
-        }
-        for(Car car : cars){
-            System.out.println(car.getBrand() + " " + car.getNumber());
-        }
+      CarCollection coll = new CarHashSet();
+      for(int i = 0; i < 10; i++){
+          coll.add(new Car("brand" + i, i));
+      }
+
+      for(Car car : coll){
+          System.out.println(car.getBrand());
+      }
+
+      for(int i = 0; i < coll.size(); i++){
+
+      }
     }
 }

@@ -21,20 +21,23 @@ public class CarLinkedList implements CarList{
     @Override
     public Iterator<Car> iterator() {
         return new Iterator<Car>() {
-            Node node = first;
+            private Node node = first;
 
             @Override
             public boolean hasNext() {
-                node = node.next;
                 return node != null;
             }
 
             @Override
             public Car next() {
-                return node.value;
+                Car car = node.value;
+                node = node.next;
+
+                return car;
             }
         };
     }
+
 
     @Override
     public boolean add(Car car) {
@@ -49,6 +52,7 @@ public class CarLinkedList implements CarList{
         size++;
         return true;
     }
+
 
     @Override
     public boolean add(Car car, int index) {

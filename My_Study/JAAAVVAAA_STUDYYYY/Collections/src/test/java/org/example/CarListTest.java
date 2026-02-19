@@ -88,7 +88,7 @@ class CarListTest {
 
     @Test
     public void containsWhenFalse(){
-        Car car = new Car("BMW", 101);
+        Car car = new Car("brand102", 102);
         assertFalse(carList.contains(car));
     }
 

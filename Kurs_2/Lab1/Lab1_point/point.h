@@ -1,0 +1,40 @@
+#pragma once
+#include <iostream>
+
+class Point {
+private:
+    double x, y;
+
+public:
+    Point();
+    Point(double x, double y);
+    Point(const Point &point); //??????? ???????? ????
+
+    void add(const Point& p);
+    void set_point(double x, double y);
+    double getX() const;
+    double getY() const;
+
+    void setX(double new_x);
+    void setY(double new_y);
+
+    bool isEqual(const Point& p)const;
+
+    void shift_X(double dx);
+    void shift_Y(double dy);
+
+    void print();
+    double distance_to(const Point& other)const;
+
+	~Point(){   //??????????
+		std::cout<<"Destruct point \n";
+	}
+    //???? ?????? ?? ??????, ?.? ???? ??? ?????? ? ??????????? ??????
+};
+
+Point add1(Point a,  Point b);
+Point add2(const Point& a, const Point& b);
+
+
+
+

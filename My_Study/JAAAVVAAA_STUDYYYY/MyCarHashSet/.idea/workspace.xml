@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="552581da-ecea-4c85-9634-b87a0c4d3b71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalculatorTest/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorTest/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalculatorTest/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorTest/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCarList/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCarList/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCarList/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCarList/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyLinkedList/src/main/java/org/example/CarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedList/src/main/java/org/example/CarLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notice/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashSet/HashSet/src/main/java/org/example/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashSet/HashSet/src/main/java/org/example/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashSet/HashSet/src/main/java/org/example/CarHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashSet/HashSet/src/main/java/org/example/CarHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashSet/HashSet/src/main/java/org/example/CarSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashSet/HashSet/src/main/java/org/example/CarSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashSet/HashSet/src/test/java/org/example/CarSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashSet/HashSet/src/test/java/org/example/CarSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyCarHashSet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCarList/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCarList/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCarList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCarList/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cidr.known.project.marker": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/bagdajd/Документы/Study/My_Study/JAAAVVAAA_STUDYYYY/MyCarHashSet"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bagdasjd/Документы/Study/My_Study/JAAAVVAAA_STUDYYYY/MyCarHashSet&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -90,6 +73,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MyCarHashSet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MyCarHashSet" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

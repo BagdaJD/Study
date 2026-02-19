@@ -19,7 +19,7 @@ public class CarArrayList implements CarList {
 
              @Override
              public Car next(){
-                 //Car car = array[index++];
+                 //Car car = array[index];
                  //index++;
                  //Эти строчки можно записать так - array[index++]
                  return array[index++];
@@ -43,13 +43,23 @@ public class CarArrayList implements CarList {
 
     @Override
     public boolean contains(Car car) {
-        for(Car elem : array){
-            if(elem.equals(car)){
+        for(int i = 0; i < size; i++){
+            if(array[i].equals(car)){
                 return true;
             }
         }
         return false;
     }
+
+//    @Override
+//    public boolean contains(Car car) {
+//        for(Car elem : array){
+//            if(elem.equals(car)){
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 
     @Override
     public boolean add(Car car, int index) {

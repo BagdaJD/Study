@@ -11,46 +11,33 @@ class CarSetTest {
     private CarSet carSet;
 
     @BeforeEach
-    void setUp() {
+    public void setUp() throws Exception {
         carSet = new CarHashSet();
-        for(int i = 0; i < 100; i++){
-            carSet.add(new Car("brand" + i, i));
+        for (int i = 0; i < 100; i++) {
+            carSet.add(new Car("Brand" + i, i));
         }
     }
 
     @Test
-    public void checkAdd(){
-        int expected = 101;
-        carSet.add(new Car("brand101", 101));
-        assertEquals(expected, carSet.size());
+    public void whenAdd3SimilarObjectsThenSizeIncreaseBy1() {
+        assertEquals(100, carSet.size());
+        assertTrue(carSet.add(new Car("BMW", 10)));
+        assertFalse(carSet.add(new Car("BMW", 10)));
+        assertFalse(carSet.add(new Car("BMW", 10)));
+        assertEquals(101, carSet.size());
     }
 
     @Test
-    public void checkRemove(){
-        int expected = 100;
-        carSet.remove(new Car("brand101", 101));
-
-        assertEquals(expected, carSet.size());
-    }
-
-    @Test
-    public void checkWhenAddSameElement(){
-        int expected = 100;
-        carSet.add(new Car("brand78", 78));
-
-        assertEquals(expected, carSet.size());
-    }
-
-    @Test
-    public void testClear(){
-        int expected = 0;
+    public void whenSetClearedThenSize0() {
         carSet.clear();
-
-        assertEquals(expected, 0);
+        assertEquals(0, carSet.size());
     }
 
-    @BeforeEach
-    public void close(){
-        carSet = null;
+    @Test
+    public void whenElementRemovedThenSizeDecreased() {
+        assertTrue(carSet.remove(new Car("Brand30", 30)));
+        assertEquals(99, carSet.size());
+        assertFalse(carSet.remove(new Car("Brand30", 30)));
+        assertEquals(99, carSet.size());
     }
 }

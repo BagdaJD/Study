@@ -9,6 +9,21 @@ public class Car {
         this.number = number;
     }
 
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Car){
+            Car car = (Car) obj;
+            return car.brand.equals(this.brand) && number == this.number;
+        }else{
+            return false;
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        return brand.hashCode() + number;
+    }
+
     public int getNumber() {return number;}
     public String getBrand(){return brand;}
 }

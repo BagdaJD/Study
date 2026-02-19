@@ -62,6 +62,16 @@ class SetTest {
     }
 
     @Test
+    public void testForEach(){
+        int index = 0;
+        for(Car car : carHashSet){
+            index++;
+        }
+
+        assertEquals(100, index);
+    }
+
+    @Test
     void clear(){
         carHashSet.clear();
         assertEquals(0, carHashSet.size());
