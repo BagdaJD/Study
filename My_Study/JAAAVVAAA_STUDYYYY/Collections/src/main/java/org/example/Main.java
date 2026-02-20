@@ -16,8 +16,5 @@ public class Main {
           System.out.println(car.getBrand());
       }
 
-      for(int i = 0; i < coll.size(); i++){
-
-      }
     }
 }
