@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //ввод чисел
         System.out.println("Введите первое число a:");
         int a = sc.nextInt();
 
@@ -10,6 +11,7 @@ public class Task3 {
         int b = sc.nextInt();
         sc.close();
 
+        //вывод необходимой информации
         System.out.printf("Сумма двух чисел = %s%n", a + b);
         System.out.printf("Разность двух чисел = %s%n", a - b);
         System.out.printf("Умножение двух чисел = %s%n", a * b);
