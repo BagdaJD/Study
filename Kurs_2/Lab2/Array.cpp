@@ -28,8 +28,17 @@ Array::Array(const Array &other) {
     }
 }
 
+Array::Array(Array&& other) noexcept{
+    n = other.n;
+    values = other.values;
+    other.values = nullptr;	// Не позволит сразу деструктору удалить массив, перемещенный в другой объект
+}
+
 Array::~Array() {
-    delete[] values;
+    if (values != nullptr){
+        delete[] values;
+        cout << "Array deleted!" << endl;
+    }
 }
 
 int Array::size() const {
@@ -54,6 +63,16 @@ Array &Array::operator = (const Array &arr) {
         for (int i = 0; i<n; i++)
             values[i] = arr.values[i];
     }
+    return *this;
+}
+
+Array& Array::operator= ( Array&& arr) noexcept{
+    //if (this != &arr) { - здесь не бывает самоприсваивания
+    if (values != nullptr)
+        delete[] values;
+    n = arr.n;
+    values = arr.values;
+    arr.values = nullptr;	// Не позволит сразу деструктору удалить массив, перемещенный в другой объект
     return *this;
 }
 

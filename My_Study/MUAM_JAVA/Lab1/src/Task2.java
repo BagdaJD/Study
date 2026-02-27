@@ -7,10 +7,10 @@ public class Task2 {
         System.out.println("Введите градусы в Целисиях:");
         double celcius = sc.nextDouble();
         sc.close();
-        //перевод в градусы по Фаренгейту
+        //перевод в градусы по Фаренгейту и Кельвина
         double fereng = celcius * ( 9.0 / 5.0) + 32;
-
+        double celvins = celcius + 273.15;
         //конечный вывод
-        System.out.printf("%s градусов Цельсия = %.2f градусам по Фаренгейту", celcius, fereng);
+        System.out.printf("%s градусов Цельсия = %.2f градусам по Фаренгейту и %.2f по Кельвину", celcius, fereng, celvins);
     }
 }

@@ -13,6 +13,10 @@ public:
     //конструктор с параметрами
     Array(const Array &other);
     //конструктор копии
+
+    //конструктор move
+    Array(Array&& other) noexcept;
+
     ~Array(); // деструктор
     // методы
     int size() const ;
@@ -24,6 +28,7 @@ public:
     Array operator += (const Array &arr);
     Array operator + (const int x);
     Array &operator = (const Array &arr);
+    Array& operator= ( Array&& arr) noexcept;
 
     bool operator == (const Array &arr)const;
     int& operator [] (int i);

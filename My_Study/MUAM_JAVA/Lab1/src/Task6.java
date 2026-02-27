@@ -19,6 +19,6 @@ public class Task6 {
 
         //Нахождение и вывод расстояния между точками
         double d = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-        System.out.printf("Расстояние между точками равно = %s", d);
+        System.out.printf("Расстояние между точками равно = %.3f", d);
     }
 }
