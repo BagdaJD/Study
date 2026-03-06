@@ -1,0 +1,21 @@
+#include "Circle.h"
+
+int main()
+{
+    Circle circle;
+    cout << circle.getR() << endl;
+    circle.setR(-5);
+    circle.setType("Lolo");
+    cout << circle.getType() << endl;
+
+    circle.showInfo();
+    cout << "---------------" << endl;
+
+    Cone cone;
+    cone.showInfo();
+
+    Sphere sphere;
+    sphere.showInfo();
+
+    return 0;
+}
