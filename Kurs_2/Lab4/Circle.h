@@ -78,5 +78,19 @@ public:
 };
 
 class Cylinder : public Cone {
-    // цилиндр - реализовать самостоятельно
+public:
+    Cylinder(): Cone()
+    {
+        setType("Cylinder");
+        cout << "Был создан целиндр конструктором по умолчанию" << endl;
+    }
+
+    Cylinder(double r, double h): Cone(r, h)
+    {
+        setType("Cylinder");
+        cout << "Был создан целиндр конструктором с параметрами" << endl;
+    }
+
+    double volume() const;
+    void showInfo() const;
 };

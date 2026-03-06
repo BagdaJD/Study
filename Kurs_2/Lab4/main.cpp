@@ -17,5 +17,9 @@ int main()
     Sphere sphere;
     sphere.showInfo();
 
+    cout << "---------------" << endl;
+    Cylinder c1;
+    c1.showInfo();
+
     return 0;
 }

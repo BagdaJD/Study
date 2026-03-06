@@ -79,3 +79,17 @@ void Sphere::showInfo() const
     Circle::showInfo();
     cout << "Площадь равна: " << square() << ";" << endl;
 }
+
+//Celinder
+
+double Cylinder::volume() const
+{
+    return M_PI * radius * radius * height;
+}
+
+void Cylinder::showInfo() const
+{
+    Circle::showInfo();
+    cout << "Высота равна: " << height << ";" << endl;
+    cout << "Объем равен: " << volume() << ";" << endl;
+}
