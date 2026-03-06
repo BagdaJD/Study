@@ -35,6 +35,29 @@
 11.git push origin main --tags
 12.git push origin develop
 
+**Pull Request**
+Если прав записи нет, то нужно будет делать fork и все тоже самое
+1.git clone https://github.com/your-username/project.git
+Создай ветку для своей задачи (от `develop` или `main` в зависимости от правил проекта):
+2.git checkout -b feature/my-cool-fix
+3.git add .
+4.git commit -m "Fix: correct button alignment"
+5.git push origin feature/my-cool-fix
+После `push` зайди на страницу **оригинального** репозитория. Ты увидишь плашку: _"You pushed a new branch. Compare & pull request"_.
+**Твои действия в интерфейсе:**
+- **Base branch:** Выбери ветку, куда хочешь влить код (обычно это `develop`).
+- **Compare branch:** Выбери свою ветку `feature/my-cool-fix`.
+- **Описание:** Напиши, что именно ты сделал и зачем.
+- **Кнопка:** Нажми **"Create Pull Request"**.
+
+Это если еще не подключился к репозиторию
+git remote add my-fork https://github.com/vash-nick/project.git
+### Как настроить автоудаление веток (Бонус)
+Чтобы не удалять ветки руками в интерфейсе после каждого принятого PR, ты (или владелец репозитория) можете включить одну настройку:
+1. Зайди в **Settings** репозитория на GitHub.
+2. Прокрути вниз до раздела **Pull Requests**.
+3. Поставь галочку на **"Automatically delete head branches"**.
+
 ### Подключение **private**-репозитория
 1.ssh-keygen -t ed25519 -C "bagdasar.aydinyan2006@gmail.com"
 2.eval "$(ssh-agent -s)"
