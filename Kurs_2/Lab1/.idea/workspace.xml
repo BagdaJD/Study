@@ -3,6 +3,11 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -23,7 +28,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c9234a-25b1-4d26-b47e-64b455c29838" name="Changes" comment="" />
+    <list default="true" id="37c9234a-25b1-4d26-b47e-64b455c29838" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +57,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="3ADMxSr0JLfInAZbxVebr67vsKs" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,6 +100,8 @@
       <updated>1772122933872</updated>
       <workItem from="1772122934963" duration="3775000" />
       <workItem from="1772379277425" duration="5000" />
+      <workItem from="1773261049475" duration="73000" />
+      <workItem from="1773337166087" duration="8000" />
     </task>
     <servers />
   </component>
