@@ -1,0 +1,6 @@
+5
+Cone 8
+Circle 5
+Cylinder 4
+Sphere 4
+Circle 6
