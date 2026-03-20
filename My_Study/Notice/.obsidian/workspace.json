@@ -27,26 +27,46 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Android/Оглавление.md",
+=======
+                "file": "Spring/Структура проекта на Spring.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "Оглавление"
             }
           },
           {
             "id": "73e54731ecb42ebf",
+=======
+              "title": "Структура проекта на Spring"
+            }
+          },
+          {
+            "id": "8364d852d2400f75",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Ресурсы для изучения.md",
+=======
+                "file": "Spring/Главные аннотации + GET,POST, PUT, DELETE.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "Ресурсы для изучения"
+=======
+              "title": "Главные аннотации + GET,POST, PUT, DELETE"
+>>>>>>> Stashed changes
             }
           }
         ],
@@ -193,6 +213,7 @@
       "bases:Создать новую базу": false
     }
   },
+<<<<<<< Updated upstream
   "active": "73e54731ecb42ebf",
   "lastOpenFiles": [
     "Android/Оглавление.md",
@@ -201,6 +222,14 @@
     "Spring/1.Rest API и MVC.md",
     "Spring/0.Оглавление.md",
     "Spring/2.Структура проекта на Spring.md",
+=======
+  "active": "8364d852d2400f75",
+  "lastOpenFiles": [
+    "Spring/Структура проекта на Spring.md",
+    "Spring/0.Оглавление.md",
+    "Spring/Главные аннотации + GET,POST, PUT, DELETE.md",
+    "Spring/Rest API и MVC.md",
+>>>>>>> Stashed changes
     "Spring/Pasted image 20260312132119.png",
     "Git.md",
     "Spring/Pasted image 20260312131423.png",

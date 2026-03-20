@@ -1,4 +1,4 @@
-//Arch Linux
+//Arch Linux + Cachy OS
 //iwctl
 device list
 station wlan0 scan
@@ -24,25 +24,35 @@ grub-mkconfig -o /boot/grub/grub.cfg
 1.git clone https://aur.archlinux.org/yay.git
 2.cd yay -> makepkg -si
 
+//install commands
+sudo pacman -Syu libreoffice-fresh ttf-dejavu ttf-liberation ttf-linux-libertine noto-fonts steam obsidian code discord qbittorrent openrazer-daemon jdk21-openjdk flatpak
+
+yay -S android-studio clion intellij-idea-ultimate-edition gitkraken portproton opera polychromatic ttf-ms-fonts
+yay -S clion-jre
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.telegram.desktop
+
+//Openrazer
+sudo gpasswd -a $USER plugdev
+sudo systemctl enable --now openrazer-daemon
+
 //codecs
 1.pacman -S lib32-gst-plugins-base lib32-gst-plugins-good  
 2.pacman -S gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav ffmpeg \
-   x264 x265 libvpx libdvdcss
+   x264 x265 libvpx libdvdcss gstreamer-vaapi
 3.sudo pacman -S timeshift
 4.yay -S ttf-ms-win10-auto
 5.fc-cache -f -v
-6.sudo pacman -S ttf-dejavu ttf-font-awesome ttf-ubuntu-font-family ttf-liberation
-
-//opera-ffmpeg
-1.yay -S opera-ffmpeg-codecs-bin
+//Fonts
+sudo pacman -S yay -S adobe-source-sans-pro-fonts ttf-dejavu ttf-opensans noto-fonts freetype2 terminus-font ttf-bitstream-vera ttf-dejavu ttf-droid ttf-fira-mono ttf-fira-sans ttf-freefont ttf-inconsolata ttf-liberation libertinus-font
 
 //flatpak
 1.sudo pacman -S flatpak
 2.flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-//pamac
-1.yay -S pamac
-yay -S pamac-flatpak
+//bauh
+yay -S bauh
 
 //poweprofile
 1.sudo pacman -S power-profiles-daemon
@@ -52,10 +62,14 @@ yay -S pamac-flatpak
 //Доп.настрой
 1.sudo pacman -S gnome-tweaks
 2.sudo pacman -S webapp-manager 
+3.sudo pacman -S nftables
+
+//PLugins
 dash-to-dock
 extension-appindicator
-sudo pacman -S webapp-manager
-3.sudo pacman -S nftables
+Blur My Shell
+//first -> brightness = 0.50;
+//second setting -> brightness = 0.90, corner = 20;
 
 //zsh
 1.sudo pacman -S zsh
@@ -82,14 +96,51 @@ sudo pacman -S webapp-manager
 6.sudo systemctl enable --now grub-btrfsd.service
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-//
+//Snapper mb
 3.sudo chmod a+rx /.snapshots
 4.sudo chown :users /.snapshots
 5.sudo chmod a+rx /.snapshots
 6.sudo chown :users /.snapshots
 7.sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+//Installers
+yay -S visual-studio-code-bin
 
+//Cache
+yay -S pacman-contrib
+sudo mkdir /etc/pacman.d/hooks
+sudo nano /etc/pacman.d/hooks/clean_package_cache.hook
+
+//Keyboard fix
+xmodmap -pke
+xmodmap -e "clear Lock"
+xmodmap -e "keycode 66 = Control_L"
+xmodmap -e "add Control = Control_L"
+
+Create a .Xmodmap file in your home directory with the following content:
+//
+clear Lock
+keycode 66 = Control_L
+add Control = Control_L
+Then, add the following line to your .xinitrc or .xsession file:
+//
+xmodmap ~/.Xmodmap
+
+
+----
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+[Action]
+Description = Cleaning pacman cache...
+When = PostTransaction
+Exec = /usr/bin/paccache -rk 2
+
+
+https://arch.d3sox.me/post-installation
 -----------------
 
 
@@ -198,3 +249,190 @@ sudo zypper in kernel-liquorix
 
 //OBS + osc
 sudo zypper addrepo -f https://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_Tumbleweed/openSUSE:Tools.repoudo pacma
+-----------------
+
+
+
+//Alt Linux
+
+//turn on sudo 
+su -
+control sudowheel enabled
+exit
+
+//btrfs comands and settings 
+1.sudo nano /etc/fstab
+2.noatime,compress=zstd:3
+3.sudo mount -o remount /
+4.sudo mount -o remount /home
+5.sudo btrfs filesystem defragment -r -v -czstd /
+6.sudo btrfs filesystem defragment -r -v -czstd /home
+
+
+//downloads
+sudo epmi git zsh alacritty gnome-boxes ffmpeg gdm-settings flatpak btrfs-progs timeshift grub-btrfs vlc webapps firefox steam qbittorrent portproton alt-gaming libbsd gnome-disk-usage stplr alterator-zram-swap fonts-ttf-google-noto-emoji fonts-ttf-google-noto-emoji-color throne fonts-ttf-fira-code-nerd gnome-tweaks java-21-openjdk java-21-openjdk-devel gnome-software-plugin-flatpak ananicy-cpp scx-scheds fastfetch clang clang-devel gcc-c++ make binutils tuner-tweaks tuner-panel tuner-gdm
+
+epm play zen-browser gitkraken ideaU clion discord 
+
+//stplr + vs code + obsidian
+stplr repo add aides https://altlinux.space/aides-community/aides.git
+stplr repo add neonxp.ru git://git.neonxp.ru/repo
+stplr install aides/obsidian
+stplr install aides/visual-studio-code
+stplr install aides/opera
+stplr install openide-bin
+
+//KVM
+sudo apt-get install libvirt libvirt-kvm libvirt-qemu
+sudo gpasswd -a $USER vmusers
+sudo systemctl enable --now libvirtd
+
+//Error in updating
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+sudo rm /var/lib/dpkg/lock-frontend
+
+//Fonts Alt 
+epmi fonts-otf-adobe-source-sans-pro fonts-ttf-dejavu fonts-ttf-google-noto-sans fonts-ttf-droid fonts-ttf-fira-code fonts-ttf-fira-code-nerd fonts-ttf-freefont fonts-ttf-inconsolata-lgc fonts-ttf-liberation
+
+//Ananicy-cpp
+sudo systemctl enable --now ananicy-cpp
+
+//Trim
+sudo systemctl enable --now fstrim.timer
+
+--check--
+mount | grep btrfs
+
+---mount+fstb---
+sudo nano /etc/fstab
+noatime,compress=zstd:3
+
+udo mount -o remount /
+udo mount -o remount /home
+
+---balance---
+sudo btrfs balance start -dusage=50 /
+sudo btrfs balance start -musage=30 /
+
+---difragment---
+sudo btrfs filesystem defragment -r -v /
+sudo btrfs filesystem defragment -r -v /games
+
+---Chattr +C---
+sudo chattr +C /path/to/games
+//Для новой папки
+
+//Для папки где, что-то уже есть
+sudo sudo chattr -R +C /path/to/games
+
+---Проверка---
+lsattr -d /home/bagdajd/Games
+
+//flatpak
+1.epmi flatpak
+2.flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+3.flatpak install flathub org.libreoffice.LibreOffice
+4.flatpak install flathub org.telegram.desktop
+5.flatpak install flathub app.polychromatic.controller
+
+//scx_rusty
+
+1.sudo nano /etc/systemd/system/scx_rusty.service
+2.copy
+[Unit]
+Description=Sched-ext Rusty Scheduler Optimized
+After=network.target
+
+[Service]
+Type=simple
+# Используем уточненные флаги для ноутбука
+ExecStart=/usr/bin/scx_rusty --perf 0 -c 3 -b
+Restart=always
+RestartSec=5
+
+CPUSchedulingPolicy=fifo
+CPUSchedulingPriority=99
+
+[Install]
+WantedBy=multi-user.target
+------------
+------
+3.sudo systemctl enable --now scx_rusty
+4.systemctl status
+
+---scx_lavd---
+
+[Unit]
+Description=SCX LAVD Scheduler (Balanced Pro)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/scx_lavd --performance 
+Restart=always
+RestartSec=3
+Nice=-20
+
+[Install]
+WantedBy=multi-user.target
+-------------
+
+---Wayland Idea---
+1.go to razdel --help--
+2.Edit custom VM options
+3.-Dawt.toolkit.name=WLToolkit
+
+---zsh---
+sudo nano /etc/passwd
+bin/bash to bin/zsh
+
+--auto-cpufreq--
+1.1 sudo systemctl stop power-profiles-daemon
+1.2 sudo systemctl mask power-profiles-daemon
+2.через гитхаб ставим и создаем следующий конфиг
+2.1 sudo nano /etc/auto-cpufreq.conf
+---------
+[battery]
+governor = powersave
+energy_performance_preference = power
+scaling_max_freq = 2500000
+turbo = auto
+
+[charger]
+governor = performance
+energy_performance_preference = performance
+turbo = auto
+---------
+3.sudo systemctl restart auto-cpufreq
+4.sudo auto-cpufreq --stats
+
+--powertop--
+1.epmi powertop
+2.powertop --calibrate
+3.nano /etc/systemd/system/powertop.service
+----------
+[Unit]
+Description=Powertop tunings
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/powertop --auto-tune
+
+[Install]
+WantedBy=multi-user.target
+----------
+4.systemctl enable --now powertop.service
+
+
+---Docke +Desktope---
+1.epmi docker-engine docker-cli password-store libgtk+3-devel docker-compose-plugin
+2.systemctl enable --now docker
+2.1 sudo usermod -aG docker $USER
+3.stplr install docker-desktope
+
+
+--Sign in Docker--
+1.gpg --gen-key
+2.pass init
