@@ -2151,23 +2151,35 @@ for/each - под капотом реализует интерфейс Iterable
 //При наследовании нужно указать с какими объектами он будет работать 
 public interface CarCollection extends Iterable<Car>
 
-//А дальше нужно переопределить метод Iterator, который будет возвращать указанный new Iterator<объект>
-//А в нем нужно еще переопределить пару методов
-
+//А дальше нужно переопределить метод Iterator, который будет возвращать указанный new Iterator<объект> с переопределенными методами
+ 
 @Override  
 public Iterator<Car> iterator() {  
      return new Iterator<Car>(){  
-         @Override  
-         public boolean hasNext(){  
-             return false;  
-         }  
-         @Override  
-         public Car next(){  
-             return null;  
-         }    
-          }}
-          //9.30 Iterable
+	         @Override  
+	         public boolean hasNext(){  
+	             return false;  
+	         }  
+	         @Override  
+	         public Car next(){  
+	             return null;  
+	         }    
+          }
+    }     
 ```
+### HashMap
+При создании коллекции HashMap создается массив из 16-ти элементов.
+При добавлении элементов в этот массив мы смотрим на их хэшкод.
+В HashMap также содержится Entry(), с полями **value, next, key**.
+
+При добавлении элемента берем смотрим на хэшкоды, если совпадают, то сравниваем ключи и если они не совпадают, то получается что-то вроде линкед листа.
+Если совпали ключи, то не добавляем.
+Если ячейка свободна, то просто добавляем.
+
+Также при заполнении массива более, чем на 0.75 удваиваем массив.
+11.40
+
+
 ### Горячие клавиши
 
     //psvm + tab - мы получим эту строчку public static  void  main(String...args)

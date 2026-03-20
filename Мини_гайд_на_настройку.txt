@@ -432,7 +432,6 @@ WantedBy=multi-user.target
 2.1 sudo usermod -aG docker $USER
 3.stplr install docker-desktope
 
-
 --Sign in Docker--
 1.gpg --gen-key
 2.pass init
