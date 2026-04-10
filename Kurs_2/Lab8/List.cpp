@@ -139,3 +139,4 @@ int maxL(List_iter beg, List_iter end) {
 
     return *max;
 }
+//Lab8 + додлеать пару методов из лабы 8
