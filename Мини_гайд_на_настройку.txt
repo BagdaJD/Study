@@ -435,3 +435,5 @@ WantedBy=multi-user.target
 --Sign in Docker--
 1.gpg --gen-key
 2.pass init
+--------------
+https://bvpn.cc/subs/3BJEDx3z5juAEXps
