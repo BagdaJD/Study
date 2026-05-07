@@ -1,0 +1,2 @@
+map save map play game end edit save 
+world safe lifesun blue car map
