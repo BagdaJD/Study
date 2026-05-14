@@ -9,6 +9,8 @@
 7.git merge имя_ветки_А - слить ветку A  в текущую
 8.git branch -d name - удалить ветку
 
+git clone -b dev ... - сразу указываем с какой ветки клонируем репу
+
 **Основы для Git Flow:**
 **1**.git flow feature start имя_фичи 
 ***Аналог на git:***
