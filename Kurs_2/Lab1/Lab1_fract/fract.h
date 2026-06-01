@@ -26,7 +26,6 @@ public:
 	bool operator>=(const Fract& other);
 	bool operator<=(const Fract& other);
 
-	friend std::ostream & operator << (std::ostream &, const Fract &); //﷿﷿﷿﷿﷿﷿﷿﷿﷿﷿ <<
-	//friend ﷿﷿﷿﷿﷿﷿﷿ ﷿﷿﷿﷿﷿ ﷿﷿﷿﷿﷿﷿ ﷿ ﷿﷿﷿﷿﷿ ﷿ private
+	friend std::ostream & operator << (std::ostream &, const Fract &);
 	friend std::istream& operator >> (std::istream&, Fract&);
 };
