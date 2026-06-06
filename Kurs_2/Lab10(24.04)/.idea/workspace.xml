@@ -3,10 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7e615250-c627-4c9b-a4b2-9ecd2e8aed44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../My_Study/Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Study/Notice/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My_Study/Notice/Git.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Study/Notice/Git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Training/Class.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab12/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab12/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab12/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab12/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab19_Arr/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_Arr/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab19_Arr/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_Arr/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab19_List/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_List/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab19_List/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_List/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Training/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Training/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Training/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Training/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +41,10 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="px8mCDWa" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Dj8BgfE5GRZ6ReBo1aNB3JffSk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,7 +63,7 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/bagdasjd/Documents/Study/Kurs_2/Lab10(24.04)",
+    "last_opened_file_path": "/home/bagdasjd/Documents/Study/Kurs_2/Lab9",
     "nodejs_package_manager_path": "npm",
     "org.rust.first.attach.projects": "true",
     "vue.rearranger.settings.migration": "true"
@@ -61,6 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1778783984409</updated>
       <workItem from="1778783985418" duration="306000" />
+      <workItem from="1780582821743" duration="83000" />
+      <workItem from="1780583580448" duration="43000" />
     </task>
     <servers />
   </component>

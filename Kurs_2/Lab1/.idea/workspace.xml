@@ -28,12 +28,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c9234a-25b1-4d26-b47e-64b455c29838" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Прога/.~lock.Методичка.docx#" beforeDir="false" afterPath="$PROJECT_DIR$/../Прога/.~lock.Методичка.docx#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Прога/Методичка.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Прога/Методичка.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Прога/Программа С++ 2026 new.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Прога/Программа С++ 2026 new.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="37c9234a-25b1-4d26-b47e-64b455c29838" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +104,7 @@
       <workItem from="1780304047803" duration="262000" />
       <workItem from="1780306295872" duration="2000" />
       <workItem from="1780503316108" duration="621000" />
+      <workItem from="1780556773591" duration="291000" />
     </task>
     <servers />
   </component>

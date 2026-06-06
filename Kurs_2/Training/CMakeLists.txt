@@ -3,4 +3,5 @@ project(Training)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Training main.cpp)
+add_executable(Training main.cpp
+        Class.h)

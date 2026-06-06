@@ -19,6 +19,6 @@ int main() {
     //x_ptr.reset(y_ptr.release()); //здесь y_ptr не удаляет старый объект а передает , а в x_ptr заберает себе 5
     //y_ptr - после будет nullptr, крч как move отработала последняя строка
 
-    Array arr(5, 3)
+    Array arr(5, 3);
     return 0;
 }
