@@ -270,7 +270,7 @@ exit
 
 
 //downloads
-sudo epmi git zsh alacritty gnome-boxes ffmpeg gdm-settings flatpak btrfs-progs timeshift grub-btrfs vlc webapps firefox steam qbittorrent portproton alt-gaming libbsd gnome-disk-usage stplr alterator-zram-swap fonts-ttf-google-noto-emoji fonts-ttf-google-noto-emoji-color throne fonts-ttf-fira-code-nerd gnome-tweaks java-21-openjdk java-21-openjdk-devel gnome-software-plugin-flatpak ananicy-cpp scx-scheds fastfetch clang clang-devel gcc-c++ make binutils tuner-tweaks tuner-panel tuner-gdm
+sudo epmi git zsh alacritty gnome-boxes ffmpeg gdm-settings flatpak btrfs-progs timeshift grub-btrfs vlc webapps firefox steam qbittorrent portproton alt-gaming libbsd gnome-disk-usage stplr alterator-zram-swap fonts-ttf-google-noto-emoji fonts-ttf-google-noto-emoji-color throne fonts-ttf-fira-code-nerd gnome-tweaks java-21-openjdk java-21-openjdk-devel gnome-software-plugin-flatpak ananicy-cpp scx-scheds fastfetch clang clang-devel gcc-c++ make binutils tuner-tweaks tuner-panel tuner-gdm tuner-osinfo tuner-alt-packages tuner-alt-components plafon-altbooster
 
 epm play zen-browser gitkraken ideaU clion discord 
 

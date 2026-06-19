@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Список тем для изучения.md",
+                "file": "Прога Практика.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Список тем для изучения"
+              "title": "Прога Практика"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 233.5
   },
   "right": {
     "id": "0a2c54b695cff3a3",
@@ -171,6 +171,9 @@
   },
   "active": "38c00a99df7e87df",
   "lastOpenFiles": [
+    "Список тем для изучения.md",
+    "Прога Практика.md",
+    "Без названия",
     "Git.md",
     "Spring/Структура проекта на Spring.md",
     "Spring/Rest API и MVC.md",
@@ -200,8 +203,6 @@
     "Kotlin/Основа/ООП - База.md",
     "Kotlin/Основа/Методы.md",
     "Kotlin/Основа/Конструкторы.md",
-    "Kotlin/Основа/Extansion-функции.md",
-    "Kotlin/Основа/Анонимные методы и лямбда-выражения.md",
-    "Kotlin/Основа/Функции.md"
+    "Kotlin/Основа/Extansion-функции.md"
   ]
 }

@@ -30,12 +30,14 @@ public:
 };
 
 //Пример с динамической строкой
+
 class DynamicString {
 private:
     int n;    // Длина строки
     char* A;  // Указатель на динамический массив символов
 
 public:
+    
     DynamicString(const char* str) {
         if (str) {
             n = 0;
@@ -88,4 +90,5 @@ public:
         }
         return  is;
     }
+
 };
