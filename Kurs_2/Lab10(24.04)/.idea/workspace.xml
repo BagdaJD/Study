@@ -10,22 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e615250-c627-4c9b-a4b2-9ecd2e8aed44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Training/Class.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11_12/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11_12/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11_12/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11_12/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab12/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab12/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab12/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab12/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab19_Arr/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_Arr/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab19_Arr/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_Arr/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab19_List/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_List/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab19_List/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab19_List/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Training/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Training/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Training/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Training/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Study/Notice/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Study/Notice/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Study/Notice/Прога Практика.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Study/Notice/Прога Практика.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/bagdasjd/Documents/Study/Kurs_2/Lab9",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.first.attach.projects": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bagdasjd/Documents/Study/Kurs_2/Lab10(24.04)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="/usr/bin" />
   </component>
@@ -82,6 +74,8 @@
       <workItem from="1778783985418" duration="306000" />
       <workItem from="1780582821743" duration="83000" />
       <workItem from="1780583580448" duration="43000" />
+      <workItem from="1781877069836" duration="26000" />
+      <workItem from="1781951430376" duration="6000" />
     </task>
     <servers />
   </component>

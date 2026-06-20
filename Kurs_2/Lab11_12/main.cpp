@@ -105,6 +105,7 @@ int main() {
 
    cout << "Kolvo perestanovok =" << count << endl;
    for (auto s : vec1) cout << s << endl;
+
    return 0;
 
 }

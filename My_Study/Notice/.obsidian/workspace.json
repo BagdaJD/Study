@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7c3d863ac643f13b",
+        "id": "493b113f2eee03e8",
         "type": "tabs",
         "children": [
           {
-            "id": "38c00a99df7e87df",
+            "id": "08deb933dcb1f13f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,10 +169,11 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "38c00a99df7e87df",
+  "active": "08deb933dcb1f13f",
   "lastOpenFiles": [
-    "Список тем для изучения.md",
+    "Прога Теория Главное.md",
     "Прога Практика.md",
+    "Список тем для изучения.md",
     "Без названия",
     "Git.md",
     "Spring/Структура проекта на Spring.md",
@@ -202,7 +203,6 @@
     "Kotlin/Основа/Data Class.md",
     "Kotlin/Основа/ООП - База.md",
     "Kotlin/Основа/Методы.md",
-    "Kotlin/Основа/Конструкторы.md",
-    "Kotlin/Основа/Extansion-функции.md"
+    "Kotlin/Основа/Конструкторы.md"
   ]
 }

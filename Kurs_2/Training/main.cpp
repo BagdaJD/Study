@@ -71,13 +71,17 @@ int main() {
     // cout << endl;
     // cout << sum << endl;
     // cout << sum1 << endl;
-    vector<int> v{1, 3, 6, 9, 10};
-    int min = *min_element(v.begin(), v.end());
+    // vector<int> v{1, 3, 6, 9, 10};
+    // int min = *min_element(v.begin(), v.end());
+    //
+    // transform(v.begin(), v.end(), v.begin(), [min](int x) {
+    //     return (x % 2 != 0) ? min : x;
+    // });
+    //
+    // copy(v.begin(), v.end(), ostream_iterator<int>(cout, " "));
+    vector<int> v{1, 2, 4, 5, 7, 9, 11};
+    copy(istream_iterator<int>(cin), istream_iterator<int>(), back_inserter(v));
 
-    transform(v.begin(), v.end(), v.begin(), [min](int x) {
-        return (x % 2 != 0) ? min : x;
-    });
-   
     copy(v.begin(), v.end(), ostream_iterator<int>(cout, " "));
     return 0;
 
